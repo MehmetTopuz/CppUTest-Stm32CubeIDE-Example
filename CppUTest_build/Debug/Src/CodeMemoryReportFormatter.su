@@ -1,0 +1,21 @@
+MemoryReportFormatter.h:37:13:MemoryReportFormatter::~MemoryReportFormatter()	16	static
+MemoryReportFormatter.h:37:13:virtual MemoryReportFormatter::~MemoryReportFormatter()	16	static
+CodeMemoryReportFormatter.h:45:18:virtual void CodeMemoryReportFormatter::report_testgroup_end(TestResult*, UtestShell&)	24	static
+MemoryReportFormatter.h:34:7:constexpr MemoryReportFormatter::MemoryReportFormatter()	16	static
+CodeMemoryReportFormatter.cpp:46:1:CodeMemoryReportFormatter::CodeMemoryReportFormatter(TestMemoryAllocator*)	16	static
+CodeMemoryReportFormatter.cpp:51:1:CodeMemoryReportFormatter::~CodeMemoryReportFormatter()	16	static
+CodeMemoryReportFormatter.cpp:51:1:virtual CodeMemoryReportFormatter::~CodeMemoryReportFormatter()	16	static
+CodeMemoryReportFormatter.cpp:56:6:void CodeMemoryReportFormatter::clearReporting()	40	static
+CodeMemoryReportFormatter.cpp:65:6:void CodeMemoryReportFormatter::addNodeToList(const char*, void*, CodeReportingAllocationNode*)	40	static
+CodeMemoryReportFormatter.cpp:74:30:CodeReportingAllocationNode* CodeMemoryReportFormatter::findNode(void*)	24	static
+CodeMemoryReportFormatter.cpp:84:21:SimpleString extractFileNameFromPath(const char*)	24	static
+CodeMemoryReportFormatter.cpp:93:14:SimpleString CodeMemoryReportFormatter::createVariableNameFromFileLineInfo(const char*, size_t)	64	static
+CodeMemoryReportFormatter.cpp:106:6:bool CodeMemoryReportFormatter::isNewAllocator(TestMemoryAllocator*)	24	static
+CodeMemoryReportFormatter.cpp:111:6:bool CodeMemoryReportFormatter::variableExists(const SimpleString&)	40	static
+CodeMemoryReportFormatter.cpp:122:14:SimpleString CodeMemoryReportFormatter::getAllocationString(TestMemoryAllocator*, const SimpleString&, size_t)	40	static
+CodeMemoryReportFormatter.cpp:130:14:SimpleString CodeMemoryReportFormatter::getDeallocationString(TestMemoryAllocator*, const SimpleString&, const char*, size_t)	40	static
+CodeMemoryReportFormatter.cpp:138:6:virtual void CodeMemoryReportFormatter::report_test_start(TestResult*, UtestShell&)	80	static
+CodeMemoryReportFormatter.cpp:145:6:virtual void CodeMemoryReportFormatter::report_test_end(TestResult*, UtestShell&)	24	static
+CodeMemoryReportFormatter.cpp:150:6:virtual void CodeMemoryReportFormatter::report_testgroup_start(TestResult*, UtestShell&)	48	static
+CodeMemoryReportFormatter.cpp:156:6:virtual void CodeMemoryReportFormatter::report_alloc_memory(TestResult*, TestMemoryAllocator*, size_t, char*, const char*, size_t)	64	static
+CodeMemoryReportFormatter.cpp:163:6:virtual void CodeMemoryReportFormatter::report_free_memory(TestResult*, TestMemoryAllocator*, char*, const char*, size_t)	88	static

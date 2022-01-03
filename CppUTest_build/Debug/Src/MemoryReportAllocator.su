@@ -1,0 +1,13 @@
+MemoryReportAllocator.cpp:32:1:MemoryReportAllocator::MemoryReportAllocator()	16	static
+MemoryReportAllocator.cpp:36:1:MemoryReportAllocator::~MemoryReportAllocator()	16	static
+MemoryReportAllocator.cpp:36:1:virtual MemoryReportAllocator::~MemoryReportAllocator()	16	static
+MemoryReportAllocator.cpp:40:13:virtual const char* MemoryReportAllocator::name() const	16	static
+MemoryReportAllocator.cpp:45:13:virtual const char* MemoryReportAllocator::alloc_name() const	16	static
+MemoryReportAllocator.cpp:50:13:virtual const char* MemoryReportAllocator::free_name() const	16	static
+MemoryReportAllocator.cpp:55:6:virtual void MemoryReportAllocator::setRealAllocator(TestMemoryAllocator*)	16	static
+MemoryReportAllocator.cpp:60:22:virtual TestMemoryAllocator* MemoryReportAllocator::getRealAllocator()	16	static
+MemoryReportAllocator.cpp:65:22:virtual TestMemoryAllocator* MemoryReportAllocator::actualAllocator()	16	static
+MemoryReportAllocator.cpp:70:6:virtual void MemoryReportAllocator::setTestResult(TestResult*)	16	static
+MemoryReportAllocator.cpp:75:6:virtual void MemoryReportAllocator::setFormatter(MemoryReportFormatter*)	16	static
+MemoryReportAllocator.cpp:80:7:virtual char* MemoryReportAllocator::alloc_memory(size_t, const char*, size_t)	56	static
+MemoryReportAllocator.cpp:88:6:virtual void MemoryReportAllocator::free_memory(char*, size_t, const char*, size_t)	40	static

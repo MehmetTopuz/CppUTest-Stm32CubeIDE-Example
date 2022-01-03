@@ -1,0 +1,39 @@
+MockExpectedCallsList.h:89:9:MockExpectedCallsList::MockExpectedCallsListNode::MockExpectedCallsListNode(MockCheckedExpectedCall*)	16	static
+MockExpectedCallsList.cpp:32:1:MockExpectedCallsList::MockExpectedCallsList()	16	static
+MockExpectedCallsList.cpp:36:1:MockExpectedCallsList::~MockExpectedCallsList()	24	static
+MockExpectedCallsList.cpp:36:1:virtual MockExpectedCallsList::~MockExpectedCallsList()	16	static
+MockExpectedCallsList.cpp:45:6:virtual bool MockExpectedCallsList::hasCallsOutOfOrder() const	24	static
+MockExpectedCallsList.cpp:53:14:virtual unsigned int MockExpectedCallsList::size() const	24	static
+MockExpectedCallsList.cpp:61:6:virtual bool MockExpectedCallsList::isEmpty() const	16	static
+MockExpectedCallsList.cpp:66:14:virtual unsigned int MockExpectedCallsList::amountOfActualCallsFulfilledFor(const SimpleString&) const	24	static
+MockExpectedCallsList.cpp:77:14:virtual unsigned int MockExpectedCallsList::amountOfUnfulfilledExpectations() const	24	static
+MockExpectedCallsList.cpp:85:6:virtual bool MockExpectedCallsList::hasFinalizedMatchingExpectations() const	24	static
+MockExpectedCallsList.cpp:95:6:virtual bool MockExpectedCallsList::hasUnfulfilledExpectations() const	24	static
+MockExpectedCallsList.cpp:105:6:virtual bool MockExpectedCallsList::hasExpectationWithName(const SimpleString&) const	24	static
+MockExpectedCallsList.cpp:113:6:virtual void MockExpectedCallsList::addExpectedCall(MockCheckedExpectedCall*)	32	static
+MockExpectedCallsList.cpp:126:6:virtual void MockExpectedCallsList::addPotentiallyMatchingExpectations(const MockExpectedCallsList&)	24	static
+MockExpectedCallsList.cpp:133:6:virtual void MockExpectedCallsList::addExpectationsRelatedTo(const SimpleString&, const MockExpectedCallsList&)	32	static
+MockExpectedCallsList.cpp:140:6:virtual void MockExpectedCallsList::addExpectations(const MockExpectedCallsList&)	24	static
+MockExpectedCallsList.cpp:146:6:virtual void MockExpectedCallsList::onlyKeepExpectationsRelatedTo(const SimpleString&)	24	static
+MockExpectedCallsList.cpp:155:6:virtual void MockExpectedCallsList::onlyKeepOutOfOrderExpectations()	24	static
+MockExpectedCallsList.cpp:163:6:virtual void MockExpectedCallsList::onlyKeepUnmatchingExpectations()	24	static
+MockExpectedCallsList.cpp:175:6:virtual void MockExpectedCallsList::onlyKeepExpectationsWithInputParameterName(const SimpleString&)	24	static
+MockExpectedCallsList.cpp:183:6:virtual void MockExpectedCallsList::onlyKeepExpectationsWithOutputParameterName(const SimpleString&)	24	static
+MockExpectedCallsList.cpp:191:6:virtual void MockExpectedCallsList::onlyKeepExpectationsWithInputParameter(const MockNamedValue&)	24	static
+MockExpectedCallsList.cpp:199:6:virtual void MockExpectedCallsList::onlyKeepExpectationsWithOutputParameter(const MockNamedValue&)	24	static
+MockExpectedCallsList.cpp:207:6:virtual void MockExpectedCallsList::onlyKeepExpectationsOnObject(const void*)	24	static
+MockExpectedCallsList.cpp:215:26:virtual MockCheckedExpectedCall* MockExpectedCallsList::removeFirstFinalizedMatchingExpectation()	24	static
+MockExpectedCallsList.cpp:228:26:virtual MockCheckedExpectedCall* MockExpectedCallsList::getFirstMatchingExpectation()	24	static
+MockExpectedCallsList.cpp:238:26:virtual MockCheckedExpectedCall* MockExpectedCallsList::removeFirstMatchingExpectation()	24	static
+MockExpectedCallsList.cpp:251:6:virtual void MockExpectedCallsList::pruneEmptyNodeFromList()	32	static
+MockExpectedCallsList.cpp:273:6:virtual void MockExpectedCallsList::deleteAllExpectationsAndClearList()	24	static
+MockExpectedCallsList.cpp:283:6:virtual void MockExpectedCallsList::resetActualCallMatchingState()	24	static
+MockExpectedCallsList.cpp:289:6:virtual void MockExpectedCallsList::wasPassedToObject()	24	static
+MockExpectedCallsList.cpp:296:6:virtual void MockExpectedCallsList::parameterWasPassed(const SimpleString&)	24	static
+MockExpectedCallsList.cpp:302:6:virtual void MockExpectedCallsList::outputParameterWasPassed(const SimpleString&)	24	static
+MockExpectedCallsList.cpp:308:21:SimpleString stringOrNoneTextWhenEmpty(const SimpleString&, const SimpleString&)	40	static
+MockExpectedCallsList.cpp:318:21:SimpleString appendStringOnANewLine(const SimpleString&, const SimpleString&, const SimpleString&)	40	static
+MockExpectedCallsList.cpp:327:14:virtual SimpleString MockExpectedCallsList::unfulfilledCallsToString(const SimpleString&) const	56	static
+MockExpectedCallsList.cpp:336:14:virtual SimpleString MockExpectedCallsList::fulfilledCallsToString(const SimpleString&) const	56	static
+MockExpectedCallsList.cpp:347:14:virtual SimpleString MockExpectedCallsList::missingParametersToString() const	64	static
+MockExpectedCallsList.cpp:357:6:virtual bool MockExpectedCallsList::hasUnmatchingExpectationsBecauseOfMissingParameters() const	24	static

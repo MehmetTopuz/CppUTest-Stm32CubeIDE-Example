@@ -1,0 +1,118 @@
+MockCheckedExpectedCall.h:43:31:virtual MockExpectedCall& MockCheckedExpectedCall::withCallOrder(unsigned int)	16	static
+MockCheckedExpectedCall.h:154:31:virtual MockExpectedCall& MockIgnoredExpectedCall::withName(const SimpleString&)	16	static
+MockCheckedExpectedCall.h:155:31:virtual MockExpectedCall& MockIgnoredExpectedCall::withCallOrder(unsigned int)	16	static
+MockCheckedExpectedCall.h:156:31:virtual MockExpectedCall& MockIgnoredExpectedCall::withCallOrder(unsigned int, unsigned int)	24	static
+MockCheckedExpectedCall.h:157:31:virtual MockExpectedCall& MockIgnoredExpectedCall::withBoolParameter(const SimpleString&, bool)	24	static
+MockCheckedExpectedCall.h:158:31:virtual MockExpectedCall& MockIgnoredExpectedCall::withIntParameter(const SimpleString&, int)	24	static
+MockCheckedExpectedCall.h:159:31:virtual MockExpectedCall& MockIgnoredExpectedCall::withUnsignedIntParameter(const SimpleString&, unsigned int)	24	static
+MockCheckedExpectedCall.h:160:31:virtual MockExpectedCall& MockIgnoredExpectedCall::withLongIntParameter(const SimpleString&, long int)	24	static
+MockCheckedExpectedCall.h:161:31:virtual MockExpectedCall& MockIgnoredExpectedCall::withUnsignedLongIntParameter(const SimpleString&, long unsigned int)	24	static
+MockCheckedExpectedCall.h:162:31:virtual MockExpectedCall& MockIgnoredExpectedCall::withLongLongIntParameter(const SimpleString&, cpputest_longlong)	24	static
+MockCheckedExpectedCall.h:163:31:virtual MockExpectedCall& MockIgnoredExpectedCall::withUnsignedLongLongIntParameter(const SimpleString&, cpputest_ulonglong)	24	static
+MockCheckedExpectedCall.h:164:31:virtual MockExpectedCall& MockIgnoredExpectedCall::withDoubleParameter(const SimpleString&, double)	24	static
+MockCheckedExpectedCall.h:165:31:virtual MockExpectedCall& MockIgnoredExpectedCall::withDoubleParameter(const SimpleString&, double, double)	32	static
+MockCheckedExpectedCall.h:166:31:virtual MockExpectedCall& MockIgnoredExpectedCall::withStringParameter(const SimpleString&, const char*)	24	static
+MockCheckedExpectedCall.h:167:31:virtual MockExpectedCall& MockIgnoredExpectedCall::withPointerParameter(const SimpleString&, void*)	24	static
+MockCheckedExpectedCall.h:168:31:virtual MockExpectedCall& MockIgnoredExpectedCall::withConstPointerParameter(const SimpleString&, const void*)	24	static
+MockCheckedExpectedCall.h:169:31:virtual MockExpectedCall& MockIgnoredExpectedCall::withFunctionPointerParameter(const SimpleString&, void (*)())	24	static
+MockCheckedExpectedCall.h:170:31:virtual MockExpectedCall& MockIgnoredExpectedCall::withMemoryBufferParameter(const SimpleString&, const unsigned char*, size_t)	24	static
+MockCheckedExpectedCall.h:171:31:virtual MockExpectedCall& MockIgnoredExpectedCall::withParameterOfType(const SimpleString&, const SimpleString&, const void*)	24	static
+MockCheckedExpectedCall.h:172:31:virtual MockExpectedCall& MockIgnoredExpectedCall::withOutputParameterReturning(const SimpleString&, const void*, size_t)	24	static
+MockCheckedExpectedCall.h:173:31:virtual MockExpectedCall& MockIgnoredExpectedCall::withOutputParameterOfTypeReturning(const SimpleString&, const SimpleString&, const void*)	24	static
+MockCheckedExpectedCall.h:174:31:virtual MockExpectedCall& MockIgnoredExpectedCall::withUnmodifiedOutputParameter(const SimpleString&)	16	static
+MockCheckedExpectedCall.h:175:31:virtual MockExpectedCall& MockIgnoredExpectedCall::ignoreOtherParameters()	16	static
+MockCheckedExpectedCall.h:177:31:virtual MockExpectedCall& MockIgnoredExpectedCall::andReturnValue(bool)	16	static
+MockCheckedExpectedCall.h:178:31:virtual MockExpectedCall& MockIgnoredExpectedCall::andReturnValue(int)	16	static
+MockCheckedExpectedCall.h:179:31:virtual MockExpectedCall& MockIgnoredExpectedCall::andReturnValue(unsigned int)	16	static
+MockCheckedExpectedCall.h:180:31:virtual MockExpectedCall& MockIgnoredExpectedCall::andReturnValue(long int)	16	static
+MockCheckedExpectedCall.h:181:31:virtual MockExpectedCall& MockIgnoredExpectedCall::andReturnValue(long unsigned int)	16	static
+MockCheckedExpectedCall.h:182:31:virtual MockExpectedCall& MockIgnoredExpectedCall::andReturnValue(cpputest_longlong)	24	static
+MockCheckedExpectedCall.h:183:31:virtual MockExpectedCall& MockIgnoredExpectedCall::andReturnValue(cpputest_ulonglong)	24	static
+MockCheckedExpectedCall.h:184:31:virtual MockExpectedCall& MockIgnoredExpectedCall::andReturnValue(double)	24	static
+MockCheckedExpectedCall.h:185:31:virtual MockExpectedCall& MockIgnoredExpectedCall::andReturnValue(const char*)	16	static
+MockCheckedExpectedCall.h:186:31:virtual MockExpectedCall& MockIgnoredExpectedCall::andReturnValue(void*)	16	static
+MockCheckedExpectedCall.h:187:31:virtual MockExpectedCall& MockIgnoredExpectedCall::andReturnValue(const void*)	16	static
+MockCheckedExpectedCall.h:188:31:virtual MockExpectedCall& MockIgnoredExpectedCall::andReturnValue(void (*)())	16	static
+MockCheckedExpectedCall.h:190:31:virtual MockExpectedCall& MockIgnoredExpectedCall::onObject(void*)	16	static
+MockExpectedCall.cpp:31:1:MockExpectedCall::MockExpectedCall()	16	static
+MockExpectedCall.cpp:35:1:MockExpectedCall::~MockExpectedCall()	16	static
+MockExpectedCall.cpp:35:1:virtual MockExpectedCall::~MockExpectedCall()	16	static
+MockExpectedCall.cpp:39:14:SimpleString StringFrom(const MockNamedValue&)	16	static
+MockExpectedCall.cpp:44:6:void MockCheckedExpectedCall::setName(const SimpleString&)	16	static
+MockExpectedCall.cpp:49:14:SimpleString MockCheckedExpectedCall::getName() const	16	static
+MockExpectedCall.cpp:54:1:MockCheckedExpectedCall::MockCheckedExpectedCall()	32	static
+MockExpectedCall.cpp:64:1:MockCheckedExpectedCall::MockCheckedExpectedCall(unsigned int)	32	static
+MockExpectedCall.cpp:74:1:MockCheckedExpectedCall::~MockCheckedExpectedCall()	16	static
+MockExpectedCall.cpp:74:1:virtual MockCheckedExpectedCall::~MockCheckedExpectedCall()	16	static
+MockExpectedCall.cpp:82:19:virtual MockExpectedCall& MockCheckedExpectedCall::withName(const SimpleString&)	16	static
+MockExpectedCall.cpp:88:19:virtual MockExpectedCall& MockCheckedExpectedCall::withBoolParameter(const SimpleString&, bool)	40	static
+MockExpectedCall.cpp:96:19:virtual MockExpectedCall& MockCheckedExpectedCall::withUnsignedIntParameter(const SimpleString&, unsigned int)	40	static
+MockExpectedCall.cpp:104:19:virtual MockExpectedCall& MockCheckedExpectedCall::withIntParameter(const SimpleString&, int)	40	static
+MockExpectedCall.cpp:112:19:virtual MockExpectedCall& MockCheckedExpectedCall::withLongIntParameter(const SimpleString&, long int)	40	static
+MockExpectedCall.cpp:120:19:virtual MockExpectedCall& MockCheckedExpectedCall::withUnsignedLongIntParameter(const SimpleString&, long unsigned int)	40	static
+MockExpectedCall.cpp:148:19:virtual MockExpectedCall& MockCheckedExpectedCall::withLongLongIntParameter(const SimpleString&, cpputest_longlong)	40	static
+MockExpectedCall.cpp:154:19:virtual MockExpectedCall& MockCheckedExpectedCall::withUnsignedLongLongIntParameter(const SimpleString&, cpputest_ulonglong)	40	static
+MockExpectedCall.cpp:162:19:virtual MockExpectedCall& MockCheckedExpectedCall::withDoubleParameter(const SimpleString&, double)	40	static
+MockExpectedCall.cpp:170:19:virtual MockExpectedCall& MockCheckedExpectedCall::withDoubleParameter(const SimpleString&, double, double)	48	static
+MockExpectedCall.cpp:178:19:virtual MockExpectedCall& MockCheckedExpectedCall::withStringParameter(const SimpleString&, const char*)	40	static
+MockExpectedCall.cpp:186:19:virtual MockExpectedCall& MockCheckedExpectedCall::withPointerParameter(const SimpleString&, void*)	40	static
+MockExpectedCall.cpp:194:19:virtual MockExpectedCall& MockCheckedExpectedCall::withConstPointerParameter(const SimpleString&, const void*)	40	static
+MockExpectedCall.cpp:202:19:virtual MockExpectedCall& MockCheckedExpectedCall::withFunctionPointerParameter(const SimpleString&, void (*)())	40	static
+MockExpectedCall.cpp:210:19:virtual MockExpectedCall& MockCheckedExpectedCall::withMemoryBufferParameter(const SimpleString&, const unsigned char*, size_t)	40	static
+MockExpectedCall.cpp:218:19:virtual MockExpectedCall& MockCheckedExpectedCall::withParameterOfType(const SimpleString&, const SimpleString&, const void*)	40	static
+MockExpectedCall.cpp:226:19:virtual MockExpectedCall& MockCheckedExpectedCall::withOutputParameterReturning(const SimpleString&, const void*, size_t)	40	static
+MockExpectedCall.cpp:235:19:virtual MockExpectedCall& MockCheckedExpectedCall::withOutputParameterOfTypeReturning(const SimpleString&, const SimpleString&, const void*)	40	static
+MockExpectedCall.cpp:243:19:virtual MockExpectedCall& MockCheckedExpectedCall::withUnmodifiedOutputParameter(const SimpleString&)	24	static
+MockExpectedCall.cpp:248:14:virtual SimpleString MockCheckedExpectedCall::getInputParameterType(const SimpleString&)	32	static
+MockExpectedCall.cpp:254:6:virtual bool MockCheckedExpectedCall::hasInputParameterWithName(const SimpleString&)	24	static
+MockExpectedCall.cpp:260:6:virtual bool MockCheckedExpectedCall::hasOutputParameterWithName(const SimpleString&)	24	static
+MockNamedValue.h:104:5:MockNamedValue::MockNamedValue(const MockNamedValue&)	24	static
+MockExpectedCall.cpp:266:16:virtual MockNamedValue MockCheckedExpectedCall::getInputParameter(const SimpleString&)	48	static
+MockExpectedCall.cpp:272:16:virtual MockNamedValue MockCheckedExpectedCall::getOutputParameter(const SimpleString&)	48	static
+MockExpectedCall.cpp:278:6:virtual bool MockCheckedExpectedCall::areParametersMatchingActualCall()	24	static
+MockExpectedCall.cpp:290:19:virtual MockExpectedCall& MockCheckedExpectedCall::ignoreOtherParameters()	16	static
+MockExpectedCall.cpp:296:6:virtual bool MockCheckedExpectedCall::isFulfilled()	16	static
+MockExpectedCall.cpp:301:6:virtual bool MockCheckedExpectedCall::canMatchActualCalls()	16	static
+MockExpectedCall.cpp:306:6:virtual bool MockCheckedExpectedCall::isMatchingActualCallAndFinalized()	16	static
+MockExpectedCall.cpp:311:6:virtual bool MockCheckedExpectedCall::isMatchingActualCall()	16	static
+MockExpectedCall.cpp:316:6:virtual void MockCheckedExpectedCall::callWasMade(unsigned int)	16	static
+MockExpectedCall.cpp:328:6:virtual void MockCheckedExpectedCall::finalizeActualCallMatch()	16	static
+MockExpectedCall.cpp:334:6:virtual void MockCheckedExpectedCall::wasPassedToObject()	16	static
+MockExpectedCall.cpp:339:6:virtual void MockCheckedExpectedCall::resetActualCallMatchingState()	24	static
+MockExpectedCall.cpp:352:6:virtual void MockCheckedExpectedCall::inputParameterWasPassed(const SimpleString&)	40	static
+MockExpectedCall.cpp:360:6:virtual void MockCheckedExpectedCall::outputParameterWasPassed(const SimpleString&)	40	static
+MockExpectedCall.cpp:368:14:virtual SimpleString MockCheckedExpectedCall::getInputParameterValueString(const SimpleString&)	32	static
+MockExpectedCall.cpp:374:6:virtual bool MockCheckedExpectedCall::hasInputParameter(const MockNamedValue&)	40	static
+MockExpectedCall.cpp:380:6:virtual bool MockCheckedExpectedCall::hasOutputParameter(const MockNamedValue&)	40	static
+MockExpectedCall.cpp:386:14:virtual SimpleString MockCheckedExpectedCall::callToString()	152	static
+MockExpectedCall.cpp:432:14:virtual SimpleString MockCheckedExpectedCall::missingParametersToString()	96	static
+MockExpectedCall.cpp:452:6:virtual bool MockCheckedExpectedCall::relatesTo(const SimpleString&)	32	static
+MockExpectedCall.cpp:457:6:virtual bool MockCheckedExpectedCall::relatesToObject(const void*) const	16	static
+MockExpectedCall.cpp:462:57:MockCheckedExpectedCall::MockExpectedFunctionParameter* MockCheckedExpectedCall::item(MockNamedValueListNode*)	16	static
+MockExpectedCall.cpp:467:1:MockCheckedExpectedCall::MockExpectedFunctionParameter::MockExpectedFunctionParameter(const SimpleString&)	16	static
+MockExpectedCall.cpp:472:6:void MockCheckedExpectedCall::MockExpectedFunctionParameter::setMatchesActualCall(bool)	16	static
+MockExpectedCall.cpp:477:6:bool MockCheckedExpectedCall::MockExpectedFunctionParameter::isMatchingActualCall() const	16	static
+MockExpectedCall.cpp:482:19:virtual MockExpectedCall& MockCheckedExpectedCall::andReturnValue(bool)	16	static
+MockExpectedCall.cpp:489:19:virtual MockExpectedCall& MockCheckedExpectedCall::andReturnValue(unsigned int)	16	static
+MockExpectedCall.cpp:496:19:virtual MockExpectedCall& MockCheckedExpectedCall::andReturnValue(int)	16	static
+MockExpectedCall.cpp:503:19:virtual MockExpectedCall& MockCheckedExpectedCall::andReturnValue(long int)	16	static
+MockExpectedCall.cpp:510:19:virtual MockExpectedCall& MockCheckedExpectedCall::andReturnValue(long unsigned int)	16	static
+MockExpectedCall.cpp:535:19:virtual MockExpectedCall& MockCheckedExpectedCall::andReturnValue(cpputest_longlong)	40	static
+MockExpectedCall.cpp:541:19:virtual MockExpectedCall& MockCheckedExpectedCall::andReturnValue(cpputest_ulonglong)	40	static
+MockExpectedCall.cpp:549:19:virtual MockExpectedCall& MockCheckedExpectedCall::andReturnValue(const char*)	16	static
+MockExpectedCall.cpp:556:19:virtual MockExpectedCall& MockCheckedExpectedCall::andReturnValue(double)	24	static
+MockExpectedCall.cpp:563:19:virtual MockExpectedCall& MockCheckedExpectedCall::andReturnValue(void*)	16	static
+MockExpectedCall.cpp:570:19:virtual MockExpectedCall& MockCheckedExpectedCall::andReturnValue(const void*)	16	static
+MockExpectedCall.cpp:577:19:virtual MockExpectedCall& MockCheckedExpectedCall::andReturnValue(void (*)())	16	static
+MockExpectedCall.cpp:584:19:virtual MockExpectedCall& MockCheckedExpectedCall::onObject(void*)	16	static
+MockExpectedCall.cpp:592:16:virtual MockNamedValue MockCheckedExpectedCall::returnValue()	16	static
+MockExpectedCall.cpp:597:19:virtual MockExpectedCall& MockCheckedExpectedCall::withCallOrder(unsigned int, unsigned int)	24	static
+MockExpectedCall.cpp:604:6:virtual bool MockCheckedExpectedCall::isOutOfOrder() const	16	static
+MockExpectedCall.cpp:609:14:virtual unsigned int MockCheckedExpectedCall::getActualCallsFulfilled() const	16	static
+MockCheckedExpectedCall.h:150:7:MockIgnoredExpectedCall::MockIgnoredExpectedCall()	16	static
+MockExpectedCall.cpp:616:36:void __tcf_0()	8	static
+MockExpectedCall.cpp:614:19:static MockExpectedCall& MockIgnoredExpectedCall::instance()	8	static
+MockCheckedExpectedCall.h:150:7:MockIgnoredExpectedCall::~MockIgnoredExpectedCall()	16	static
+MockCheckedExpectedCall.h:150:7:virtual MockIgnoredExpectedCall::~MockIgnoredExpectedCall()	16	static
+MockCheckedExpectedCall.h:122:11:MockCheckedExpectedCall::MockExpectedFunctionParameter::~MockExpectedFunctionParameter()	16	static
+MockCheckedExpectedCall.h:122:11:virtual MockCheckedExpectedCall::MockExpectedFunctionParameter::~MockExpectedFunctionParameter()	16	static

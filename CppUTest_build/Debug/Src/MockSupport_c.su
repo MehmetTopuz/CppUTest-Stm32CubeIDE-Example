@@ -1,0 +1,159 @@
+CppUTestConfig.h:281:3:cpputest_longlong::cpputest_longlong(int)	16	static
+CppUTestConfig.h:290:3:cpputest_ulonglong::cpputest_ulonglong(int)	16	static
+MockFailure.h:44:5:MockFailureReporter::MockFailureReporter()	16	static
+MockFailure.h:45:13:MockFailureReporter::~MockFailureReporter()	16	static
+MockFailure.h:45:13:virtual MockFailureReporter::~MockFailureReporter()	16	static
+MockFailure.h:50:18:virtual void MockFailureReporter::crashOnFailure(bool)	16	static
+MockNamedValue.h:41:5:MockNamedValueComparator::MockNamedValueComparator()	16	static
+MockNamedValue.h:42:13:MockNamedValueComparator::~MockNamedValueComparator()	16	static
+MockNamedValue.h:42:13:virtual MockNamedValueComparator::~MockNamedValueComparator()	16	static
+MockNamedValue.h:56:5:MockNamedValueCopier::MockNamedValueCopier()	16	static
+MockNamedValue.h:57:13:MockNamedValueCopier::~MockNamedValueCopier()	16	static
+MockNamedValue.h:57:13:virtual MockNamedValueCopier::~MockNamedValueCopier()	16	static
+MockActualCall.h:47:21:MockActualCall& MockActualCall::withParameter(const SimpleString&, bool)	24	static
+MockActualCall.h:48:21:MockActualCall& MockActualCall::withParameter(const SimpleString&, int)	24	static
+MockActualCall.h:49:21:MockActualCall& MockActualCall::withParameter(const SimpleString&, unsigned int)	24	static
+MockActualCall.h:50:21:MockActualCall& MockActualCall::withParameter(const SimpleString&, long int)	24	static
+MockActualCall.h:51:21:MockActualCall& MockActualCall::withParameter(const SimpleString&, long unsigned int)	24	static
+MockActualCall.h:54:21:MockActualCall& MockActualCall::withParameter(const SimpleString&, double)	24	static
+MockActualCall.h:55:21:MockActualCall& MockActualCall::withParameter(const SimpleString&, const char*)	24	static
+MockActualCall.h:56:21:MockActualCall& MockActualCall::withParameter(const SimpleString&, void*)	24	static
+MockActualCall.h:57:21:MockActualCall& MockActualCall::withParameter(const SimpleString&, void (*)())	24	static
+MockActualCall.h:58:21:MockActualCall& MockActualCall::withParameter(const SimpleString&, const void*)	24	static
+MockActualCall.h:59:21:MockActualCall& MockActualCall::withParameter(const SimpleString&, const unsigned char*, size_t)	32	static
+MockExpectedCall.h:46:23:MockExpectedCall& MockExpectedCall::withParameter(const SimpleString&, bool)	24	static
+MockExpectedCall.h:47:23:MockExpectedCall& MockExpectedCall::withParameter(const SimpleString&, int)	24	static
+MockExpectedCall.h:48:23:MockExpectedCall& MockExpectedCall::withParameter(const SimpleString&, unsigned int)	24	static
+MockExpectedCall.h:49:23:MockExpectedCall& MockExpectedCall::withParameter(const SimpleString&, long int)	24	static
+MockExpectedCall.h:50:23:MockExpectedCall& MockExpectedCall::withParameter(const SimpleString&, long unsigned int)	24	static
+MockExpectedCall.h:53:23:MockExpectedCall& MockExpectedCall::withParameter(const SimpleString&, double)	24	static
+MockExpectedCall.h:54:23:MockExpectedCall& MockExpectedCall::withParameter(const SimpleString&, double, double)	32	static
+MockExpectedCall.h:55:23:MockExpectedCall& MockExpectedCall::withParameter(const SimpleString&, const char*)	24	static
+MockExpectedCall.h:56:23:MockExpectedCall& MockExpectedCall::withParameter(const SimpleString&, void*)	24	static
+MockExpectedCall.h:57:23:MockExpectedCall& MockExpectedCall::withParameter(const SimpleString&, const void*)	24	static
+MockExpectedCall.h:58:23:MockExpectedCall& MockExpectedCall::withParameter(const SimpleString&, void (*)())	24	static
+MockExpectedCall.h:59:23:MockExpectedCall& MockExpectedCall::withParameter(const SimpleString&, const unsigned char*, size_t)	32	static
+Utest.h:62:7:constexpr TestTerminator::TestTerminator()	16	static
+Utest.h:76:7:constexpr TestTerminatorWithoutExceptions::TestTerminatorWithoutExceptions()	16	static
+MockSupport_c.cpp:40:5:MockFailureReporterTestTerminatorForInCOnlyCode::MockFailureReporterTestTerminatorForInCOnlyCode(bool)	16	static
+MockSupport_c.cpp:44:18:virtual void MockFailureReporterTestTerminatorForInCOnlyCode::exitCurrentTest() const	16	static
+MockSupport_c.cpp:52:13:MockFailureReporterTestTerminatorForInCOnlyCode::~MockFailureReporterTestTerminatorForInCOnlyCode()	16	static
+MockSupport_c.cpp:52:13:virtual MockFailureReporterTestTerminatorForInCOnlyCode::~MockFailureReporterTestTerminatorForInCOnlyCode()	16	static
+MockSupport_c.cpp:64:10:virtual void MockFailureReporterForInCOnlyCode::failTest(const MockFailure&)	40	static
+MockSupport_c.cpp:61:7:MockFailureReporterForInCOnlyCode::MockFailureReporterForInCOnlyCode()	16	static
+MockSupport_c.cpp:80:5:MockCFunctionComparatorNode::MockCFunctionComparatorNode(MockCFunctionComparatorNode*, MockTypeEqualFunction_c, MockTypeValueToStringFunction_c)	24	static
+MockSupport_c.cpp:82:13:MockCFunctionComparatorNode::~MockCFunctionComparatorNode()	16	static
+MockSupport_c.cpp:82:13:virtual MockCFunctionComparatorNode::~MockCFunctionComparatorNode()	16	static
+MockSupport_c.cpp:84:18:virtual bool MockCFunctionComparatorNode::isEqual(const void*, const void*)	24	static
+MockSupport_c.cpp:88:26:virtual SimpleString MockCFunctionComparatorNode::valueToString(const void*)	24	static
+MockSupport_c.cpp:103:5:MockCFunctionCopierNode::MockCFunctionCopierNode(MockCFunctionCopierNode*, MockTypeCopyFunction_c)	24	static
+MockSupport_c.cpp:105:13:MockCFunctionCopierNode::~MockCFunctionCopierNode()	16	static
+MockSupport_c.cpp:105:13:virtual MockCFunctionCopierNode::~MockCFunctionCopierNode()	16	static
+MockSupport_c.cpp:107:18:virtual void MockCFunctionCopierNode::copy(void*, const void*)	24	static
+MockSupport_c.cpp:220:13:void installComparator_c(const char*, MockTypeEqualFunction_c, MockTypeValueToStringFunction_c)	40	static
+MockSupport_c.cpp:226:13:void installCopier_c(const char*, MockTypeCopyFunction_c)	32	static
+MockSupport_c.cpp:232:13:void removeAllComparatorsAndCopiers_c()	16	static
+MockSupport_c.cpp:381:21:MockExpectedCall_c* withBoolParameters_c(const char*, int)	32	static
+MockSupport_c.cpp:387:21:MockExpectedCall_c* withIntParameters_c(const char*, int)	32	static
+MockSupport_c.cpp:393:21:MockExpectedCall_c* withUnsignedIntParameters_c(const char*, unsigned int)	32	static
+MockSupport_c.cpp:399:21:MockExpectedCall_c* withLongIntParameters_c(const char*, long int)	32	static
+MockSupport_c.cpp:405:21:MockExpectedCall_c* withUnsignedLongIntParameters_c(const char*, long unsigned int)	32	static
+MockSupport_c.cpp:427:21:MockExpectedCall_c* withLongLongIntParameters_c(const char*, cpputest_longlong)	40	static
+MockSupport_c.cpp:433:21:MockExpectedCall_c* withUnsignedLongLongIntParameters_c(const char*, cpputest_ulonglong)	40	static
+MockSupport_c.cpp:441:21:MockExpectedCall_c* withDoubleParameters_c(const char*, double)	40	static
+MockSupport_c.cpp:447:21:MockExpectedCall_c* withDoubleParametersAndTolerance_c(const char*, double, double)	48	static
+MockSupport_c.cpp:453:21:MockExpectedCall_c* withStringParameters_c(const char*, const char*)	32	static
+MockSupport_c.cpp:459:21:MockExpectedCall_c* withPointerParameters_c(const char*, void*)	32	static
+MockSupport_c.cpp:465:21:MockExpectedCall_c* withConstPointerParameters_c(const char*, const void*)	32	static
+MockSupport_c.cpp:471:21:MockExpectedCall_c* withFunctionPointerParameters_c(const char*, void (*)())	32	static
+MockSupport_c.cpp:477:21:MockExpectedCall_c* withMemoryBufferParameters_c(const char*, const unsigned char*, size_t)	40	static
+MockSupport_c.cpp:483:21:MockExpectedCall_c* withParameterOfType_c(const char*, const char*, const void*)	48	static
+MockSupport_c.cpp:489:21:MockExpectedCall_c* withOutputParameterReturning_c(const char*, const void*, size_t)	40	static
+MockSupport_c.cpp:495:21:MockExpectedCall_c* withOutputParameterOfTypeReturning_c(const char*, const char*, const void*)	48	static
+MockSupport_c.cpp:501:21:MockExpectedCall_c* withUnmodifiedOutputParameter_c(const char*)	32	static
+MockSupport_c.cpp:507:21:MockExpectedCall_c* ignoreOtherParameters_c()	8	static
+MockSupport_c.cpp:513:21:MockExpectedCall_c* andReturnBoolValue_c(int)	16	static
+MockSupport_c.cpp:519:21:MockExpectedCall_c* andReturnUnsignedIntValue_c(unsigned int)	16	static
+MockSupport_c.cpp:525:21:MockExpectedCall_c* andReturnIntValue_c(int)	16	static
+MockSupport_c.cpp:531:21:MockExpectedCall_c* andReturnLongIntValue_c(long int)	16	static
+MockSupport_c.cpp:537:21:MockExpectedCall_c* andReturnUnsignedLongIntValue_c(long unsigned int)	16	static
+MockSupport_c.cpp:559:21:MockExpectedCall_c* andReturnLongLongIntValue_c(cpputest_longlong)	32	static
+MockSupport_c.cpp:565:21:MockExpectedCall_c* andReturnUnsignedLongLongIntValue_c(cpputest_ulonglong)	32	static
+MockSupport_c.cpp:573:21:MockExpectedCall_c* andReturnDoubleValue_c(double)	16	static
+MockSupport_c.cpp:579:21:MockExpectedCall_c* andReturnStringValue_c(const char*)	16	static
+MockSupport_c.cpp:585:21:MockExpectedCall_c* andReturnPointerValue_c(void*)	16	static
+MockSupport_c.cpp:591:21:MockExpectedCall_c* andReturnConstPointerValue_c(const void*)	16	static
+MockSupport_c.cpp:597:21:MockExpectedCall_c* andReturnFunctionPointerValue_c(void (*)())	16	static
+MockSupport_c.cpp:603:20:MockValue_c getMockValueCFromNamedValue(const MockNamedValue&)	112	static
+MockSupport_c.cpp:667:6:void strictOrder_c()	8	static
+MockSupport_c.cpp:672:21:MockExpectedCall_c* expectOneCall_c(const char*)	32	static
+MockSupport_c.cpp:678:6:void expectNoCall_c(const char*)	32	static
+MockSupport_c.cpp:683:21:MockExpectedCall_c* expectNCalls_c(unsigned int, const char*)	32	static
+MockSupport_c.cpp:689:19:MockActualCall_c* actualCall_c(const char*)	32	static
+MockSupport_c.cpp:695:19:MockActualCall_c* withActualBoolParameters_c(const char*, int)	32	static
+MockSupport_c.cpp:701:19:MockActualCall_c* withActualIntParameters_c(const char*, int)	32	static
+MockSupport_c.cpp:707:19:MockActualCall_c* withActualUnsignedIntParameters_c(const char*, unsigned int)	32	static
+MockSupport_c.cpp:713:19:MockActualCall_c* withActualLongIntParameters_c(const char*, long int)	32	static
+MockSupport_c.cpp:719:19:MockActualCall_c* withActualUnsignedLongIntParameters_c(const char*, long unsigned int)	32	static
+MockSupport_c.cpp:741:19:MockActualCall_c* withActualLongLongIntParameters_c(const char*, cpputest_longlong)	40	static
+MockSupport_c.cpp:747:19:MockActualCall_c* withActualUnsignedLongLongIntParameters_c(const char*, cpputest_ulonglong)	40	static
+MockSupport_c.cpp:755:19:MockActualCall_c* withActualDoubleParameters_c(const char*, double)	40	static
+MockSupport_c.cpp:761:19:MockActualCall_c* withActualStringParameters_c(const char*, const char*)	32	static
+MockSupport_c.cpp:767:19:MockActualCall_c* withActualPointerParameters_c(const char*, void*)	32	static
+MockSupport_c.cpp:773:19:MockActualCall_c* withActualConstPointerParameters_c(const char*, const void*)	32	static
+MockSupport_c.cpp:779:19:MockActualCall_c* withActualFunctionPointerParameters_c(const char*, void (*)())	32	static
+MockSupport_c.cpp:785:19:MockActualCall_c* withActualMemoryBufferParameters_c(const char*, const unsigned char*, size_t)	40	static
+MockSupport_c.cpp:791:19:MockActualCall_c* withActualParameterOfType_c(const char*, const char*, const void*)	48	static
+MockSupport_c.cpp:797:19:MockActualCall_c* withActualOutputParameter_c(const char*, void*)	32	static
+MockSupport_c.cpp:803:19:MockActualCall_c* withActualOutputParameterOfType_c(const char*, const char*, void*)	48	static
+MockSupport_c.cpp:809:13:MockValue_c returnValue_c()	72	static
+MockSupport_c.cpp:814:5:int boolReturnValue_c()	8	static
+MockSupport_c.cpp:819:5:int returnBoolValueOrDefault_c(int)	16	static
+MockSupport_c.cpp:827:5:int intReturnValue_c()	8	static
+MockSupport_c.cpp:832:5:int returnIntValueOrDefault_c(int)	16	static
+MockSupport_c.cpp:840:14:unsigned int unsignedIntReturnValue_c()	8	static
+MockSupport_c.cpp:845:14:unsigned int returnUnsignedIntValueOrDefault_c(unsigned int)	16	static
+MockSupport_c.cpp:853:10:long int longIntReturnValue_c()	8	static
+MockSupport_c.cpp:858:10:long int returnLongIntValueOrDefault_c(long int)	16	static
+MockSupport_c.cpp:866:19:long unsigned int unsignedLongIntReturnValue_c()	8	static
+MockSupport_c.cpp:871:19:long unsigned int returnUnsignedLongIntValueOrDefault_c(long unsigned int)	16	static
+MockSupport_c.cpp:909:19:cpputest_longlong longLongIntReturnValue_c()	32	static
+MockSupport_c.cpp:915:19:cpputest_longlong returnLongLongIntValueOrDefault_c(cpputest_longlong)	40	static
+MockSupport_c.cpp:921:20:cpputest_ulonglong unsignedLongLongIntReturnValue_c()	32	static
+MockSupport_c.cpp:927:20:cpputest_ulonglong returnUnsignedLongLongIntValueOrDefault_c(cpputest_ulonglong)	40	static
+MockSupport_c.cpp:935:13:const char* stringReturnValue_c()	8	static
+MockSupport_c.cpp:940:13:const char* returnStringValueOrDefault_c(const char*)	16	static
+MockSupport_c.cpp:948:8:double doubleReturnValue_c()	8	static
+MockSupport_c.cpp:953:8:double returnDoubleValueOrDefault_c(double)	16	static
+MockSupport_c.cpp:961:7:void* pointerReturnValue_c()	8	static
+MockSupport_c.cpp:966:7:void* returnPointerValueOrDefault_c(void*)	16	static
+MockSupport_c.cpp:974:13:const void* constPointerReturnValue_c()	8	static
+MockSupport_c.cpp:979:13:const void* returnConstPointerValueOrDefault_c(const void*)	16	static
+MockSupport_c.cpp:987:8:void (* functionPointerReturnValue_c())()	8	static
+MockSupport_c.cpp:992:8:void (* returnFunctionPointerValueOrDefault_c(void (*)()))()	16	static
+MockSupport_c.cpp:1000:6:void disable_c()	8	static
+MockSupport_c.cpp:1005:6:void enable_c()	8	static
+MockSupport_c.cpp:1010:6:void ignoreOtherCalls_c()	8	static
+MockSupport_c.cpp:1015:6:void setBoolData_c(const char*, int)	32	static
+MockSupport_c.cpp:1020:6:void setIntData_c(const char*, int)	32	static
+MockSupport_c.cpp:1025:6:void setUnsignedIntData_c(const char*, unsigned int)	32	static
+MockSupport_c.cpp:1030:6:void setDoubleData_c(const char*, double)	40	static
+MockSupport_c.cpp:1035:6:void setStringData_c(const char*, const char*)	32	static
+MockSupport_c.cpp:1040:6:void setPointerData_c(const char*, void*)	32	static
+MockSupport_c.cpp:1045:6:void setConstPointerData_c(const char*, const void*)	32	static
+MockSupport_c.cpp:1050:6:void setFunctionPointerData_c(const char*, void (*)())	32	static
+MockSupport_c.cpp:1055:6:void setDataObject_c(const char*, const char*, void*)	48	static
+MockSupport_c.cpp:1060:6:void setDataConstObject_c(const char*, const char*, const void*)	48	static
+MockSupport_c.cpp:1065:13:MockValue_c getData_c(const char*)	88	static
+MockSupport_c.cpp:1070:5:int hasReturnValue_c()	8	static
+MockSupport_c.cpp:1075:6:void checkExpectations_c()	8	static
+MockSupport_c.cpp:1080:5:int expectedCallsLeft_c()	8	static
+MockSupport_c.cpp:1085:6:void clear_c()	8	static
+MockSupport_c.cpp:1090:6:void crashOnFailure_c(unsigned int)	16	static
+MockSupport_c.cpp:1095:16:MockSupport_c* mock_c()	16	static
+MockSupport_c.cpp:1101:16:MockSupport_c* mock_scope_c(const char*)	24	static
+MockSupport_c.cpp:61:7:MockFailureReporterForInCOnlyCode::~MockFailureReporterForInCOnlyCode()	16	static
+MockSupport_c.cpp:61:7:virtual MockFailureReporterForInCOnlyCode::~MockFailureReporterForInCOnlyCode()	16	static
+MockSupport_c.cpp:1107:1:void __static_initialization_and_destruction_0(int, int)	16	static
+MockSupport_c.cpp:1107:1:cpp)	8	static
+MockSupport_c.cpp:1107:1:cpp)	8	static

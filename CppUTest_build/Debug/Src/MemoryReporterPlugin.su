@@ -1,0 +1,14 @@
+MemoryReporterPlugin.cpp:33:1:MemoryReporterPlugin::MemoryReporterPlugin()	32	static
+MemoryReporterPlugin.cpp:38:1:MemoryReporterPlugin::~MemoryReporterPlugin()	16	static
+MemoryReporterPlugin.cpp:38:1:virtual MemoryReporterPlugin::~MemoryReporterPlugin()	16	static
+MemoryReporterPlugin.cpp:44:6:virtual bool MemoryReporterPlugin::parseArguments(int, const char* const*, int)	48	static
+MemoryReporterPlugin.cpp:57:24:virtual MemoryReportFormatter* MemoryReporterPlugin::createMemoryFormatter(const SimpleString&)	40	static
+MemoryReporterPlugin.cpp:68:6:void MemoryReporterPlugin::destroyMemoryFormatter(MemoryReportFormatter*)	16	static
+MemoryReporterPlugin.cpp:74:6:void MemoryReporterPlugin::setGlobalMemoryReportAllocators()	24	static
+MemoryReporterPlugin.cpp:86:6:void MemoryReporterPlugin::removeGlobalMemoryReportAllocators()	16	static
+MemoryReporterPlugin.cpp:98:24:MemoryReportAllocator* MemoryReporterPlugin::getMallocAllocator()	16	static
+MemoryReporterPlugin.cpp:103:24:MemoryReportAllocator* MemoryReporterPlugin::getNewAllocator()	16	static
+MemoryReporterPlugin.cpp:108:24:MemoryReportAllocator* MemoryReporterPlugin::getNewArrayAllocator()	16	static
+MemoryReporterPlugin.cpp:113:6:void MemoryReporterPlugin::initializeAllocator(MemoryReportAllocator*, TestResult&)	24	static
+MemoryReporterPlugin.cpp:119:6:virtual void MemoryReporterPlugin::preTestAction(UtestShell&, TestResult&)	48	static
+MemoryReporterPlugin.cpp:137:6:virtual void MemoryReporterPlugin::postTestAction(UtestShell&, TestResult&)	40	static

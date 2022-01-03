@@ -1,0 +1,32 @@
+TestRegistry.cpp:32:1:TestRegistry::TestRegistry()	16	static
+TestRegistry.cpp:37:1:TestRegistry::~TestRegistry()	16	static
+TestRegistry.cpp:37:1:virtual TestRegistry::~TestRegistry()	16	static
+TestRegistry.cpp:41:6:virtual void TestRegistry::addTest(UtestShell*)	16	static
+TestRegistry.cpp:46:6:virtual void TestRegistry::runAllTests(TestResult&)	24	static
+TestRegistry.cpp:76:6:virtual void TestRegistry::listTestGroupNames(TestResult&)	72	static
+TestRegistry.cpp:99:6:virtual void TestRegistry::listTestGroupAndCaseNames(TestResult&)	80	static
+TestRegistry.cpp:126:6:virtual void TestRegistry::listTestLocations(TestResult&)	80	static
+TestRegistry.cpp:146:6:bool TestRegistry::endOfGroup(UtestShell*)	48	static
+TestRegistry.cpp:151:8:virtual size_t TestRegistry::countTests()	16	static
+TestRegistry.cpp:160:25:void __tcf_0()	8	static
+TestRegistry.cpp:158:15:static TestRegistry* TestRegistry::getCurrentRegistry()	8	static
+TestRegistry.cpp:164:6:virtual void TestRegistry::setCurrentRegistry(TestRegistry*)	16	static
+TestRegistry.cpp:169:6:virtual void TestRegistry::unDoLastAddTest()	16	static
+TestRegistry.cpp:175:6:virtual void TestRegistry::setNameFilters(const TestFilter*)	16	static
+TestRegistry.cpp:180:6:virtual void TestRegistry::setGroupFilters(const TestFilter*)	16	static
+TestRegistry.cpp:185:6:void TestRegistry::setRunIgnored()	16	static
+TestRegistry.cpp:190:6:virtual void TestRegistry::setRunTestsInSeperateProcess()	16	static
+TestRegistry.cpp:195:5:int TestRegistry::getCurrentRepetition()	16	static
+TestRegistry.cpp:200:6:bool TestRegistry::testShouldRun(UtestShell*, TestResult&)	24	static
+TestRegistry.cpp:209:6:virtual void TestRegistry::resetPlugins()	16	static
+TestRegistry.cpp:214:6:virtual void TestRegistry::installPlugin(TestPlugin*)	16	static
+TestRegistry.cpp:219:13:virtual TestPlugin* TestRegistry::getFirstPlugin()	16	static
+TestRegistry.cpp:224:13:virtual TestPlugin* TestRegistry::getPluginByName(const SimpleString&)	16	static
+TestRegistry.cpp:229:6:virtual void TestRegistry::removePluginByName(const SimpleString&)	16	static
+TestRegistry.cpp:236:5:virtual int TestRegistry::countPlugins()	24	static
+TestRegistry.cpp:245:13:virtual UtestShell* TestRegistry::getFirstTest()	16	static
+TestRegistry.cpp:250:6:virtual void TestRegistry::shuffleTests(size_t)	24	static
+TestRegistry.cpp:257:6:virtual void TestRegistry::reverseTests()	24	static
+TestRegistry.cpp:264:13:virtual UtestShell* TestRegistry::getTestWithNext(UtestShell*)	24	static
+TestRegistry.cpp:272:13:virtual UtestShell* TestRegistry::findTestWithName(const SimpleString&)	40	static
+TestRegistry.cpp:283:13:virtual UtestShell* TestRegistry::findTestWithGroup(const SimpleString&)	40	static

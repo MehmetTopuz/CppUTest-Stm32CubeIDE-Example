@@ -1,0 +1,74 @@
+CppUTestConfig.h:281:3:cpputest_longlong::cpputest_longlong(int)	16	static
+CppUTestConfig.h:290:3:cpputest_ulonglong::cpputest_ulonglong(int)	16	static
+MockNamedValue.cpp:36:6:static void MockNamedValue::setDefaultComparatorsAndCopiersRepository(MockNamedValueComparatorsAndCopiersRepository*)	16	static
+MockNamedValue.cpp:41:48:static MockNamedValueComparatorsAndCopiersRepository* MockNamedValue::getDefaultComparatorsAndCopiersRepository()	4	static
+MockNamedValue.cpp:46:1:MockNamedValue::MockNamedValue(const SimpleString&)	16	static
+MockNamedValue.cpp:51:1:MockNamedValue::~MockNamedValue()	16	static
+MockNamedValue.cpp:51:1:virtual MockNamedValue::~MockNamedValue()	16	static
+MockNamedValue.cpp:55:6:virtual void MockNamedValue::setValue(bool)	32	static
+MockNamedValue.cpp:61:6:virtual void MockNamedValue::setValue(unsigned int)	32	static
+MockNamedValue.cpp:67:6:virtual void MockNamedValue::setValue(int)	32	static
+MockNamedValue.cpp:73:6:virtual void MockNamedValue::setValue(long int)	32	static
+MockNamedValue.cpp:79:6:virtual void MockNamedValue::setValue(long unsigned int)	32	static
+MockNamedValue.cpp:101:6:virtual void MockNamedValue::setValue(cpputest_longlong)	40	static
+MockNamedValue.cpp:106:6:virtual void MockNamedValue::setValue(cpputest_ulonglong)	40	static
+MockNamedValue.cpp:113:6:virtual void MockNamedValue::setValue(double)	24	static
+MockNamedValue.cpp:118:6:virtual void MockNamedValue::setValue(double, double)	48	static
+MockNamedValue.cpp:125:6:virtual void MockNamedValue::setValue(void*)	32	static
+MockNamedValue.cpp:131:6:virtual void MockNamedValue::setValue(const void*)	32	static
+MockNamedValue.cpp:137:6:virtual void MockNamedValue::setValue(void (*)())	32	static
+MockNamedValue.cpp:143:6:virtual void MockNamedValue::setValue(const char*)	32	static
+MockNamedValue.cpp:149:6:virtual void MockNamedValue::setMemoryBuffer(const unsigned char*, size_t)	40	static
+MockNamedValue.cpp:156:6:virtual void MockNamedValue::setConstObjectPointer(const SimpleString&, const void*)	24	static
+MockNamedValue.cpp:167:6:virtual void MockNamedValue::setObjectPointer(const SimpleString&, void*)	24	static
+MockNamedValue.cpp:178:6:virtual void MockNamedValue::setSize(size_t)	16	static
+MockNamedValue.cpp:183:6:virtual void MockNamedValue::setName(const char*)	32	static
+MockNamedValue.cpp:188:14:virtual SimpleString MockNamedValue::getName() const	16	static
+MockNamedValue.cpp:193:14:virtual SimpleString MockNamedValue::getType() const	16	static
+MockNamedValue.cpp:198:6:virtual bool MockNamedValue::getBoolValue() const	48	static
+MockNamedValue.cpp:204:14:virtual unsigned int MockNamedValue::getUnsignedIntValue() const	56	static
+MockNamedValue.cpp:215:5:virtual int MockNamedValue::getIntValue() const	48	static
+MockNamedValue.cpp:221:10:virtual long int MockNamedValue::getLongIntValue() const	64	static
+MockNamedValue.cpp:234:19:virtual long unsigned int MockNamedValue::getUnsignedLongIntValue() const	72	static
+MockNamedValue.cpp:289:19:virtual cpputest_longlong MockNamedValue::getLongLongIntValue() const	32	static
+MockNamedValue.cpp:295:20:virtual cpputest_ulonglong MockNamedValue::getUnsignedLongLongIntValue() const	32	static
+MockNamedValue.cpp:303:8:virtual double MockNamedValue::getDoubleValue() const	48	static
+MockNamedValue.cpp:309:8:virtual double MockNamedValue::getDoubleTolerance() const	48	static
+MockNamedValue.cpp:315:13:virtual const char* MockNamedValue::getStringValue() const	48	static
+MockNamedValue.cpp:321:7:virtual void* MockNamedValue::getPointerValue() const	48	static
+MockNamedValue.cpp:327:13:virtual const void* MockNamedValue::getConstPointerValue() const	48	static
+MockNamedValue.cpp:333:8:virtual void (* MockNamedValue::getFunctionPointerValue() const)()	48	static
+MockNamedValue.cpp:339:22:virtual const unsigned char* MockNamedValue::getMemoryBuffer() const	48	static
+MockNamedValue.cpp:345:13:virtual const void* MockNamedValue::getConstObjectPointer() const	16	static
+MockNamedValue.cpp:350:7:virtual void* MockNamedValue::getObjectPointer() const	16	static
+MockNamedValue.cpp:355:8:virtual size_t MockNamedValue::getSize() const	16	static
+MockNamedValue.cpp:360:27:virtual MockNamedValueComparator* MockNamedValue::getComparator() const	16	static
+MockNamedValue.cpp:365:23:virtual MockNamedValueCopier* MockNamedValue::getCopier() const	16	static
+MockNamedValue.cpp:370:6:virtual bool MockNamedValue::equals(const MockNamedValue&) const	328	static
+MockNamedValue.cpp:477:6:virtual bool MockNamedValue::compatibleForCopying(const MockNamedValue&) const	48	static
+MockNamedValue.cpp:487:14:virtual SimpleString MockNamedValue::toString() const	240	static
+MockNamedValue.cpp:525:6:void MockNamedValueListNode::setNext(MockNamedValueListNode*)	16	static
+MockNamedValue.cpp:530:25:MockNamedValueListNode* MockNamedValueListNode::next()	16	static
+MockNamedValue.cpp:535:17:MockNamedValue* MockNamedValueListNode::item()	16	static
+MockNamedValue.cpp:540:6:void MockNamedValueListNode::destroy()	16	static
+MockNamedValue.cpp:545:1:MockNamedValueListNode::MockNamedValueListNode(MockNamedValue*)	16	static
+MockNamedValue.cpp:550:14:SimpleString MockNamedValueListNode::getName() const	16	static
+MockNamedValue.cpp:555:14:SimpleString MockNamedValueListNode::getType() const	16	static
+MockNamedValue.cpp:560:1:MockNamedValueList::MockNamedValueList()	16	static
+MockNamedValue.cpp:564:6:void MockNamedValueList::clear()	24	static
+MockNamedValue.cpp:574:6:void MockNamedValueList::add(MockNamedValue*)	32	static
+MockNamedValue.cpp:586:17:MockNamedValue* MockNamedValueList::getValueByName(const SimpleString&)	40	static
+MockNamedValue.cpp:594:25:MockNamedValueListNode* MockNamedValueList::begin()	16	static
+MockNamedValue.cpp:601:5:MockNamedValueComparatorsAndCopiersRepositoryNode::MockNamedValueComparatorsAndCopiersRepositoryNode(const SimpleString&, MockNamedValueComparator*, MockNamedValueComparatorsAndCopiersRepositoryNode*)	24	static
+MockNamedValue.cpp:603:5:MockNamedValueComparatorsAndCopiersRepositoryNode::MockNamedValueComparatorsAndCopiersRepositoryNode(const SimpleString&, MockNamedValueCopier*, MockNamedValueComparatorsAndCopiersRepositoryNode*)	24	static
+MockNamedValue.cpp:605:5:MockNamedValueComparatorsAndCopiersRepositoryNode::MockNamedValueComparatorsAndCopiersRepositoryNode(const SimpleString&, MockNamedValueComparator*, MockNamedValueCopier*, MockNamedValueComparatorsAndCopiersRepositoryNode*)	24	static
+MockNamedValue.cpp:613:1:MockNamedValueComparatorsAndCopiersRepository::MockNamedValueComparatorsAndCopiersRepository()	16	static
+MockNamedValue.cpp:618:1:MockNamedValueComparatorsAndCopiersRepository::~MockNamedValueComparatorsAndCopiersRepository()	16	static
+MockNamedValue.cpp:618:1:virtual MockNamedValueComparatorsAndCopiersRepository::~MockNamedValueComparatorsAndCopiersRepository()	16	static
+MockNamedValue.cpp:599:8:MockNamedValueComparatorsAndCopiersRepositoryNode::~MockNamedValueComparatorsAndCopiersRepositoryNode()	16	static
+MockNamedValue.cpp:623:6:void MockNamedValueComparatorsAndCopiersRepository::clear()	32	static
+MockNamedValue.cpp:632:6:virtual void MockNamedValueComparatorsAndCopiersRepository::installComparator(const SimpleString&, MockNamedValueComparator&)	32	static
+MockNamedValue.cpp:637:6:virtual void MockNamedValueComparatorsAndCopiersRepository::installCopier(const SimpleString&, MockNamedValueCopier&)	32	static
+MockNamedValue.cpp:642:27:virtual MockNamedValueComparator* MockNamedValueComparatorsAndCopiersRepository::getComparatorForType(const SimpleString&)	24	static
+MockNamedValue.cpp:649:23:virtual MockNamedValueCopier* MockNamedValueComparatorsAndCopiersRepository::getCopierForType(const SimpleString&)	24	static
+MockNamedValue.cpp:656:6:virtual void MockNamedValueComparatorsAndCopiersRepository::installComparatorsAndCopiers(const MockNamedValueComparatorsAndCopiersRepository&)	40	static

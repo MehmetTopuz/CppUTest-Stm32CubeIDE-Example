@@ -1,0 +1,35 @@
+SimpleStringInternalCache.cpp:44:1:SimpleStringInternalCache::SimpleStringInternalCache()	16	static
+SimpleStringInternalCache.cpp:50:1:SimpleStringInternalCache::~SimpleStringInternalCache()	16	static
+SimpleStringInternalCache.cpp:56:6:void SimpleStringInternalCache::setAllocator(TestMemoryAllocator*)	16	static
+SimpleStringInternalCache.cpp:61:32:SimpleStringInternalCacheNode* SimpleStringInternalCache::createInternalCacheNodes()	32	static
+SimpleStringInternalCache.cpp:77:6:bool SimpleStringInternalCache::isCached(size_t)	16	static
+SimpleStringInternalCache.cpp:82:8:size_t SimpleStringInternalCache::getIndexForCache(size_t)	24	static
+SimpleStringInternalCache.cpp:90:32:SimpleStringInternalCacheNode* SimpleStringInternalCache::getCacheNodeFromSize(size_t)	24	static
+SimpleStringInternalCache.cpp:96:6:void SimpleStringInternalCache::destroyInternalCacheNode(SimpleStringInternalCacheNode*)	32	static
+SimpleStringInternalCache.cpp:101:26:SimpleStringMemoryBlock* SimpleStringInternalCache::createSimpleStringMemoryBlock(size_t, SimpleStringMemoryBlock*)	40	static
+SimpleStringInternalCache.cpp:109:6:void SimpleStringInternalCache::destroySimpleStringMemoryBlock(SimpleStringMemoryBlock*, size_t)	40	static
+SimpleStringInternalCache.cpp:115:6:void SimpleStringInternalCache::destroySimpleStringMemoryBlockList(SimpleStringMemoryBlock*, size_t)	32	static
+SimpleStringInternalCache.cpp:125:26:SimpleStringMemoryBlock* SimpleStringInternalCache::addToSimpleStringMemoryBlockList(SimpleStringMemoryBlock*, SimpleStringMemoryBlock*)	24	static
+SimpleStringInternalCache.cpp:131:6:bool SimpleStringInternalCache::hasFreeBlocksOfSize(size_t)	16	static
+SimpleStringInternalCache.cpp:136:26:SimpleStringMemoryBlock* SimpleStringInternalCache::reserveCachedBlockFrom(SimpleStringInternalCacheNode*)	24	static
+SimpleStringInternalCache.cpp:144:26:SimpleStringMemoryBlock* SimpleStringInternalCache::allocateNewCacheBlockFrom(SimpleStringInternalCacheNode*)	24	static
+SimpleStringInternalCache.cpp:151:6:void SimpleStringInternalCache::printDeallocatingUnknownMemory(char*)	32	static
+SimpleStringInternalCache.cpp:162:6:void SimpleStringInternalCache::releaseCachedBlockFrom(char*, SimpleStringInternalCacheNode*)	40	static
+SimpleStringInternalCache.cpp:183:6:void SimpleStringInternalCache::releaseNonCachedMemory(char*, size_t)	40	static
+SimpleStringInternalCache.cpp:204:7:char* SimpleStringInternalCache::alloc(size_t)	16	static
+SimpleStringInternalCache.cpp:217:6:void SimpleStringInternalCache::dealloc(char*, size_t)	32	static
+SimpleStringInternalCache.cpp:228:6:void SimpleStringInternalCache::clearCache()	24	static
+SimpleStringInternalCache.cpp:236:6:void SimpleStringInternalCache::clearAllIncludingCurrentlyUsedMemory()	24	static
+SimpleStringInternalCache.cpp:249:1:GlobalSimpleStringCache::GlobalSimpleStringCache()	24	static
+SimpleStringInternalCache.cpp:255:1:GlobalSimpleStringCache::~GlobalSimpleStringCache()	16	static
+SimpleStringInternalCache.cpp:262:22:TestMemoryAllocator* GlobalSimpleStringCache::getAllocator()	16	static
+SimpleStringInternalCache.cpp:267:1:SimpleStringCacheAllocator::SimpleStringCacheAllocator(SimpleStringInternalCache&, TestMemoryAllocator*)	24	static
+SimpleStringInternalCache.cpp:273:1:SimpleStringCacheAllocator::~SimpleStringCacheAllocator()	16	static
+SimpleStringInternalCache.cpp:273:1:virtual SimpleStringCacheAllocator::~SimpleStringCacheAllocator()	16	static
+SimpleStringInternalCache.cpp:278:7:virtual char* SimpleStringCacheAllocator::alloc_memory(size_t, const char*, size_t)	24	static
+SimpleStringInternalCache.cpp:283:6:virtual void SimpleStringCacheAllocator::free_memory(char*, size_t, const char*, size_t)	24	static
+SimpleStringInternalCache.cpp:288:13:virtual const char* SimpleStringCacheAllocator::name() const	16	static
+SimpleStringInternalCache.cpp:293:13:virtual const char* SimpleStringCacheAllocator::alloc_name() const	16	static
+SimpleStringInternalCache.cpp:298:13:virtual const char* SimpleStringCacheAllocator::free_name() const	16	static
+SimpleStringInternalCache.cpp:303:22:virtual TestMemoryAllocator* SimpleStringCacheAllocator::actualAllocator()	16	static
+SimpleStringInternalCache.cpp:308:22:TestMemoryAllocator* SimpleStringCacheAllocator::originalAllocator()	16	static

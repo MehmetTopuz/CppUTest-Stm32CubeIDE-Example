@@ -1,0 +1,31 @@
+TestPlugin.h:41:18:virtual void TestPlugin::preTestAction(UtestShell&, TestResult&)	24	static
+TestPlugin.h:45:18:virtual void TestPlugin::postTestAction(UtestShell&, TestResult&)	24	static
+TestPlugin.h:49:18:virtual bool TestPlugin::parseArguments(int, const char* const*, int)	24	static
+TestPlugin.cpp:31:1:TestPlugin::TestPlugin(const SimpleString&)	16	static
+TestPlugin.cpp:36:1:TestPlugin::TestPlugin(TestPlugin*)	16	static
+TestPlugin.cpp:41:1:TestPlugin::~TestPlugin()	16	static
+TestPlugin.cpp:41:1:virtual TestPlugin::~TestPlugin()	16	static
+TestPlugin.cpp:45:13:virtual TestPlugin* TestPlugin::addPlugin(TestPlugin*)	16	static
+TestPlugin.cpp:51:6:virtual void TestPlugin::runAllPreTestAction(UtestShell&, TestResult&)	24	static
+TestPlugin.cpp:57:6:virtual void TestPlugin::runAllPostTestAction(UtestShell&, TestResult&)	24	static
+TestPlugin.cpp:63:6:virtual bool TestPlugin::parseAllArguments(int, char**, int)	32	static
+TestPlugin.cpp:68:6:virtual bool TestPlugin::parseAllArguments(int, const char* const*, int)	32	static
+TestPlugin.cpp:75:21:const SimpleString& TestPlugin::getName()	16	static
+TestPlugin.cpp:80:13:TestPlugin* TestPlugin::getPluginByName(const SimpleString&)	16	static
+TestPlugin.cpp:87:13:virtual TestPlugin* TestPlugin::getNext()	16	static
+TestPlugin.cpp:91:13:virtual TestPlugin* TestPlugin::removePluginByName(const SimpleString&)	24	static
+TestPlugin.cpp:101:6:virtual void TestPlugin::disable()	16	static
+TestPlugin.cpp:106:6:virtual void TestPlugin::enable()	16	static
+TestPlugin.cpp:111:6:virtual bool TestPlugin::isEnabled()	16	static
+TestPlugin.cpp:127:1:SetPointerPlugin::SetPointerPlugin(const SimpleString&)	16	static
+TestPlugin.cpp:133:6:void CppUTestStore(void**)	32	static
+TestPlugin.cpp:143:6:virtual void SetPointerPlugin::postTestAction(UtestShell&, TestResult&)	32	static
+TestPlugin.cpp:152:1:NullTestPlugin::NullTestPlugin()	16	static
+TestPlugin.cpp:159:27:void __tcf_0()	8	static
+TestPlugin.cpp:157:17:static NullTestPlugin* NullTestPlugin::instance()	8	static
+TestPlugin.cpp:163:6:virtual void NullTestPlugin::runAllPreTestAction(UtestShell&, TestResult&)	24	static
+TestPlugin.cpp:167:6:virtual void NullTestPlugin::runAllPostTestAction(UtestShell&, TestResult&)	24	static
+TestPlugin.h:105:7:NullTestPlugin::~NullTestPlugin()	16	static
+TestPlugin.h:105:7:virtual NullTestPlugin::~NullTestPlugin()	16	static
+TestPlugin.h:89:7:SetPointerPlugin::~SetPointerPlugin()	16	static
+TestPlugin.h:89:7:virtual SetPointerPlugin::~SetPointerPlugin()	16	static

@@ -1,0 +1,12 @@
+MemoryReportFormatter.h:37:13:MemoryReportFormatter::~MemoryReportFormatter()	16	static
+MemoryReportFormatter.h:37:13:virtual MemoryReportFormatter::~MemoryReportFormatter()	16	static
+MemoryReportFormatter.h:56:18:virtual void NormalMemoryReportFormatter::report_testgroup_end(TestResult*, UtestShell&)	24	static
+MemoryReportFormatter.h:34:7:constexpr MemoryReportFormatter::MemoryReportFormatter()	16	static
+MemoryReportFormatter.cpp:32:1:NormalMemoryReportFormatter::NormalMemoryReportFormatter()	16	static
+MemoryReportFormatter.cpp:36:1:NormalMemoryReportFormatter::~NormalMemoryReportFormatter()	16	static
+MemoryReportFormatter.cpp:36:1:virtual NormalMemoryReportFormatter::~NormalMemoryReportFormatter()	16	static
+MemoryReportFormatter.cpp:40:6:virtual void NormalMemoryReportFormatter::report_test_start(TestResult*, UtestShell&)	56	static
+MemoryReportFormatter.cpp:45:6:virtual void NormalMemoryReportFormatter::report_test_end(TestResult*, UtestShell&)	56	static
+MemoryReportFormatter.cpp:50:6:virtual void NormalMemoryReportFormatter::report_alloc_memory(TestResult*, TestMemoryAllocator*, size_t, char*, const char*, size_t)	56	static
+MemoryReportFormatter.cpp:55:6:virtual void NormalMemoryReportFormatter::report_free_memory(TestResult*, TestMemoryAllocator*, char*, const char*, size_t)	48	static
+MemoryReportFormatter.cpp:60:6:virtual void NormalMemoryReportFormatter::report_testgroup_start(TestResult*, UtestShell&)	72	static

@@ -1,0 +1,114 @@
+TestMemoryAllocator.cpp:33:14:char* checkedMalloc(size_t)	40	static
+TestMemoryAllocator.cpp:45:6:void setCurrentNewAllocator(TestMemoryAllocator*)	16	static
+TestMemoryAllocator.cpp:50:22:TestMemoryAllocator* getCurrentNewAllocator()	8	static
+TestMemoryAllocator.cpp:56:6:void setCurrentNewAllocatorToDefault()	8	static
+TestMemoryAllocator.cpp:63:83:void __tcf_0()	8	static
+TestMemoryAllocator.cpp:61:22:TestMemoryAllocator* defaultNewAllocator()	8	static
+TestMemoryAllocator.cpp:67:6:void setCurrentNewArrayAllocator(TestMemoryAllocator*)	16	static
+TestMemoryAllocator.cpp:72:22:TestMemoryAllocator* getCurrentNewArrayAllocator()	8	static
+TestMemoryAllocator.cpp:78:6:void setCurrentNewArrayAllocatorToDefault()	8	static
+TestMemoryAllocator.cpp:85:92:void __tcf_1()	8	static
+TestMemoryAllocator.cpp:83:22:TestMemoryAllocator* defaultNewArrayAllocator()	8	static
+TestMemoryAllocator.cpp:89:6:void setCurrentMallocAllocator(TestMemoryAllocator*)	16	static
+TestMemoryAllocator.cpp:94:22:TestMemoryAllocator* getCurrentMallocAllocator()	8	static
+TestMemoryAllocator.cpp:100:6:void setCurrentMallocAllocatorToDefault()	8	static
+TestMemoryAllocator.cpp:107:87:void __tcf_2()	8	static
+TestMemoryAllocator.cpp:105:22:TestMemoryAllocator* defaultMallocAllocator()	8	static
+TestMemoryAllocator.cpp:113:1:GlobalMemoryAllocatorStash::GlobalMemoryAllocatorStash()	16	static
+TestMemoryAllocator.cpp:118:6:void GlobalMemoryAllocatorStash::save()	16	static
+TestMemoryAllocator.cpp:125:6:void GlobalMemoryAllocatorStash::restore()	16	static
+TestMemoryAllocator.cpp:132:1:TestMemoryAllocator::TestMemoryAllocator(const char*, const char*, const char*)	24	static
+TestMemoryAllocator.cpp:137:1:TestMemoryAllocator::~TestMemoryAllocator()	16	static
+TestMemoryAllocator.cpp:137:1:virtual TestMemoryAllocator::~TestMemoryAllocator()	16	static
+TestMemoryAllocator.cpp:142:6:bool TestMemoryAllocator::hasBeenDestroyed()	16	static
+TestMemoryAllocator.cpp:147:6:virtual bool TestMemoryAllocator::isOfEqualType(TestMemoryAllocator*)	24	static
+TestMemoryAllocator.cpp:152:7:virtual char* TestMemoryAllocator::allocMemoryLeakNode(size_t)	24	static
+TestMemoryAllocator.cpp:157:6:virtual void TestMemoryAllocator::freeMemoryLeakNode(char*)	32	static
+TestMemoryAllocator.cpp:162:7:virtual char* TestMemoryAllocator::alloc_memory(size_t, const char*, size_t)	24	static
+TestMemoryAllocator.cpp:167:6:virtual void TestMemoryAllocator::free_memory(char*, size_t, const char*, size_t)	24	static
+TestMemoryAllocator.cpp:172:13:virtual const char* TestMemoryAllocator::name() const	16	static
+TestMemoryAllocator.cpp:177:13:virtual const char* TestMemoryAllocator::alloc_name() const	16	static
+TestMemoryAllocator.cpp:182:13:virtual const char* TestMemoryAllocator::free_name() const	16	static
+TestMemoryAllocator.cpp:187:22:virtual TestMemoryAllocator* TestMemoryAllocator::actualAllocator()	16	static
+TestMemoryAllocator.cpp:192:1:MemoryLeakAllocator::MemoryLeakAllocator(TestMemoryAllocator*)	16	static
+TestMemoryAllocator.cpp:197:1:MemoryLeakAllocator::~MemoryLeakAllocator()	16	static
+TestMemoryAllocator.cpp:197:1:virtual MemoryLeakAllocator::~MemoryLeakAllocator()	16	static
+TestMemoryAllocator.cpp:201:7:virtual char* MemoryLeakAllocator::alloc_memory(size_t, const char*, size_t)	32	static
+TestMemoryAllocator.cpp:206:6:virtual void MemoryLeakAllocator::free_memory(char*, size_t, const char*, size_t)	32	static
+TestMemoryAllocator.cpp:211:13:virtual const char* MemoryLeakAllocator::name() const	16	static
+TestMemoryAllocator.cpp:216:13:virtual const char* MemoryLeakAllocator::alloc_name() const	16	static
+TestMemoryAllocator.cpp:221:13:virtual const char* MemoryLeakAllocator::free_name() const	16	static
+TestMemoryAllocator.cpp:226:22:virtual TestMemoryAllocator* MemoryLeakAllocator::actualAllocator()	16	static
+TestMemoryAllocator.cpp:231:1:CrashOnAllocationAllocator::CrashOnAllocationAllocator()	16	static
+TestMemoryAllocator.cpp:235:1:CrashOnAllocationAllocator::~CrashOnAllocationAllocator()	16	static
+TestMemoryAllocator.cpp:235:1:virtual CrashOnAllocationAllocator::~CrashOnAllocationAllocator()	16	static
+TestMemoryAllocator.cpp:239:6:virtual void CrashOnAllocationAllocator::setNumberToCrashOn(unsigned int)	16	static
+TestMemoryAllocator.cpp:244:7:virtual char* CrashOnAllocationAllocator::alloc_memory(size_t, const char*, size_t)	24	static
+TestMemoryAllocator.cpp:253:1:NullUnknownAllocator::~NullUnknownAllocator()	16	static
+TestMemoryAllocator.cpp:253:1:virtual NullUnknownAllocator::~NullUnknownAllocator()	16	static
+TestMemoryAllocator.cpp:257:7:virtual char* NullUnknownAllocator::alloc_memory(size_t, const char*, size_t)	24	static
+TestMemoryAllocator.cpp:262:6:virtual void NullUnknownAllocator::free_memory(char*, size_t, const char*, size_t)	24	static
+TestMemoryAllocator.cpp:266:1:NullUnknownAllocator::NullUnknownAllocator()	16	static
+TestMemoryAllocator.cpp:274:33:void __tcf_3()	8	static
+TestMemoryAllocator.cpp:272:22:static TestMemoryAllocator* NullUnknownAllocator::defaultAllocator()	8	static
+TestMemoryAllocator.cpp:287:10:void LocationToFailAllocNode::failAtAllocNumber(int, LocationToFailAllocNode*)	24	static
+TestMemoryAllocator.cpp:293:10:void LocationToFailAllocNode::failNthAllocAt(int, const char*, size_t, LocationToFailAllocNode*)	24	static
+TestMemoryAllocator.cpp:301:10:bool LocationToFailAllocNode::shouldFail(int, const char*, size_t)	24	static
+TestMemoryAllocator.cpp:313:10:void LocationToFailAllocNode::init(LocationToFailAllocNode*)	16	static
+TestMemoryAllocator.cpp:324:1:FailableMemoryAllocator::~FailableMemoryAllocator()	16	static
+TestMemoryAllocator.cpp:324:1:virtual FailableMemoryAllocator::~FailableMemoryAllocator()	16	static
+TestMemoryAllocator.cpp:328:1:FailableMemoryAllocator::FailableMemoryAllocator(const char*, const char*, const char*)	24	static
+TestMemoryAllocator.cpp:333:6:virtual void FailableMemoryAllocator::failAllocNumber(int)	24	static
+TestMemoryAllocator.cpp:340:6:virtual void FailableMemoryAllocator::failNthAllocAt(int, const char*, size_t)	40	static
+TestMemoryAllocator.cpp:347:7:virtual char* FailableMemoryAllocator::alloc_memory(size_t, const char*, size_t)	48	static
+TestMemoryAllocator.cpp:367:7:virtual char* FailableMemoryAllocator::allocMemoryLeakNode(size_t)	16	static
+TestMemoryAllocator.cpp:372:6:virtual void FailableMemoryAllocator::checkAllFailedAllocsWereDone()	120	static
+TestMemoryAllocator.cpp:386:6:virtual void FailableMemoryAllocator::clearFailedAllocs()	40	static
+TestMemoryAllocator.cpp:407:33:MemoryAccountantAllocationNode* MemoryAccountant::createNewAccountantAllocationNode(size_t, MemoryAccountantAllocationNode*) const	40	static
+TestMemoryAllocator.cpp:419:6:void MemoryAccountant::destroyAccountantAllocationNode(MemoryAccountantAllocationNode*) const	32	static
+TestMemoryAllocator.cpp:424:1:MemoryAccountant::MemoryAccountant()	16	static
+TestMemoryAllocator.cpp:429:1:MemoryAccountant::~MemoryAccountant()	16	static
+TestMemoryAllocator.cpp:434:6:void MemoryAccountant::createCacheSizeNodes(size_t*, size_t)	32	static
+TestMemoryAllocator.cpp:452:6:void MemoryAccountant::useCacheSizes(size_t*, size_t)	40	static
+TestMemoryAllocator.cpp:461:6:void MemoryAccountant::setAllocator(TestMemoryAllocator*)	16	static
+TestMemoryAllocator.cpp:466:6:void MemoryAccountant::clear()	24	static
+TestMemoryAllocator.cpp:478:33:MemoryAccountantAllocationNode* MemoryAccountant::findNodeOfSize(size_t) const	24	static
+TestMemoryAllocator.cpp:495:33:MemoryAccountantAllocationNode* MemoryAccountant::findOrCreateNodeOfSize(size_t)	24	static
+TestMemoryAllocator.cpp:513:6:void MemoryAccountant::alloc(size_t)	24	static
+TestMemoryAllocator.cpp:521:6:void MemoryAccountant::dealloc(size_t)	24	static
+TestMemoryAllocator.cpp:529:8:size_t MemoryAccountant::totalAllocationsOfSize(size_t) const	24	static
+TestMemoryAllocator.cpp:537:8:size_t MemoryAccountant::totalDeallocationsOfSize(size_t) const	24	static
+TestMemoryAllocator.cpp:545:8:size_t MemoryAccountant::maximumAllocationAtATimeOfSize(size_t) const	24	static
+TestMemoryAllocator.cpp:553:8:size_t MemoryAccountant::totalAllocations() const	24	static
+TestMemoryAllocator.cpp:563:8:size_t MemoryAccountant::totalDeallocations() const	24	static
+TestMemoryAllocator.cpp:573:14:SimpleString MemoryAccountant::reportNoAllocations() const	16	static
+TestMemoryAllocator.cpp:578:14:SimpleString MemoryAccountant::reportTitle() const	16	static
+TestMemoryAllocator.cpp:585:14:SimpleString MemoryAccountant::reportHeader() const	16	static
+TestMemoryAllocator.cpp:594:14:SimpleString MemoryAccountant::reportFooter() const	16	static
+TestMemoryAllocator.cpp:599:14:SimpleString MemoryAccountant::stringSize(size_t) const	24	static
+TestMemoryAllocator.cpp:604:14:SimpleString MemoryAccountant::report() const	88	static
+TestMemoryAllocator.cpp:617:1:AccountingTestMemoryAllocator::AccountingTestMemoryAllocator(MemoryAccountant&, TestMemoryAllocator*)	24	static
+TestMemoryAllocator.cpp:622:1:AccountingTestMemoryAllocator::~AccountingTestMemoryAllocator()	16	static
+TestMemoryAllocator.cpp:622:1:virtual AccountingTestMemoryAllocator::~AccountingTestMemoryAllocator()	16	static
+TestMemoryAllocator.cpp:633:6:void AccountingTestMemoryAllocator::addMemoryToMemoryTrackingToKeepTrackOfSize(char*, size_t)	40	static
+TestMemoryAllocator.cpp:642:8:size_t AccountingTestMemoryAllocator::removeNextNodeAndReturnSize(AccountingTestMemoryAllocatorMemoryNode*)	40	static
+TestMemoryAllocator.cpp:652:8:size_t AccountingTestMemoryAllocator::removeHeadAndReturnSize()	40	static
+TestMemoryAllocator.cpp:662:8:size_t AccountingTestMemoryAllocator::removeMemoryFromTrackingAndReturnAllocatedSize(char*)	24	static
+TestMemoryAllocator.cpp:675:7:virtual char* AccountingTestMemoryAllocator::alloc_memory(size_t, const char*, size_t)	40	static
+TestMemoryAllocator.cpp:683:6:virtual void AccountingTestMemoryAllocator::free_memory(char*, size_t, const char*, size_t)	48	static
+TestMemoryAllocator.cpp:690:22:virtual TestMemoryAllocator* AccountingTestMemoryAllocator::actualAllocator()	16	static
+TestMemoryAllocator.cpp:695:22:TestMemoryAllocator* AccountingTestMemoryAllocator::originalAllocator()	16	static
+TestMemoryAllocator.cpp:700:13:virtual const char* AccountingTestMemoryAllocator::alloc_name() const	16	static
+TestMemoryAllocator.cpp:705:13:virtual const char* AccountingTestMemoryAllocator::free_name() const	16	static
+TestMemoryAllocator.cpp:710:1:GlobalMemoryAccountant::GlobalMemoryAccountant()	16	static
+TestMemoryAllocator.cpp:715:1:GlobalMemoryAccountant::~GlobalMemoryAccountant()	16	static
+TestMemoryAllocator.cpp:723:6:void GlobalMemoryAccountant::useCacheSizes(size_t*, size_t)	24	static
+TestMemoryAllocator.cpp:728:6:void GlobalMemoryAccountant::start()	32	static
+TestMemoryAllocator.cpp:744:6:void GlobalMemoryAccountant::restoreMemoryAllocators()	16	static
+TestMemoryAllocator.cpp:756:6:void GlobalMemoryAccountant::stop()	32	static
+TestMemoryAllocator.cpp:773:14:SimpleString GlobalMemoryAccountant::report()	16	static
+TestMemoryAllocator.cpp:778:22:TestMemoryAllocator* GlobalMemoryAccountant::getMallocAllocator()	16	static
+TestMemoryAllocator.cpp:783:22:TestMemoryAllocator* GlobalMemoryAccountant::getNewAllocator()	16	static
+TestMemoryAllocator.cpp:788:22:TestMemoryAllocator* GlobalMemoryAccountant::getNewArrayAllocator()	16	static
+TestFailure.h:119:7:FailFailure::~FailFailure()	16	static
+TestFailure.h:119:7:virtual FailFailure::~FailFailure()	16	static

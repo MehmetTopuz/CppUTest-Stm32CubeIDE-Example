@@ -1,0 +1,45 @@
+MockFailure.h:45:13:MockFailureReporter::~MockFailureReporter()	16	static
+MockFailure.h:45:13:virtual MockFailureReporter::~MockFailureReporter()	16	static
+MockFailure.h:50:18:virtual void MockFailureReporter::crashOnFailure(bool)	16	static
+MockFailure.h:57:13:MockFailure::~MockFailure()	16	static
+MockFailure.h:57:13:virtual MockFailure::~MockFailure()	16	static
+Utest.h:62:7:constexpr TestTerminator::TestTerminator()	16	static
+MockFailure.cpp:37:5:MockFailureReporterTestTerminator::MockFailureReporterTestTerminator(bool)	16	static
+MockFailure.cpp:41:18:virtual void MockFailureReporterTestTerminator::exitCurrentTest() const	16	static
+MockFailure.cpp:49:13:MockFailureReporterTestTerminator::~MockFailureReporterTestTerminator()	16	static
+MockFailure.cpp:49:13:virtual MockFailureReporterTestTerminator::~MockFailureReporterTestTerminator()	16	static
+MockFailure.cpp:57:6:virtual void MockFailureReporter::failTest(const MockFailure&)	40	static
+MockFailure.cpp:63:13:virtual UtestShell* MockFailureReporter::getTestToFail()	16	static
+MockFailure.cpp:68:1:MockFailure::MockFailure(UtestShell*)	32	static
+MockFailure.cpp:72:6:void MockFailure::addExpectationsAndCallHistory(const MockExpectedCallsList&)	56	static
+MockFailure.cpp:80:6:void MockFailure::addExpectationsAndCallHistoryRelatedTo(const SimpleString&, const MockExpectedCallsList&)	72	static
+MockFailure.cpp:98:1:MockExpectedCallsDidntHappenFailure::MockExpectedCallsDidntHappenFailure(UtestShell*, const MockExpectedCallsList&)	40	static
+MockFailure.cpp:104:1:MockUnexpectedCallHappenedFailure::MockUnexpectedCallHappenedFailure(UtestShell*, const SimpleString&, const MockExpectedCallsList&)	64	static
+MockFailure.cpp:118:1:MockCallOrderFailure::MockCallOrderFailure(UtestShell*, const MockExpectedCallsList&)	48	static
+MockFailure.cpp:129:1:MockUnexpectedInputParameterFailure::MockUnexpectedInputParameterFailure(UtestShell*, const SimpleString&, const MockNamedValue&, const MockExpectedCallsList&)	112	static
+MockFailure.cpp:167:1:MockUnexpectedOutputParameterFailure::MockUnexpectedOutputParameterFailure(UtestShell*, const SimpleString&, const MockNamedValue&, const MockExpectedCallsList&)	104	static
+MockFailure.cpp:202:1:MockExpectedParameterDidntHappenFailure::MockExpectedParameterDidntHappenFailure(UtestShell*, const SimpleString&, const MockExpectedCallsList&)	56	static
+MockFailure.cpp:218:1:MockNoWayToCompareCustomTypeFailure::MockNoWayToCompareCustomTypeFailure(UtestShell*, const SimpleString&)	40	static
+MockFailure.cpp:223:1:MockNoWayToCopyCustomTypeFailure::MockNoWayToCopyCustomTypeFailure(UtestShell*, const SimpleString&)	40	static
+MockFailure.cpp:228:1:MockUnexpectedObjectFailure::MockUnexpectedObjectFailure(UtestShell*, const SimpleString&, const void*, const MockExpectedCallsList&)	40	static
+MockFailure.cpp:235:1:MockExpectedObjectDidntHappenFailure::MockExpectedObjectDidntHappenFailure(UtestShell*, const SimpleString&, const MockExpectedCallsList&)	40	static
+MockFailure.h:117:7:MockExpectedObjectDidntHappenFailure::~MockExpectedObjectDidntHappenFailure()	16	static
+MockFailure.h:117:7:virtual MockExpectedObjectDidntHappenFailure::~MockExpectedObjectDidntHappenFailure()	16	static
+MockFailure.h:111:7:MockUnexpectedObjectFailure::~MockUnexpectedObjectFailure()	16	static
+MockFailure.h:111:7:virtual MockUnexpectedObjectFailure::~MockUnexpectedObjectFailure()	16	static
+MockFailure.h:105:7:MockNoWayToCopyCustomTypeFailure::~MockNoWayToCopyCustomTypeFailure()	16	static
+MockFailure.h:105:7:virtual MockNoWayToCopyCustomTypeFailure::~MockNoWayToCopyCustomTypeFailure()	16	static
+MockFailure.h:99:7:MockNoWayToCompareCustomTypeFailure::~MockNoWayToCompareCustomTypeFailure()	16	static
+MockFailure.h:99:7:virtual MockNoWayToCompareCustomTypeFailure::~MockNoWayToCompareCustomTypeFailure()	16	static
+MockFailure.h:93:7:MockExpectedParameterDidntHappenFailure::~MockExpectedParameterDidntHappenFailure()	16	static
+MockFailure.h:93:7:virtual MockExpectedParameterDidntHappenFailure::~MockExpectedParameterDidntHappenFailure()	16	static
+MockFailure.h:87:7:MockUnexpectedOutputParameterFailure::~MockUnexpectedOutputParameterFailure()	16	static
+MockFailure.h:87:7:virtual MockUnexpectedOutputParameterFailure::~MockUnexpectedOutputParameterFailure()	16	static
+MockFailure.h:81:7:MockUnexpectedInputParameterFailure::~MockUnexpectedInputParameterFailure()	16	static
+MockFailure.h:81:7:virtual MockUnexpectedInputParameterFailure::~MockUnexpectedInputParameterFailure()	16	static
+MockFailure.h:75:7:MockCallOrderFailure::~MockCallOrderFailure()	16	static
+MockFailure.h:75:7:virtual MockCallOrderFailure::~MockCallOrderFailure()	16	static
+MockFailure.h:69:7:MockUnexpectedCallHappenedFailure::~MockUnexpectedCallHappenedFailure()	16	static
+MockFailure.h:69:7:virtual MockUnexpectedCallHappenedFailure::~MockUnexpectedCallHappenedFailure()	16	static
+MockFailure.h:63:7:MockExpectedCallsDidntHappenFailure::~MockExpectedCallsDidntHappenFailure()	16	static
+MockFailure.h:63:7:virtual MockExpectedCallsDidntHappenFailure::~MockExpectedCallsDidntHappenFailure()	16	static

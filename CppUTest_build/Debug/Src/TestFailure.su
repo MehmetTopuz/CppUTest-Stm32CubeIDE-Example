@@ -1,0 +1,70 @@
+TestFailure.cpp:34:1:TestFailure::TestFailure(UtestShell*, const char*, size_t, const SimpleString&)	24	static
+TestFailure.cpp:39:1:TestFailure::TestFailure(UtestShell*, const SimpleString&)	24	static
+TestFailure.cpp:44:1:TestFailure::TestFailure(UtestShell*, const char*, size_t)	24	static
+TestFailure.cpp:49:1:TestFailure::TestFailure(const TestFailure&)	16	static
+TestFailure.cpp:55:1:TestFailure::~TestFailure()	16	static
+TestFailure.cpp:55:1:virtual TestFailure::~TestFailure()	16	static
+TestFailure.cpp:59:14:virtual SimpleString TestFailure::getFileName() const	16	static
+TestFailure.cpp:64:14:virtual SimpleString TestFailure::getTestFileName() const	16	static
+TestFailure.cpp:69:14:virtual SimpleString TestFailure::getTestName() const	16	static
+TestFailure.cpp:74:14:virtual SimpleString TestFailure::getTestNameOnly() const	16	static
+TestFailure.cpp:79:8:virtual size_t TestFailure::getFailureLineNumber() const	16	static
+TestFailure.cpp:84:8:virtual size_t TestFailure::getTestLineNumber() const	16	static
+TestFailure.cpp:89:14:virtual SimpleString TestFailure::getMessage() const	16	static
+TestFailure.cpp:94:6:bool TestFailure::isOutsideTestFile() const	16	static
+TestFailure.cpp:99:6:bool TestFailure::isInHelperFunction() const	16	static
+TestFailure.cpp:104:14:SimpleString TestFailure::createButWasString(const SimpleString&, const SimpleString&)	32	static
+TestFailure.cpp:109:14:SimpleString TestFailure::createDifferenceAtPosString(const SimpleString&, size_t, size_t)	104	static
+TestFailure.cpp:127:14:SimpleString TestFailure::createUserText(const SimpleString&)	40	static
+TestFailure.cpp:143:1:EqualsFailure::EqualsFailure(UtestShell*, const char*, size_t, const char*, const char*, const SimpleString&)	64	static
+TestFailure.cpp:151:1:EqualsFailure::EqualsFailure(UtestShell*, const char*, size_t, const SimpleString&, const SimpleString&, const SimpleString&)	48	static
+TestFailure.cpp:159:1:DoublesEqualFailure::DoublesEqualFailure(UtestShell*, const char*, size_t, double, double, double, const SimpleString&)	96	static
+TestFailure.cpp:173:1:CheckEqualFailure::CheckEqualFailure(UtestShell*, const char*, size_t, const SimpleString&, const SimpleString&, const SimpleString&)	88	static
+TestFailure.cpp:192:1:ComparisonFailure::ComparisonFailure(UtestShell*, const char*, size_t, const SimpleString&, const SimpleString&, const SimpleString&)	40	static
+TestFailure.cpp:202:1:ContainsFailure::ContainsFailure(UtestShell*, const char*, size_t, const SimpleString&, const SimpleString&, const SimpleString&)	48	static
+TestFailure.cpp:210:1:CheckFailure::CheckFailure(UtestShell*, const char*, size_t, const SimpleString&, const SimpleString&, const SimpleString&)	40	static
+TestFailure.cpp:221:1:FailFailure::FailFailure(UtestShell*, const char*, size_t, const SimpleString&)	24	static
+TestFailure.cpp:226:1:LongsEqualFailure::LongsEqualFailure(UtestShell*, const char*, size_t, long int, long int, const SimpleString&)	128	static
+TestFailure.cpp:241:1:UnsignedLongsEqualFailure::UnsignedLongsEqualFailure(UtestShell*, const char*, size_t, long unsigned int, long unsigned int, const SimpleString&)	128	static
+TestFailure.cpp:257:1:LongLongsEqualFailure::LongLongsEqualFailure(UtestShell*, const char*, size_t, cpputest_longlong, cpputest_longlong, const SimpleString&)	128	static
+TestFailure.cpp:272:1:UnsignedLongLongsEqualFailure::UnsignedLongLongsEqualFailure(UtestShell*, const char*, size_t, cpputest_ulonglong, cpputest_ulonglong, const SimpleString&)	128	static
+TestFailure.cpp:287:1:SignedBytesEqualFailure::SignedBytesEqualFailure(UtestShell*, const char*, size_t, signed char, signed char, const SimpleString&)	128	static
+TestFailure.cpp:302:1:StringEqualFailure::StringEqualFailure(UtestShell*, const char*, size_t, const char*, const char*, const SimpleString&)	88	static
+TestFailure.cpp:323:1:StringEqualNoCaseFailure::StringEqualNoCaseFailure(UtestShell*, const char*, size_t, const char*, const char*, const SimpleString&)	88	static
+TestFailure.cpp:346:1:BinaryEqualFailure::BinaryEqualFailure(UtestShell*, const char*, size_t, const unsigned char*, const unsigned char*, size_t, const SimpleString&)	88	static
+TestFailure.cpp:364:1:BitsEqualFailure::BitsEqualFailure(UtestShell*, const char*, size_t, long unsigned int, long unsigned int, long unsigned int, size_t, const SimpleString&)	64	static
+TestFailure.cpp:373:1:FeatureUnsupportedFailure::FeatureUnsupportedFailure(UtestShell*, const char*, size_t, const SimpleString&, const SimpleString&)	48	static
+TestFailure.h:179:7:FeatureUnsupportedFailure::~FeatureUnsupportedFailure()	16	static
+TestFailure.h:179:7:virtual FeatureUnsupportedFailure::~FeatureUnsupportedFailure()	16	static
+TestFailure.h:173:7:BitsEqualFailure::~BitsEqualFailure()	16	static
+TestFailure.h:173:7:virtual BitsEqualFailure::~BitsEqualFailure()	16	static
+TestFailure.h:167:7:BinaryEqualFailure::~BinaryEqualFailure()	16	static
+TestFailure.h:167:7:virtual BinaryEqualFailure::~BinaryEqualFailure()	16	static
+TestFailure.h:161:7:StringEqualNoCaseFailure::~StringEqualNoCaseFailure()	16	static
+TestFailure.h:161:7:virtual StringEqualNoCaseFailure::~StringEqualNoCaseFailure()	16	static
+TestFailure.h:155:7:StringEqualFailure::~StringEqualFailure()	16	static
+TestFailure.h:155:7:virtual StringEqualFailure::~StringEqualFailure()	16	static
+TestFailure.h:149:7:SignedBytesEqualFailure::~SignedBytesEqualFailure()	16	static
+TestFailure.h:149:7:virtual SignedBytesEqualFailure::~SignedBytesEqualFailure()	16	static
+TestFailure.h:143:7:UnsignedLongLongsEqualFailure::~UnsignedLongLongsEqualFailure()	16	static
+TestFailure.h:143:7:virtual UnsignedLongLongsEqualFailure::~UnsignedLongLongsEqualFailure()	16	static
+TestFailure.h:137:7:LongLongsEqualFailure::~LongLongsEqualFailure()	16	static
+TestFailure.h:137:7:virtual LongLongsEqualFailure::~LongLongsEqualFailure()	16	static
+TestFailure.h:131:7:UnsignedLongsEqualFailure::~UnsignedLongsEqualFailure()	16	static
+TestFailure.h:131:7:virtual UnsignedLongsEqualFailure::~UnsignedLongsEqualFailure()	16	static
+TestFailure.h:125:7:LongsEqualFailure::~LongsEqualFailure()	16	static
+TestFailure.h:125:7:virtual LongsEqualFailure::~LongsEqualFailure()	16	static
+TestFailure.h:119:7:FailFailure::~FailFailure()	16	static
+TestFailure.h:119:7:virtual FailFailure::~FailFailure()	16	static
+TestFailure.h:113:7:CheckFailure::~CheckFailure()	16	static
+TestFailure.h:113:7:virtual CheckFailure::~CheckFailure()	16	static
+TestFailure.h:107:7:ContainsFailure::~ContainsFailure()	16	static
+TestFailure.h:107:7:virtual ContainsFailure::~ContainsFailure()	16	static
+TestFailure.h:101:7:ComparisonFailure::~ComparisonFailure()	16	static
+TestFailure.h:101:7:virtual ComparisonFailure::~ComparisonFailure()	16	static
+TestFailure.h:95:7:CheckEqualFailure::~CheckEqualFailure()	16	static
+TestFailure.h:95:7:virtual CheckEqualFailure::~CheckEqualFailure()	16	static
+TestFailure.h:89:7:DoublesEqualFailure::~DoublesEqualFailure()	16	static
+TestFailure.h:89:7:virtual DoublesEqualFailure::~DoublesEqualFailure()	16	static
+TestFailure.h:82:7:EqualsFailure::~EqualsFailure()	16	static
+TestFailure.h:82:7:virtual EqualsFailure::~EqualsFailure()	16	static

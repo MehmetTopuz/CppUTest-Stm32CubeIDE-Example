@@ -1,0 +1,12 @@
+TestFilter.cpp:31:1:TestFilter::TestFilter()	16	static
+TestFilter.cpp:35:1:TestFilter::TestFilter(const SimpleString&)	16	static
+TestFilter.cpp:40:1:TestFilter::TestFilter(const char*)	32	static
+TestFilter.cpp:45:13:TestFilter* TestFilter::add(TestFilter*)	16	static
+TestFilter.cpp:51:13:TestFilter* TestFilter::getNext() const	16	static
+TestFilter.cpp:56:6:void TestFilter::strictMatching()	16	static
+TestFilter.cpp:61:6:void TestFilter::invertMatching()	16	static
+TestFilter.cpp:66:6:bool TestFilter::match(const SimpleString&) const	24	static
+TestFilter.cpp:78:6:bool TestFilter::operator==(const TestFilter&) const	16	static
+TestFilter.cpp:85:6:bool TestFilter::operator!=(const TestFilter&) const	16	static
+TestFilter.cpp:90:14:SimpleString TestFilter::asString() const	16	static
+TestFilter.cpp:103:14:SimpleString StringFrom(const TestFilter&)	16	static

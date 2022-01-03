@@ -1,0 +1,90 @@
+MemoryLeakDetector.h:142:5:MemoryLeakDetectorList::MemoryLeakDetectorList()	16	static
+MemoryLeakDetector.cpp:37:1:SimpleStringBuffer::SimpleStringBuffer()	16	static
+MemoryLeakDetector.cpp:43:6:void SimpleStringBuffer::clear()	16	static
+MemoryLeakDetector.cpp:49:6:)	36	static
+MemoryLeakDetector.cpp:62:6:void SimpleStringBuffer::addMemoryDump(const void*, size_t)	56	static
+MemoryLeakDetector.cpp:103:7:char* SimpleStringBuffer::toString()	16	static
+MemoryLeakDetector.cpp:108:6:void SimpleStringBuffer::setWriteLimit(size_t)	16	static
+MemoryLeakDetector.cpp:114:6:void SimpleStringBuffer::resetWriteLimit()	16	static
+MemoryLeakDetector.cpp:119:6:bool SimpleStringBuffer::reachedItsCapacity()	16	static
+MemoryLeakDetector.cpp:133:1:MemoryLeakOutputStringBuffer::MemoryLeakOutputStringBuffer()	16	static
+MemoryLeakDetector.cpp:138:6:void MemoryLeakOutputStringBuffer::addAllocationLocation(const char*, size_t, size_t, TestMemoryAllocator*)	40	static
+MemoryLeakDetector.cpp:143:6:void MemoryLeakOutputStringBuffer::addDeallocationLocation(const char*, size_t, TestMemoryAllocator*)	40	static
+MemoryLeakDetector.cpp:148:6:void MemoryLeakOutputStringBuffer::addNoMemoryLeaksMessage()	16	static
+MemoryLeakDetector.cpp:153:6:void MemoryLeakOutputStringBuffer::startMemoryLeakReporting()	24	static
+MemoryLeakDetector.cpp:164:6:void MemoryLeakOutputStringBuffer::reportMemoryLeak(MemoryLeakDetectorNode*)	56	static
+MemoryLeakDetector.cpp:179:6:void MemoryLeakOutputStringBuffer::stopMemoryLeakReporting()	24	static
+MemoryLeakDetector.cpp:199:6:void MemoryLeakOutputStringBuffer::addMemoryLeakHeader()	16	static
+MemoryLeakDetector.cpp:204:6:void MemoryLeakOutputStringBuffer::addErrorMessageForTooMuchLeaks()	16	static
+MemoryLeakDetector.cpp:209:6:void MemoryLeakOutputStringBuffer::addMemoryLeakFooter(size_t)	16	static
+MemoryLeakDetector.cpp:214:6:void MemoryLeakOutputStringBuffer::addWarningForUsingMalloc()	16	static
+MemoryLeakDetector.cpp:219:6:void MemoryLeakOutputStringBuffer::reportDeallocateNonAllocatedMemoryFailure(const char*, size_t, TestMemoryAllocator*, MemoryLeakFailure*)	48	static
+MemoryLeakDetector.cpp:224:6:void MemoryLeakOutputStringBuffer::reportAllocationDeallocationMismatchFailure(MemoryLeakDetectorNode*, const char*, size_t, TestMemoryAllocator*, MemoryLeakFailure*)	56	static
+MemoryLeakDetector.cpp:229:6:void MemoryLeakOutputStringBuffer::reportMemoryCorruptionFailure(MemoryLeakDetectorNode*, const char*, size_t, TestMemoryAllocator*, MemoryLeakFailure*)	56	static
+MemoryLeakDetector.cpp:234:6:void MemoryLeakOutputStringBuffer::reportFailure(const char*, const char*, size_t, size_t, TestMemoryAllocator*, const char*, size_t, TestMemoryAllocator*, MemoryLeakFailure*)	40	static
+MemoryLeakDetector.cpp:244:7:char* MemoryLeakOutputStringBuffer::toString()	16	static
+MemoryLeakDetector.cpp:249:6:void MemoryLeakOutputStringBuffer::clear()	16	static
+MemoryLeakDetector.cpp:256:6:void MemoryLeakDetectorNode::init(char*, unsigned int, size_t, TestMemoryAllocator*, MemLeakPeriod, unsigned char, const char*, size_t)	24	static
+MemoryLeakDetector.cpp:270:6:bool MemoryLeakDetectorList::isInPeriod(MemoryLeakDetectorNode*, MemLeakPeriod)	24	static
+MemoryLeakDetector.cpp:275:6:bool MemoryLeakDetectorList::isInAllocationStage(MemoryLeakDetectorNode*, unsigned char)	24	static
+MemoryLeakDetector.cpp:280:6:void MemoryLeakDetectorList::clearAllAccounting(MemLeakPeriod)	24	static
+MemoryLeakDetector.cpp:302:6:void MemoryLeakDetectorList::addNewNode(MemoryLeakDetectorNode*)	16	static
+MemoryLeakDetector.cpp:308:25:MemoryLeakDetectorNode* MemoryLeakDetectorList::removeNode(char*)	24	static
+MemoryLeakDetector.cpp:329:25:MemoryLeakDetectorNode* MemoryLeakDetectorList::retrieveNode(char*)	24	static
+MemoryLeakDetector.cpp:340:25:MemoryLeakDetectorNode* MemoryLeakDetectorList::getLeakFrom(MemoryLeakDetectorNode*, MemLeakPeriod)	32	static
+MemoryLeakDetector.cpp:347:25:MemoryLeakDetectorNode* MemoryLeakDetectorList::getLeakForAllocationStageFrom(MemoryLeakDetectorNode*, unsigned char)	32	static
+MemoryLeakDetector.cpp:354:25:MemoryLeakDetectorNode* MemoryLeakDetectorList::getFirstLeak(MemLeakPeriod)	16	static
+MemoryLeakDetector.cpp:359:25:MemoryLeakDetectorNode* MemoryLeakDetectorList::getFirstLeakForAllocationStage(unsigned char)	16	static
+MemoryLeakDetector.cpp:364:25:MemoryLeakDetectorNode* MemoryLeakDetectorList::getNextLeak(MemoryLeakDetectorNode*, MemLeakPeriod)	24	static
+MemoryLeakDetector.cpp:369:25:MemoryLeakDetectorNode* MemoryLeakDetectorList::getNextLeakForAllocationStage(MemoryLeakDetectorNode*, unsigned char)	24	static
+MemoryLeakDetector.cpp:376:8:size_t MemoryLeakDetectorList::getTotalLeaks(MemLeakPeriod)	24	static
+MemoryLeakDetector.cpp:387:15:long unsigned int MemoryLeakDetectorTable::hash(char*)	16	static
+MemoryLeakDetector.cpp:392:6:void MemoryLeakDetectorTable::clearAllAccounting(MemLeakPeriod)	24	static
+MemoryLeakDetector.cpp:398:6:void MemoryLeakDetectorTable::addNewNode(MemoryLeakDetectorNode*)	16	static
+MemoryLeakDetector.cpp:403:25:MemoryLeakDetectorNode* MemoryLeakDetectorTable::removeNode(char*)	16	static
+MemoryLeakDetector.cpp:408:25:MemoryLeakDetectorNode* MemoryLeakDetectorTable::retrieveNode(char*)	16	static
+MemoryLeakDetector.cpp:413:8:size_t MemoryLeakDetectorTable::getTotalLeaks(MemLeakPeriod)	24	static
+MemoryLeakDetector.cpp:421:25:MemoryLeakDetectorNode* MemoryLeakDetectorTable::getFirstLeak(MemLeakPeriod)	24	static
+MemoryLeakDetector.cpp:430:25:MemoryLeakDetectorNode* MemoryLeakDetectorTable::getFirstLeakForAllocationStage(unsigned char)	24	static
+MemoryLeakDetector.cpp:439:25:MemoryLeakDetectorNode* MemoryLeakDetectorTable::getNextLeak(MemoryLeakDetectorNode*, MemLeakPeriod)	32	static
+MemoryLeakDetector.cpp:452:25:MemoryLeakDetectorNode* MemoryLeakDetectorTable::getNextLeakForAllocationStage(MemoryLeakDetectorNode*, unsigned char)	32	static
+MemoryLeakDetector.h:169:8:MemoryLeakDetectorTable::MemoryLeakDetectorTable()	24	static
+MemoryLeakDetector.cpp:467:1:MemoryLeakDetector::MemoryLeakDetector(MemoryLeakFailure*)	24	static
+MemoryLeakDetector.cpp:477:1:MemoryLeakDetector::~MemoryLeakDetector()	24	static
+MemoryLeakDetector.cpp:477:1:virtual MemoryLeakDetector::~MemoryLeakDetector()	16	static
+MemoryLeakDetector.cpp:485:6:void MemoryLeakDetector::clearAllAccounting(MemLeakPeriod)	16	static
+MemoryLeakDetector.cpp:490:6:void MemoryLeakDetector::startChecking()	16	static
+MemoryLeakDetector.cpp:496:6:void MemoryLeakDetector::stopChecking()	16	static
+MemoryLeakDetector.cpp:501:15:unsigned char MemoryLeakDetector::getCurrentAllocationStage() const	16	static
+MemoryLeakDetector.cpp:506:6:void MemoryLeakDetector::enable()	16	static
+MemoryLeakDetector.cpp:511:6:void MemoryLeakDetector::disable()	16	static
+MemoryLeakDetector.cpp:516:6:void MemoryLeakDetector::disableAllocationTypeChecking()	16	static
+MemoryLeakDetector.cpp:521:6:void MemoryLeakDetector::enableAllocationTypeChecking()	16	static
+MemoryLeakDetector.cpp:526:10:unsigned int MemoryLeakDetector::getCurrentAllocationNumber()	16	static
+MemoryLeakDetector.cpp:531:6:void MemoryLeakDetector::increaseAllocationStage()	16	static
+MemoryLeakDetector.cpp:536:6:void MemoryLeakDetector::decreaseAllocationStage()	16	static
+MemoryLeakDetector.cpp:541:14:SimpleMutex* MemoryLeakDetector::getMutex()	16	static
+MemoryLeakDetector.cpp:546:15:size_t calculateVoidPointerAlignedSize(size_t)	16	static
+MemoryLeakDetector.cpp:555:8:size_t MemoryLeakDetector::sizeOfMemoryWithCorruptionInfo(size_t)	16	static
+MemoryLeakDetector.cpp:560:25:MemoryLeakDetectorNode* MemoryLeakDetector::getNodeFromMemoryPointer(char*, size_t)	24	static
+MemoryLeakDetector.cpp:565:6:void MemoryLeakDetector::storeLeakInformation(MemoryLeakDetectorNode*, char*, size_t, TestMemoryAllocator*, const char*, size_t)	48	static
+MemoryLeakDetector.cpp:572:7:char* MemoryLeakDetector::reallocateMemoryAndLeakInformation(TestMemoryAllocator*, char*, size_t, const char*, size_t, bool)	48	static
+MemoryLeakDetector.cpp:582:6:void MemoryLeakDetector::invalidateMemory(char*)	24	static
+MemoryLeakDetector.cpp:591:6:void MemoryLeakDetector::addMemoryCorruptionInformation(char*)	24	static
+MemoryLeakDetector.cpp:597:6:bool MemoryLeakDetector::validMemoryCorruptionInformation(char*)	24	static
+MemoryLeakDetector.cpp:605:6:bool MemoryLeakDetector::matchingAllocation(TestMemoryAllocator*, TestMemoryAllocator*)	24	static
+MemoryLeakDetector.cpp:612:6:void MemoryLeakDetector::checkForCorruption(MemoryLeakDetectorNode*, const char*, size_t, TestMemoryAllocator*, bool)	40	static
+MemoryLeakDetector.cpp:622:7:char* MemoryLeakDetector::allocMemory(TestMemoryAllocator*, size_t, bool)	32	static
+MemoryLeakDetector.cpp:627:7:char* MemoryLeakDetector::allocateMemoryWithAccountingInformation(TestMemoryAllocator*, size_t, const char*, size_t, bool)	32	static
+MemoryLeakDetector.cpp:633:7:char* MemoryLeakDetector::reallocateMemoryWithAccountingInformation(TestMemoryAllocator*, char*, size_t, const char*, size_t, bool)	32	static
+MemoryLeakDetector.cpp:639:25:MemoryLeakDetectorNode* MemoryLeakDetector::createMemoryLeakAccountingInformation(TestMemoryAllocator*, size_t, char*, bool)	24	static
+MemoryLeakDetector.cpp:645:7:char* MemoryLeakDetector::allocMemory(TestMemoryAllocator*, size_t, const char*, size_t, bool)	48	static
+MemoryLeakDetector.cpp:665:6:void MemoryLeakDetector::removeMemoryLeakInformationWithoutCheckingOrDeallocatingTheMemoryButDeallocatingTheAccountInformation(TestMemoryAllocator*, void*, bool)	32	static
+MemoryLeakDetector.cpp:671:6:void MemoryLeakDetector::deallocMemory(TestMemoryAllocator*, void*, const char*, size_t, bool)	48	static
+MemoryLeakDetector.cpp:690:6:void MemoryLeakDetector::deallocMemory(TestMemoryAllocator*, void*, bool)	32	static
+MemoryLeakDetector.cpp:695:6:void MemoryLeakDetector::deallocAllMemoryInCurrentAllocationStage()	40	static
+MemoryLeakDetector.cpp:707:7:char* MemoryLeakDetector::reallocMemory(TestMemoryAllocator*, char*, size_t, const char*, size_t, bool)	48	static
+MemoryLeakDetector.cpp:723:6:void MemoryLeakDetector::ConstructMemoryLeakReport(MemLeakPeriod)	24	static
+MemoryLeakDetector.cpp:737:13:const char* MemoryLeakDetector::report(MemLeakPeriod)	16	static
+MemoryLeakDetector.cpp:744:6:void MemoryLeakDetector::markCheckingPeriodLeaksAsNonCheckingPeriod()	24	static
+MemoryLeakDetector.cpp:753:8:size_t MemoryLeakDetector::totalMemoryLeaks(MemLeakPeriod)	16	static

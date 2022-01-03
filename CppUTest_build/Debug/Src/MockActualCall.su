@@ -1,0 +1,193 @@
+CppUTestConfig.h:281:3:cpputest_longlong::cpputest_longlong(int)	16	static
+CppUTestConfig.h:290:3:cpputest_ulonglong::cpputest_ulonglong(int)	16	static
+MockCheckedActualCall.h:145:9:MockCheckedActualCall::MockOutputParametersListNode::MockOutputParametersListNode(const SimpleString&, const SimpleString&, void*)	24	static
+MockCheckedActualCall.h:237:29:virtual MockActualCall& MockIgnoredActualCall::withName(const SimpleString&)	16	static
+MockCheckedActualCall.h:238:29:virtual MockActualCall& MockIgnoredActualCall::withCallOrder(unsigned int)	16	static
+MockCheckedActualCall.h:239:29:virtual MockActualCall& MockIgnoredActualCall::withBoolParameter(const SimpleString&, bool)	24	static
+MockCheckedActualCall.h:240:29:virtual MockActualCall& MockIgnoredActualCall::withIntParameter(const SimpleString&, int)	24	static
+MockCheckedActualCall.h:241:29:virtual MockActualCall& MockIgnoredActualCall::withUnsignedIntParameter(const SimpleString&, unsigned int)	24	static
+MockCheckedActualCall.h:242:29:virtual MockActualCall& MockIgnoredActualCall::withLongIntParameter(const SimpleString&, long int)	24	static
+MockCheckedActualCall.h:243:29:virtual MockActualCall& MockIgnoredActualCall::withUnsignedLongIntParameter(const SimpleString&, long unsigned int)	24	static
+MockCheckedActualCall.h:244:29:virtual MockActualCall& MockIgnoredActualCall::withLongLongIntParameter(const SimpleString&, cpputest_longlong)	24	static
+MockCheckedActualCall.h:245:29:virtual MockActualCall& MockIgnoredActualCall::withUnsignedLongLongIntParameter(const SimpleString&, cpputest_ulonglong)	24	static
+MockCheckedActualCall.h:246:29:virtual MockActualCall& MockIgnoredActualCall::withDoubleParameter(const SimpleString&, double)	24	static
+MockCheckedActualCall.h:247:29:virtual MockActualCall& MockIgnoredActualCall::withStringParameter(const SimpleString&, const char*)	24	static
+MockCheckedActualCall.h:248:29:virtual MockActualCall& MockIgnoredActualCall::withPointerParameter(const SimpleString&, void*)	24	static
+MockCheckedActualCall.h:249:29:virtual MockActualCall& MockIgnoredActualCall::withConstPointerParameter(const SimpleString&, const void*)	24	static
+MockCheckedActualCall.h:250:29:virtual MockActualCall& MockIgnoredActualCall::withFunctionPointerParameter(const SimpleString&, void (*)())	24	static
+MockCheckedActualCall.h:251:29:virtual MockActualCall& MockIgnoredActualCall::withMemoryBufferParameter(const SimpleString&, const unsigned char*, size_t)	24	static
+MockCheckedActualCall.h:252:29:virtual MockActualCall& MockIgnoredActualCall::withParameterOfType(const SimpleString&, const SimpleString&, const void*)	24	static
+MockCheckedActualCall.h:253:29:virtual MockActualCall& MockIgnoredActualCall::withOutputParameter(const SimpleString&, void*)	24	static
+MockCheckedActualCall.h:254:29:virtual MockActualCall& MockIgnoredActualCall::withOutputParameterOfType(const SimpleString&, const SimpleString&, void*)	24	static
+MockCheckedActualCall.h:256:18:virtual bool MockIgnoredActualCall::hasReturnValue()	16	static
+MockCheckedActualCall.h:257:28:virtual MockNamedValue MockIgnoredActualCall::returnValue()	24	static
+MockCheckedActualCall.h:259:18:virtual bool MockIgnoredActualCall::returnBoolValueOrDefault(bool)	16	static
+MockCheckedActualCall.h:260:18:virtual bool MockIgnoredActualCall::returnBoolValue()	16	static
+MockCheckedActualCall.h:262:17:virtual int MockIgnoredActualCall::returnIntValue()	16	static
+MockCheckedActualCall.h:263:17:virtual int MockIgnoredActualCall::returnIntValueOrDefault(int)	16	static
+MockCheckedActualCall.h:265:31:virtual long unsigned int MockIgnoredActualCall::returnUnsignedLongIntValue()	16	static
+MockCheckedActualCall.h:266:31:virtual long unsigned int MockIgnoredActualCall::returnUnsignedLongIntValueOrDefault(long unsigned int)	16	static
+MockCheckedActualCall.h:268:22:virtual long int MockIgnoredActualCall::returnLongIntValue()	16	static
+MockCheckedActualCall.h:269:22:virtual long int MockIgnoredActualCall::returnLongIntValueOrDefault(long int)	16	static
+MockCheckedActualCall.h:271:32:virtual cpputest_ulonglong MockIgnoredActualCall::returnUnsignedLongLongIntValue()	16	static
+MockCheckedActualCall.h:272:32:virtual cpputest_ulonglong MockIgnoredActualCall::returnUnsignedLongLongIntValueOrDefault(cpputest_ulonglong)	24	static
+MockCheckedActualCall.h:274:31:virtual cpputest_longlong MockIgnoredActualCall::returnLongLongIntValue()	16	static
+MockCheckedActualCall.h:275:31:virtual cpputest_longlong MockIgnoredActualCall::returnLongLongIntValueOrDefault(cpputest_longlong)	24	static
+MockCheckedActualCall.h:277:26:virtual unsigned int MockIgnoredActualCall::returnUnsignedIntValue()	16	static
+MockCheckedActualCall.h:278:26:virtual unsigned int MockIgnoredActualCall::returnUnsignedIntValueOrDefault(unsigned int)	16	static
+MockCheckedActualCall.h:280:20:virtual double MockIgnoredActualCall::returnDoubleValue()	16	static
+MockCheckedActualCall.h:281:20:virtual double MockIgnoredActualCall::returnDoubleValueOrDefault(double)	24	static
+MockCheckedActualCall.h:283:26:virtual const char* MockIgnoredActualCall::returnStringValue()	16	static
+MockCheckedActualCall.h:284:26:virtual const char* MockIgnoredActualCall::returnStringValueOrDefault(const char*)	16	static
+MockCheckedActualCall.h:286:20:virtual void* MockIgnoredActualCall::returnPointerValue()	16	static
+MockCheckedActualCall.h:287:20:virtual void* MockIgnoredActualCall::returnPointerValueOrDefault(void*)	16	static
+MockCheckedActualCall.h:289:26:virtual const void* MockIgnoredActualCall::returnConstPointerValue()	16	static
+MockCheckedActualCall.h:290:26:virtual const void* MockIgnoredActualCall::returnConstPointerValueOrDefault(const void*)	16	static
+MockCheckedActualCall.h:292:20:virtual void (* MockIgnoredActualCall::returnFunctionPointerValue())()	16	static
+MockCheckedActualCall.h:293:20:virtual void (* MockIgnoredActualCall::returnFunctionPointerValueOrDefault(void (*)()))()	16	static
+MockCheckedActualCall.h:295:29:virtual MockActualCall& MockIgnoredActualCall::onObject(const void*)	16	static
+MockFailure.h:57:13:MockFailure::~MockFailure()	16	static
+MockFailure.h:57:13:virtual MockFailure::~MockFailure()	16	static
+MockActualCall.cpp:34:1:MockActualCall::MockActualCall()	16	static
+MockActualCall.cpp:38:1:MockActualCall::~MockActualCall()	16	static
+MockActualCall.cpp:38:1:virtual MockActualCall::~MockActualCall()	16	static
+MockActualCall.cpp:42:6:void MockCheckedActualCall::setName(const SimpleString&)	16	static
+MockActualCall.cpp:47:14:SimpleString MockCheckedActualCall::getName() const	16	static
+MockActualCall.cpp:52:1:MockCheckedActualCall::MockCheckedActualCall(unsigned int, MockFailureReporter*, const MockExpectedCallsList&)	24	static
+MockActualCall.cpp:59:1:MockCheckedActualCall::~MockCheckedActualCall()	16	static
+MockActualCall.cpp:59:1:virtual MockCheckedActualCall::~MockCheckedActualCall()	16	static
+MockActualCall.cpp:64:6:virtual void MockCheckedActualCall::setMockFailureReporter(MockFailureReporter*)	16	static
+MockActualCall.cpp:69:13:virtual UtestShell* MockCheckedActualCall::getTest() const	16	static
+MockActualCall.cpp:74:6:virtual void MockCheckedActualCall::failTest(const MockFailure&)	16	static
+MockActualCall.cpp:82:6:virtual void MockCheckedActualCall::copyOutputParameters(MockCheckedExpectedCall*)	264	static
+MockActualCall.cpp:107:6:virtual void MockCheckedActualCall::completeCallWhenMatchIsFound()	24	static
+MockActualCall.cpp:123:6:virtual void MockCheckedActualCall::callHasSucceeded()	16	static
+MockActualCall.cpp:128:6:virtual void MockCheckedActualCall::discardCurrentlyMatchingExpectations()	16	static
+MockActualCall.cpp:138:17:virtual MockActualCall& MockCheckedActualCall::withName(const SimpleString&)	80	static
+MockActualCall.cpp:155:17:virtual MockActualCall& MockCheckedActualCall::withCallOrder(unsigned int)	16	static
+MockActualCall.cpp:160:6:virtual void MockCheckedActualCall::checkInputParameter(const MockNamedValue&)	104	static
+MockActualCall.cpp:182:6:virtual void MockCheckedActualCall::checkOutputParameter(const MockNamedValue&)	104	static
+MockActualCall.cpp:204:17:virtual MockActualCall& MockCheckedActualCall::withBoolParameter(const SimpleString&, bool)	88	static
+MockActualCall.cpp:212:17:virtual MockActualCall& MockCheckedActualCall::withUnsignedIntParameter(const SimpleString&, unsigned int)	88	static
+MockActualCall.cpp:220:17:virtual MockActualCall& MockCheckedActualCall::withIntParameter(const SimpleString&, int)	88	static
+MockActualCall.cpp:228:17:virtual MockActualCall& MockCheckedActualCall::withUnsignedLongIntParameter(const SimpleString&, long unsigned int)	88	static
+MockActualCall.cpp:236:17:virtual MockActualCall& MockCheckedActualCall::withLongIntParameter(const SimpleString&, long int)	88	static
+MockActualCall.cpp:264:17:virtual MockActualCall& MockCheckedActualCall::withUnsignedLongLongIntParameter(const SimpleString&, cpputest_ulonglong)	40	static
+MockActualCall.cpp:270:17:virtual MockActualCall& MockCheckedActualCall::withLongLongIntParameter(const SimpleString&, cpputest_longlong)	40	static
+MockActualCall.cpp:278:17:virtual MockActualCall& MockCheckedActualCall::withDoubleParameter(const SimpleString&, double)	88	static
+MockActualCall.cpp:286:17:virtual MockActualCall& MockCheckedActualCall::withStringParameter(const SimpleString&, const char*)	88	static
+MockActualCall.cpp:294:17:virtual MockActualCall& MockCheckedActualCall::withPointerParameter(const SimpleString&, void*)	88	static
+MockActualCall.cpp:302:17:virtual MockActualCall& MockCheckedActualCall::withConstPointerParameter(const SimpleString&, const void*)	88	static
+MockActualCall.cpp:310:17:virtual MockActualCall& MockCheckedActualCall::withFunctionPointerParameter(const SimpleString&, void (*)())	88	static
+MockActualCall.cpp:318:17:virtual MockActualCall& MockCheckedActualCall::withMemoryBufferParameter(const SimpleString&, const unsigned char*, size_t)	88	static
+MockActualCall.cpp:326:17:virtual MockActualCall& MockCheckedActualCall::withParameterOfType(const SimpleString&, const SimpleString&, const void*)	144	static
+MockActualCall.cpp:340:17:virtual MockActualCall& MockCheckedActualCall::withOutputParameter(const SimpleString&, void*)	96	static
+MockActualCall.cpp:351:17:virtual MockActualCall& MockCheckedActualCall::withOutputParameterOfType(const SimpleString&, const SimpleString&, void*)	88	static
+MockActualCall.cpp:362:6:virtual bool MockCheckedActualCall::isFulfilled() const	16	static
+MockActualCall.cpp:367:6:virtual bool MockCheckedActualCall::hasFailed() const	16	static
+MockActualCall.cpp:372:6:virtual void MockCheckedActualCall::checkExpectations()	104	static
+MockActualCall.cpp:410:6:virtual void MockCheckedActualCall::setState(MockCheckedActualCall::ActualCallState)	16	static
+MockActualCall.cpp:415:16:virtual MockNamedValue MockCheckedActualCall::returnValue()	24	static
+MockActualCall.cpp:423:6:virtual bool MockCheckedActualCall::returnBoolValueOrDefault(bool)	16	static
+MockActualCall.cpp:431:6:virtual bool MockCheckedActualCall::returnBoolValue()	80	static
+MockActualCall.cpp:436:5:virtual int MockCheckedActualCall::returnIntValueOrDefault(int)	16	static
+MockActualCall.cpp:444:5:virtual int MockCheckedActualCall::returnIntValue()	80	static
+MockActualCall.cpp:449:19:virtual long unsigned int MockCheckedActualCall::returnUnsignedLongIntValue()	80	static
+MockActualCall.cpp:454:19:virtual long unsigned int MockCheckedActualCall::returnUnsignedLongIntValueOrDefault(long unsigned int)	16	static
+MockActualCall.cpp:462:10:virtual long int MockCheckedActualCall::returnLongIntValue()	80	static
+MockActualCall.cpp:467:10:virtual long int MockCheckedActualCall::returnLongIntValueOrDefault(long int)	16	static
+MockActualCall.cpp:505:20:virtual cpputest_ulonglong MockCheckedActualCall::returnUnsignedLongLongIntValue()	32	static
+MockActualCall.cpp:511:20:virtual cpputest_ulonglong MockCheckedActualCall::returnUnsignedLongLongIntValueOrDefault(cpputest_ulonglong)	40	static
+MockActualCall.cpp:517:19:virtual cpputest_longlong MockCheckedActualCall::returnLongLongIntValue()	32	static
+MockActualCall.cpp:523:19:virtual cpputest_longlong MockCheckedActualCall::returnLongLongIntValueOrDefault(cpputest_longlong)	40	static
+MockActualCall.cpp:531:8:virtual double MockCheckedActualCall::returnDoubleValue()	80	static
+MockActualCall.cpp:536:8:virtual double MockCheckedActualCall::returnDoubleValueOrDefault(double)	24	static
+MockActualCall.cpp:544:14:virtual unsigned int MockCheckedActualCall::returnUnsignedIntValue()	80	static
+MockActualCall.cpp:549:14:virtual unsigned int MockCheckedActualCall::returnUnsignedIntValueOrDefault(unsigned int)	16	static
+MockActualCall.cpp:557:8:virtual void* MockCheckedActualCall::returnPointerValueOrDefault(void*)	16	static
+MockActualCall.cpp:565:8:virtual void* MockCheckedActualCall::returnPointerValue()	80	static
+MockActualCall.cpp:570:14:virtual const void* MockCheckedActualCall::returnConstPointerValue()	80	static
+MockActualCall.cpp:575:14:virtual const void* MockCheckedActualCall::returnConstPointerValueOrDefault(const void*)	16	static
+MockActualCall.cpp:583:8:virtual void (* MockCheckedActualCall::returnFunctionPointerValue())()	80	static
+MockActualCall.cpp:588:8:virtual void (* MockCheckedActualCall::returnFunctionPointerValueOrDefault(void (*)()))()	16	static
+MockActualCall.cpp:596:14:virtual const char* MockCheckedActualCall::returnStringValueOrDefault(const char*)	16	static
+MockActualCall.cpp:604:14:virtual const char* MockCheckedActualCall::returnStringValue()	80	static
+MockActualCall.cpp:609:6:virtual bool MockCheckedActualCall::hasReturnValue()	88	static
+MockActualCall.cpp:614:17:virtual MockActualCall& MockCheckedActualCall::onObject(const void*)	96	static
+MockActualCall.cpp:640:6:virtual void MockCheckedActualCall::addOutputParameter(const SimpleString&, const SimpleString&, void*)	40	static
+MockCheckedActualCall.h:137:11:MockCheckedActualCall::MockOutputParametersListNode::~MockOutputParametersListNode()	16	static
+MockActualCall.cpp:653:6:virtual void MockCheckedActualCall::cleanUpOutputParameterList()	32	static
+MockActualCall.cpp:666:1:MockActualCallTrace::MockActualCallTrace()	16	static
+MockActualCall.cpp:670:1:MockActualCallTrace::~MockActualCallTrace()	16	static
+MockActualCall.cpp:670:1:virtual MockActualCallTrace::~MockActualCallTrace()	16	static
+MockActualCall.cpp:674:17:virtual MockActualCall& MockActualCallTrace::withName(const SimpleString&)	16	static
+MockActualCall.cpp:681:17:virtual MockActualCall& MockActualCallTrace::withCallOrder(unsigned int)	32	static
+MockActualCall.cpp:688:6:void MockActualCallTrace::addParameterName(const SimpleString&)	16	static
+MockActualCall.cpp:695:17:virtual MockActualCall& MockActualCallTrace::withBoolParameter(const SimpleString&, bool)	40	static
+MockActualCall.cpp:702:17:virtual MockActualCall& MockActualCallTrace::withUnsignedIntParameter(const SimpleString&, unsigned int)	72	static
+MockActualCall.cpp:709:17:virtual MockActualCall& MockActualCallTrace::withIntParameter(const SimpleString&, int)	72	static
+MockActualCall.cpp:716:17:virtual MockActualCall& MockActualCallTrace::withUnsignedLongIntParameter(const SimpleString&, long unsigned int)	72	static
+MockActualCall.cpp:723:17:virtual MockActualCall& MockActualCallTrace::withLongIntParameter(const SimpleString&, long int)	72	static
+MockActualCall.cpp:748:17:virtual MockActualCall& MockActualCallTrace::withUnsignedLongLongIntParameter(const SimpleString&, cpputest_ulonglong)	40	static
+MockActualCall.cpp:754:17:virtual MockActualCall& MockActualCallTrace::withLongLongIntParameter(const SimpleString&, cpputest_longlong)	40	static
+MockActualCall.cpp:762:17:virtual MockActualCall& MockActualCallTrace::withDoubleParameter(const SimpleString&, double)	40	static
+MockActualCall.cpp:769:17:virtual MockActualCall& MockActualCallTrace::withStringParameter(const SimpleString&, const char*)	40	static
+MockActualCall.cpp:776:17:virtual MockActualCall& MockActualCallTrace::withPointerParameter(const SimpleString&, void*)	40	static
+MockActualCall.cpp:783:17:virtual MockActualCall& MockActualCallTrace::withConstPointerParameter(const SimpleString&, const void*)	40	static
+MockActualCall.cpp:790:17:virtual MockActualCall& MockActualCallTrace::withFunctionPointerParameter(const SimpleString&, void (*)())	40	static
+MockActualCall.cpp:797:17:virtual MockActualCall& MockActualCallTrace::withMemoryBufferParameter(const SimpleString&, const unsigned char*, size_t)	40	static
+MockActualCall.cpp:804:17:virtual MockActualCall& MockActualCallTrace::withParameterOfType(const SimpleString&, const SimpleString&, const void*)	40	static
+MockActualCall.cpp:813:17:virtual MockActualCall& MockActualCallTrace::withOutputParameter(const SimpleString&, void*)	40	static
+MockActualCall.cpp:820:17:virtual MockActualCall& MockActualCallTrace::withOutputParameterOfType(const SimpleString&, const SimpleString&, void*)	40	static
+MockActualCall.cpp:829:6:virtual bool MockActualCallTrace::hasReturnValue()	16	static
+MockActualCall.cpp:834:16:virtual MockNamedValue MockActualCallTrace::returnValue()	24	static
+MockActualCall.cpp:839:10:virtual long int MockActualCallTrace::returnLongIntValue()	16	static
+MockActualCall.cpp:844:19:virtual long unsigned int MockActualCallTrace::returnUnsignedLongIntValue()	16	static
+MockActualCall.cpp:849:19:virtual long unsigned int MockActualCallTrace::returnUnsignedLongIntValueOrDefault(long unsigned int)	16	static
+MockActualCall.cpp:854:10:virtual long int MockActualCallTrace::returnLongIntValueOrDefault(long int)	16	static
+MockActualCall.cpp:883:19:virtual cpputest_longlong MockActualCallTrace::returnLongLongIntValue()	32	static
+MockActualCall.cpp:889:20:virtual cpputest_ulonglong MockActualCallTrace::returnUnsignedLongLongIntValue()	32	static
+MockActualCall.cpp:895:20:virtual cpputest_ulonglong MockActualCallTrace::returnUnsignedLongLongIntValueOrDefault(cpputest_ulonglong)	40	static
+MockActualCall.cpp:901:19:virtual cpputest_longlong MockActualCallTrace::returnLongLongIntValueOrDefault(cpputest_longlong)	40	static
+MockActualCall.cpp:909:6:virtual bool MockActualCallTrace::returnBoolValue()	16	static
+MockActualCall.cpp:914:6:virtual bool MockActualCallTrace::returnBoolValueOrDefault(bool)	16	static
+MockActualCall.cpp:919:5:virtual int MockActualCallTrace::returnIntValue()	16	static
+MockActualCall.cpp:924:8:virtual double MockActualCallTrace::returnDoubleValue()	16	static
+MockActualCall.cpp:929:8:virtual double MockActualCallTrace::returnDoubleValueOrDefault(double)	24	static
+MockActualCall.cpp:934:14:virtual unsigned int MockActualCallTrace::returnUnsignedIntValue()	16	static
+MockActualCall.cpp:939:8:virtual void* MockActualCallTrace::returnPointerValue()	16	static
+MockActualCall.cpp:944:14:virtual const void* MockActualCallTrace::returnConstPointerValue()	16	static
+MockActualCall.cpp:949:8:virtual void (* MockActualCallTrace::returnFunctionPointerValue())()	16	static
+MockActualCall.cpp:954:14:virtual const void* MockActualCallTrace::returnConstPointerValueOrDefault(const void*)	16	static
+MockActualCall.cpp:959:8:virtual void* MockActualCallTrace::returnPointerValueOrDefault(void*)	16	static
+MockActualCall.cpp:964:8:virtual void (* MockActualCallTrace::returnFunctionPointerValueOrDefault(void (*)()))()	16	static
+MockActualCall.cpp:969:14:virtual const char* MockActualCallTrace::returnStringValue()	16	static
+MockActualCall.cpp:974:14:virtual const char* MockActualCallTrace::returnStringValueOrDefault(const char*)	16	static
+MockActualCall.cpp:979:5:virtual int MockActualCallTrace::returnIntValueOrDefault(int)	16	static
+MockActualCall.cpp:984:14:virtual unsigned int MockActualCallTrace::returnUnsignedIntValueOrDefault(unsigned int)	16	static
+MockActualCall.cpp:989:17:virtual MockActualCall& MockActualCallTrace::onObject(const void*)	32	static
+MockActualCall.cpp:996:6:void MockActualCallTrace::clear()	32	static
+MockActualCall.cpp:1001:13:const char* MockActualCallTrace::getTraceOutput()	16	static
+MockActualCall.cpp:1008:22:static MockActualCallTrace& MockActualCallTrace::instance()	16	static
+MockActualCall.cpp:1015:6:static void MockActualCallTrace::clearInstance()	8	static
+MockCheckedActualCall.h:234:7:MockIgnoredActualCall::MockIgnoredActualCall()	16	static
+MockActualCall.cpp:1023:34:void __tcf_0()	8	static
+MockActualCall.cpp:1021:24:static MockIgnoredActualCall& MockIgnoredActualCall::instance()	8	static
+MockCheckedActualCall.h:234:7:MockIgnoredActualCall::~MockIgnoredActualCall()	16	static
+MockCheckedActualCall.h:234:7:virtual MockIgnoredActualCall::~MockIgnoredActualCall()	16	static
+MockFailure.h:105:7:MockNoWayToCopyCustomTypeFailure::~MockNoWayToCopyCustomTypeFailure()	16	static
+MockFailure.h:105:7:virtual MockNoWayToCopyCustomTypeFailure::~MockNoWayToCopyCustomTypeFailure()	16	static
+MockFailure.h:69:7:MockUnexpectedCallHappenedFailure::~MockUnexpectedCallHappenedFailure()	16	static
+MockFailure.h:69:7:virtual MockUnexpectedCallHappenedFailure::~MockUnexpectedCallHappenedFailure()	16	static
+MockFailure.h:81:7:MockUnexpectedInputParameterFailure::~MockUnexpectedInputParameterFailure()	16	static
+MockFailure.h:81:7:virtual MockUnexpectedInputParameterFailure::~MockUnexpectedInputParameterFailure()	16	static
+MockFailure.h:87:7:MockUnexpectedOutputParameterFailure::~MockUnexpectedOutputParameterFailure()	16	static
+MockFailure.h:87:7:virtual MockUnexpectedOutputParameterFailure::~MockUnexpectedOutputParameterFailure()	16	static
+MockFailure.h:99:7:MockNoWayToCompareCustomTypeFailure::~MockNoWayToCompareCustomTypeFailure()	16	static
+MockFailure.h:99:7:virtual MockNoWayToCompareCustomTypeFailure::~MockNoWayToCompareCustomTypeFailure()	16	static
+MockFailure.h:93:7:MockExpectedParameterDidntHappenFailure::~MockExpectedParameterDidntHappenFailure()	16	static
+MockFailure.h:93:7:virtual MockExpectedParameterDidntHappenFailure::~MockExpectedParameterDidntHappenFailure()	16	static
+MockFailure.h:117:7:MockExpectedObjectDidntHappenFailure::~MockExpectedObjectDidntHappenFailure()	16	static
+MockFailure.h:117:7:virtual MockExpectedObjectDidntHappenFailure::~MockExpectedObjectDidntHappenFailure()	16	static
+MockFailure.h:111:7:MockUnexpectedObjectFailure::~MockUnexpectedObjectFailure()	16	static
+MockFailure.h:111:7:virtual MockUnexpectedObjectFailure::~MockUnexpectedObjectFailure()	16	static

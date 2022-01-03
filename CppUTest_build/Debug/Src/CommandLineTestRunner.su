@@ -1,0 +1,22 @@
+TestResult.h:68:12:size_t TestResult::getRunCount() const	16	static
+TestResult.h:80:12:size_t TestResult::getIgnoredCount() const	16	static
+TestResult.h:84:12:size_t TestResult::getFailureCount() const	16	static
+TestResult.h:89:10:bool TestResult::isFailure() const	24	static
+TestOutput.h:117:14:ConsoleTestOutput::ConsoleTestOutput()	16	static
+TestOutput.h:120:13:ConsoleTestOutput::~ConsoleTestOutput()	16	static
+TestOutput.h:120:13:virtual ConsoleTestOutput::~ConsoleTestOutput()	16	static
+CommandLineTestRunner.cpp:36:5:static int CommandLineTestRunner::RunAllTests(int, char**)	16	static
+CommandLineTestRunner.cpp:41:5:static int CommandLineTestRunner::RunAllTests(int, const char* const*)	112	static
+CommandLineTestRunner.cpp:62:1:CommandLineTestRunner::CommandLineTestRunner(int, const char* const*, TestRegistry*)	32	static
+CommandLineTestRunner.cpp:68:1:CommandLineTestRunner::~CommandLineTestRunner()	16	static
+CommandLineTestRunner.cpp:68:1:virtual CommandLineTestRunner::~CommandLineTestRunner()	16	static
+CommandLineTestRunner.cpp:74:5:int CommandLineTestRunner::runAllTestsMain()	64	static
+CommandLineTestRunner.cpp:88:6:void CommandLineTestRunner::initializeTestRun()	24	static
+CommandLineTestRunner.cpp:101:5:int CommandLineTestRunner::runAllTests()	96	static
+CommandLineTestRunner.cpp:155:13:virtual TestOutput* CommandLineTestRunner::createTeamCityOutput()	24	static
+CommandLineTestRunner.cpp:160:13:virtual TestOutput* CommandLineTestRunner::createJUnitOutput(const SimpleString&)	32	static
+CommandLineTestRunner.cpp:169:13:virtual TestOutput* CommandLineTestRunner::createConsoleOutput()	24	static
+CommandLineTestRunner.cpp:174:13:virtual TestOutput* CommandLineTestRunner::createCompositeOutput(TestOutput*, TestOutput*)	40	static
+CommandLineTestRunner.cpp:182:6:bool CommandLineTestRunner::parseArguments(TestPlugin*)	24	static
+TestPlugin.h:89:7:SetPointerPlugin::~SetPointerPlugin()	16	static
+TestPlugin.h:89:7:virtual SetPointerPlugin::~SetPointerPlugin()	16	static

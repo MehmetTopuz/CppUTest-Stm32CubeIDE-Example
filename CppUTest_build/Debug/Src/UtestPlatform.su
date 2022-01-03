@@ -1,0 +1,21 @@
+cmath:592:3:constexpr bool std::isinf(double)	32	static
+cmath:619:3:constexpr bool std::isnan(double)	24	static
+UtestPlatform.cpp:67:13:void GccPlatformSpecificRunTestInASeperateProcess(UtestShell*, TestPlugin*, TestResult*)	96	static
+UtestPlatform.cpp:72:12:int PlatformSpecificForkImplementation()	4	static
+UtestPlatform.cpp:77:12:int PlatformSpecificWaitPidImplementation(int, int*, int)	24	static
+UtestPlatform.cpp:152:32:TestOutput::WorkingEnvironment PlatformSpecificGetWorkingEnvironment()	4	static
+UtestPlatform.cpp:164:12:int PlatformSpecificSetJmpImplementation(void (*)(void*), void*)	16	static
+UtestPlatform.cpp:184:13:void PlatformSpecificLongJmpImplementation()	8	static
+UtestPlatform.cpp:190:13:void PlatformSpecificRestoreJumpBufferImplementation()	4	static
+UtestPlatform.cpp:201:13:long int TimeInMillisImplementation()	4	static
+UtestPlatform.cpp:213:20:const char* TimeStringImplementation()	24	static
+UtestPlatform.cpp:241:29:void* PlatformSpecificFOpenImplementation(const char*, const char*)	16	static
+UtestPlatform.cpp:252:13:void PlatformSpecificFPutsImplementation(const char*, PlatformSpecificFile)	16	static
+UtestPlatform.cpp:257:13:void PlatformSpecificFCloseImplementation(PlatformSpecificFile)	16	static
+UtestPlatform.cpp:262:13:void PlatformSpecificFlushImplementation()	8	static
+UtestPlatform.cpp:287:12:int IsNanImplementation(double)	16	static
+UtestPlatform.cpp:292:12:int IsInfImplementation(double)	16	static
+UtestPlatform.cpp:304:30:void* PThreadMutexCreate()	4	static
+UtestPlatform.cpp:323:13:void PThreadMutexLock(PlatformSpecificMutex)	16	static
+UtestPlatform.cpp:334:13:void PThreadMutexUnlock(PlatformSpecificMutex)	16	static
+UtestPlatform.cpp:347:13:void PThreadMutexDestroy(PlatformSpecificMutex)	16	static

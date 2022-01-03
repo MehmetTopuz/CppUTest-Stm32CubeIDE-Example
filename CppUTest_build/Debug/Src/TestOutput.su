@@ -1,0 +1,67 @@
+TestResult.h:64:12:size_t TestResult::getTestCount() const	16	static
+TestResult.h:68:12:size_t TestResult::getRunCount() const	16	static
+TestResult.h:72:12:size_t TestResult::getCheckCount() const	16	static
+TestResult.h:76:12:size_t TestResult::getFilteredOutCount() const	16	static
+TestResult.h:80:12:size_t TestResult::getIgnoredCount() const	16	static
+TestResult.h:84:12:size_t TestResult::getFailureCount() const	16	static
+TestResult.h:89:10:bool TestResult::isFailure() const	24	static
+TestOutput.h:120:13:ConsoleTestOutput::~ConsoleTestOutput()	16	static
+TestOutput.h:120:13:virtual ConsoleTestOutput::~ConsoleTestOutput()	16	static
+TestOutput.h:150:10:virtual void StringBufferTestOutput::printBuffer(const char*)	16	static
+TestOutput.h:155:10:virtual void StringBufferTestOutput::flush()	32	static
+TestOutput.cpp:33:6:static void TestOutput::setWorkingEnvironment(TestOutput::WorkingEnvironment)	16	static
+TestOutput.cpp:38:32:static TestOutput::WorkingEnvironment TestOutput::getWorkingEnvironment()	8	static
+TestOutput.cpp:46:1:TestOutput::TestOutput()	16	static
+TestOutput.cpp:51:1:TestOutput::~TestOutput()	16	static
+TestOutput.cpp:51:1:virtual TestOutput::~TestOutput()	16	static
+TestOutput.cpp:55:6:virtual void TestOutput::verbose(TestOutput::VerbosityLevel)	16	static
+TestOutput.cpp:60:6:virtual void TestOutput::color()	16	static
+TestOutput.cpp:65:6:virtual void TestOutput::print(const char*)	16	static
+TestOutput.cpp:70:6:virtual void TestOutput::print(long int)	32	static
+TestOutput.cpp:75:6:virtual void TestOutput::print(size_t)	32	static
+TestOutput.cpp:80:6:virtual void TestOutput::printDouble(double)	40	static
+TestOutput.cpp:85:13:TestOutput& operator<<(TestOutput&, const char*)	16	static
+TestOutput.cpp:91:13:TestOutput& operator<<(TestOutput&, long int)	16	static
+TestOutput.cpp:97:6:virtual void TestOutput::printCurrentTestStarted(const UtestShell&)	32	static
+TestOutput.cpp:109:6:virtual void TestOutput::printCurrentTestEnded(const TestResult&)	24	static
+TestOutput.cpp:121:6:virtual void TestOutput::printProgressIndicator()	16	static
+TestOutput.cpp:127:6:virtual void TestOutput::setProgressIndicator(const char*)	16	static
+TestOutput.cpp:132:6:virtual void TestOutput::printTestsStarted()	16	static
+TestOutput.cpp:136:6:virtual void TestOutput::printCurrentGroupStarted(const UtestShell&)	16	static
+TestOutput.cpp:140:6:virtual void TestOutput::printCurrentGroupEnded(const TestResult&)	16	static
+TestOutput.cpp:144:6:virtual void TestOutput::printTestsEnded(const TestResult&)	32	static
+TestOutput.cpp:192:6:virtual void TestOutput::printTestRun(size_t, size_t)	24	static
+TestOutput.cpp:203:6:virtual void TestOutput::printFailure(const TestFailure&)	24	static
+TestOutput.cpp:213:6:void TestOutput::printFileAndLineForTestAndFailure(const TestFailure&)	40	static
+TestOutput.cpp:220:6:void TestOutput::printFileAndLineForFailure(const TestFailure&)	32	static
+TestOutput.cpp:226:6:void TestOutput::printFailureInTest(SimpleString)	24	static
+TestOutput.cpp:232:6:void TestOutput::printFailureMessage(SimpleString)	24	static
+TestOutput.cpp:240:6:void TestOutput::printErrorInFileOnLineFormattedForWorkingEnvironment(SimpleString, size_t)	48	static
+TestOutput.cpp:248:6:virtual void TestOutput::printEclipseErrorInFileOnLine(SimpleString, size_t)	32	static
+TestOutput.cpp:258:6:virtual void TestOutput::printVisualStudioErrorInFileOnLine(SimpleString, size_t)	32	static
+TestOutput.cpp:268:6:virtual void TestOutput::printVeryVerbose(const char*)	16	static
+TestOutput.cpp:275:6:virtual void ConsoleTestOutput::printBuffer(const char*)	16	static
+TestOutput.cpp:284:6:virtual void ConsoleTestOutput::flush()	16	static
+TestOutput.cpp:289:1:StringBufferTestOutput::~StringBufferTestOutput()	16	static
+TestOutput.cpp:289:1:virtual StringBufferTestOutput::~StringBufferTestOutput()	16	static
+TestOutput.cpp:293:1:CompositeTestOutput::CompositeTestOutput()	16	static
+TestOutput.cpp:298:1:CompositeTestOutput::~CompositeTestOutput()	16	static
+TestOutput.cpp:298:1:virtual CompositeTestOutput::~CompositeTestOutput()	16	static
+TestOutput.cpp:304:6:virtual void CompositeTestOutput::setOutputOne(TestOutput*)	16	static
+TestOutput.cpp:310:6:virtual void CompositeTestOutput::setOutputTwo(TestOutput*)	16	static
+TestOutput.cpp:316:6:virtual void CompositeTestOutput::printTestsStarted()	16	static
+TestOutput.cpp:322:6:virtual void CompositeTestOutput::printTestsEnded(const TestResult&)	16	static
+TestOutput.cpp:328:6:virtual void CompositeTestOutput::printCurrentTestStarted(const UtestShell&)	16	static
+TestOutput.cpp:334:6:virtual void CompositeTestOutput::printCurrentTestEnded(const TestResult&)	16	static
+TestOutput.cpp:340:6:virtual void CompositeTestOutput::printCurrentGroupStarted(const UtestShell&)	16	static
+TestOutput.cpp:346:6:virtual void CompositeTestOutput::printCurrentGroupEnded(const TestResult&)	16	static
+TestOutput.cpp:352:6:virtual void CompositeTestOutput::verbose(TestOutput::VerbosityLevel)	16	static
+TestOutput.cpp:358:6:virtual void CompositeTestOutput::color()	16	static
+TestOutput.cpp:364:6:virtual void CompositeTestOutput::printBuffer(const char*)	16	static
+TestOutput.cpp:370:6:virtual void CompositeTestOutput::print(const char*)	16	static
+TestOutput.cpp:376:6:virtual void CompositeTestOutput::print(long int)	16	static
+TestOutput.cpp:382:6:virtual void CompositeTestOutput::print(size_t)	16	static
+TestOutput.cpp:388:6:virtual void CompositeTestOutput::printDouble(double)	24	static
+TestOutput.cpp:394:6:virtual void CompositeTestOutput::printFailure(const TestFailure&)	16	static
+TestOutput.cpp:400:6:virtual void CompositeTestOutput::setProgressIndicator(const char*)	16	static
+TestOutput.cpp:406:6:virtual void CompositeTestOutput::flush()	16	static

@@ -1,0 +1,42 @@
+CommandLineArguments.cpp:32:1:CommandLineArguments::CommandLineArguments(int, const char* const*)	24	static
+TestFilter.h:33:7:TestFilter::~TestFilter()	16	static
+CommandLineArguments.cpp:37:1:CommandLineArguments::~CommandLineArguments()	32	static
+CommandLineArguments.cpp:37:1:virtual CommandLineArguments::~CommandLineArguments()	16	static
+CommandLineArguments.cpp:51:6:bool CommandLineArguments::parse(TestPlugin*)	264	static
+CommandLineArguments.cpp:96:13:const char* CommandLineArguments::usage() const	16	static
+CommandLineArguments.cpp:105:13:const char* CommandLineArguments::help() const	16	static
+CommandLineArguments.cpp:145:6:bool CommandLineArguments::needHelp() const	16	static
+CommandLineArguments.cpp:150:6:bool CommandLineArguments::isVerbose() const	16	static
+CommandLineArguments.cpp:155:6:bool CommandLineArguments::isVeryVerbose() const	16	static
+CommandLineArguments.cpp:160:6:bool CommandLineArguments::isColor() const	16	static
+CommandLineArguments.cpp:165:6:bool CommandLineArguments::isListingTestGroupNames() const	16	static
+CommandLineArguments.cpp:170:6:bool CommandLineArguments::isListingTestGroupAndCaseNames() const	16	static
+CommandLineArguments.cpp:175:6:bool CommandLineArguments::isListingTestLocations() const	16	static
+CommandLineArguments.cpp:180:6:bool CommandLineArguments::isRunIgnored() const	16	static
+CommandLineArguments.cpp:185:6:bool CommandLineArguments::runTestsInSeperateProcess() const	16	static
+CommandLineArguments.cpp:191:8:size_t CommandLineArguments::getRepeatCount() const	16	static
+CommandLineArguments.cpp:196:6:bool CommandLineArguments::isReversing() const	16	static
+CommandLineArguments.cpp:201:6:bool CommandLineArguments::isCrashingOnFail() const	16	static
+CommandLineArguments.cpp:206:6:bool CommandLineArguments::isShuffling() const	16	static
+CommandLineArguments.cpp:211:8:size_t CommandLineArguments::getShuffleSeed() const	16	static
+CommandLineArguments.cpp:216:19:const TestFilter* CommandLineArguments::getGroupFilters() const	16	static
+CommandLineArguments.cpp:221:19:const TestFilter* CommandLineArguments::getNameFilters() const	16	static
+CommandLineArguments.cpp:226:6:void CommandLineArguments::setRepeatCount(int, const char* const*, int&)	32	static
+CommandLineArguments.cpp:241:6:bool CommandLineArguments::setShuffle(int, const char* const*, int&)	48	static
+CommandLineArguments.cpp:263:14:SimpleString CommandLineArguments::getParameterField(int, const char* const*, int&, const SimpleString&)	40	static
+CommandLineArguments.cpp:272:6:void CommandLineArguments::addGroupFilter(int, const char* const*, int&)	64	static
+CommandLineArguments.cpp:278:6:bool CommandLineArguments::addGroupDotNameFilter(int, const char* const*, int&)	88	static
+CommandLineArguments.cpp:291:6:void CommandLineArguments::addStrictGroupFilter(int, const char* const*, int&)	64	static
+CommandLineArguments.cpp:298:6:void CommandLineArguments::addExcludeGroupFilter(int, const char* const*, int&)	64	static
+CommandLineArguments.cpp:305:6:void CommandLineArguments::addExcludeStrictGroupFilter(int, const char* const*, int&)	64	static
+CommandLineArguments.cpp:313:6:void CommandLineArguments::addNameFilter(int, const char* const*, int&)	64	static
+CommandLineArguments.cpp:319:6:void CommandLineArguments::addStrictNameFilter(int, const char* const*, int&)	64	static
+CommandLineArguments.cpp:326:6:void CommandLineArguments::addExcludeNameFilter(int, const char* const*, int&)	64	static
+CommandLineArguments.cpp:333:6:void CommandLineArguments::addExcludeStrictNameFilter(int, const char* const*, int&)	64	static
+CommandLineArguments.cpp:341:6:void CommandLineArguments::addTestToRunBasedOnVerboseOutput(int, const char* const*, int&, const char*)	88	static
+CommandLineArguments.cpp:354:6:void CommandLineArguments::setPackageName(int, const char* const*, int&)	56	static
+CommandLineArguments.cpp:362:6:bool CommandLineArguments::setOutputType(int, const char* const*, int&)	96	static
+CommandLineArguments.cpp:383:6:bool CommandLineArguments::isEclipseOutput() const	16	static
+CommandLineArguments.cpp:388:6:bool CommandLineArguments::isJUnitOutput() const	16	static
+CommandLineArguments.cpp:393:6:bool CommandLineArguments::isTeamCityOutput() const	16	static
+CommandLineArguments.cpp:398:21:const SimpleString& CommandLineArguments::getPackageName() const	16	static

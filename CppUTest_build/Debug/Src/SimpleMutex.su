@@ -1,0 +1,6 @@
+SimpleMutex.cpp:31:1:SimpleMutex::SimpleMutex()	16	static
+SimpleMutex.cpp:36:1:SimpleMutex::~SimpleMutex()	16	static
+SimpleMutex.cpp:41:6:void SimpleMutex::Lock()	16	static
+SimpleMutex.cpp:46:6:void SimpleMutex::Unlock()	16	static
+SimpleMutex.cpp:52:1:ScopedMutexLock::ScopedMutexLock(SimpleMutex*)	16	static
+SimpleMutex.cpp:58:1:ScopedMutexLock::~ScopedMutexLock()	16	static

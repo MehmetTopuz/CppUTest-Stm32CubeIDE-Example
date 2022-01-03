@@ -1,0 +1,18 @@
+TestPlugin.h:49:18:virtual bool TestPlugin::parseArguments(int, const char* const*, int)	24	static
+MockFailure.h:44:5:MockFailureReporter::MockFailureReporter()	16	static
+MockFailure.h:45:13:MockFailureReporter::~MockFailureReporter()	16	static
+MockFailure.h:45:13:virtual MockFailureReporter::~MockFailureReporter()	16	static
+MockFailure.h:50:18:virtual void MockFailureReporter::crashOnFailure(bool)	16	static
+MockSupportPlugin.cpp:37:5:MockSupportPluginReporter::MockSupportPluginReporter(UtestShell&, TestResult&)	24	static
+MockSupportPlugin.cpp:42:18:virtual void MockSupportPluginReporter::failTest(const MockFailure&)	16	static
+MockSupportPlugin.cpp:47:25:virtual UtestShell* MockSupportPluginReporter::getTestToFail()	16	static
+MockSupportPlugin.cpp:53:1:MockSupportPlugin::MockSupportPlugin(const SimpleString&)	16	static
+MockSupportPlugin.cpp:58:1:MockSupportPlugin::~MockSupportPlugin()	16	static
+MockSupportPlugin.cpp:58:1:virtual MockSupportPlugin::~MockSupportPlugin()	16	static
+MockSupportPlugin.cpp:63:6:void MockSupportPlugin::clear()	16	static
+MockSupportPlugin.cpp:68:6:virtual void MockSupportPlugin::preTestAction(UtestShell&, TestResult&)	32	static
+MockSupportPlugin.cpp:73:6:virtual void MockSupportPlugin::postTestAction(UtestShell&, TestResult&)	80	static
+MockSupportPlugin.cpp:84:6:virtual void MockSupportPlugin::installComparator(const SimpleString&, MockNamedValueComparator&)	24	static
+MockSupportPlugin.cpp:89:6:virtual void MockSupportPlugin::installCopier(const SimpleString&, MockNamedValueCopier&)	24	static
+MockSupportPlugin.cpp:32:7:MockSupportPluginReporter::~MockSupportPluginReporter()	16	static
+MockSupportPlugin.cpp:32:7:virtual MockSupportPluginReporter::~MockSupportPluginReporter()	16	static

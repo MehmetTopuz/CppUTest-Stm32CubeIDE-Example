@@ -1,0 +1,171 @@
+Utest.h:246:12:virtual Utest* ExecFunctionTestShell::createTest()	24	static
+TestOutput.h:117:14:ConsoleTestOutput::ConsoleTestOutput()	16	static
+TestOutput.h:120:13:ConsoleTestOutput::~ConsoleTestOutput()	16	static
+TestOutput.h:120:13:virtual ConsoleTestOutput::~ConsoleTestOutput()	16	static
+Utest.cpp:37:6:bool doubles_equal(double, double, double)	40	static
+Utest.cpp:58:25:virtual TestResult& OutsideTestRunnerUTest::getTestResult()	16	static
+Utest.cpp:62:13:OutsideTestRunnerUTest::~OutsideTestRunnerUTest()	16	static
+Utest.cpp:62:13:virtual OutsideTestRunnerUTest::~OutsideTestRunnerUTest()	16	static
+Utest.cpp:66:5:OutsideTestRunnerUTest::OutsideTestRunnerUTest()	24	static
+Utest.cpp:77:35:void __tcf_0()	8	static
+Utest.cpp:75:25:static OutsideTestRunnerUTest& OutsideTestRunnerUTest::instance()	8	static
+Utest.cpp:89:17:void helperDoTestSetup(void*)	16	static
+Utest.cpp:94:17:void helperDoTestBody(void*)	16	static
+Utest.cpp:99:17:void helperDoTestTeardown(void*)	16	static
+Utest.cpp:106:9:HelperTestRunInfo::HelperTestRunInfo(UtestShell*, TestPlugin*, TestResult*)	24	static
+Utest.cpp:113:17:void helperDoRunOneTestInCurrentProcess(void*)	32	static
+Utest.cpp:124:17:void helperDoRunOneTestSeperateProcess(void*)	32	static
+Utest.h:62:7:constexpr TestTerminator::TestTerminator()	16	static
+Utest.cpp:145:1:UtestShell::UtestShell()	16	static
+Utest.cpp:150:1:UtestShell::UtestShell(const char*, const char*, const char*, size_t)	24	static
+Utest.cpp:155:1:UtestShell::UtestShell(const char*, const char*, const char*, size_t, UtestShell*)	24	static
+Utest.cpp:160:1:UtestShell::~UtestShell()	16	static
+Utest.cpp:160:1:virtual UtestShell::~UtestShell()	16	static
+Utest.cpp:170:13:void defaultCrashMethod()	16	static
+Utest.cpp:183:6:static void UtestShell::setCrashMethod(void (*)())	16	static
+Utest.cpp:188:6:static void UtestShell::resetCrashMethod()	4	static
+Utest.cpp:193:6:static void UtestShell::crash()	8	static
+Utest.cpp:198:6:virtual void UtestShell::runOneTest(TestPlugin*, TestResult&)	40	static
+Utest.cpp:209:8:virtual Utest* UtestShell::createTest()	24	static
+Utest.cpp:214:6:virtual void UtestShell::destroyTest(Utest*)	16	static
+Utest.cpp:219:6:virtual void UtestShell::runOneTestInCurrentProcess(TestPlugin*, TestResult&)	40	static
+Utest.cpp:252:13:virtual UtestShell* UtestShell::getNext() const	16	static
+Utest.cpp:257:13:virtual UtestShell* UtestShell::addTest(UtestShell*)	16	static
+Utest.cpp:263:8:virtual size_t UtestShell::countTests()	16	static
+Utest.cpp:268:14:virtual SimpleString UtestShell::getMacroName() const	16	static
+Utest.cpp:273:20:const SimpleString UtestShell::getName() const	16	static
+Utest.cpp:278:20:const SimpleString UtestShell::getGroup() const	16	static
+Utest.cpp:283:14:virtual SimpleString UtestShell::getFormattedName() const	16	static
+Utest.cpp:295:6:virtual bool UtestShell::hasFailed() const	16	static
+Utest.cpp:300:6:void UtestShell::countCheck()	16	static
+Utest.cpp:305:6:virtual bool UtestShell::willRun() const	16	static
+Utest.cpp:310:6:virtual bool UtestShell::isRunInSeperateProcess() const	16	static
+Utest.cpp:315:6:virtual void UtestShell::setRunInSeperateProcess()	16	static
+Utest.cpp:321:6:virtual void UtestShell::setRunIgnored()	16	static
+Utest.cpp:326:6:void UtestShell::setFileName(const char*)	16	static
+Utest.cpp:331:6:void UtestShell::setLineNumber(size_t)	16	static
+Utest.cpp:336:6:void UtestShell::setGroupName(const char*)	16	static
+Utest.cpp:341:6:void UtestShell::setTestName(const char*)	16	static
+Utest.cpp:346:20:const SimpleString UtestShell::getFile() const	16	static
+Utest.cpp:351:8:size_t UtestShell::getLineNumber() const	16	static
+Utest.cpp:356:6:bool UtestShell::match(const char*, const TestFilter*) const	40	static
+Utest.cpp:366:6:bool UtestShell::shouldRun(const TestFilter*, const TestFilter*) const	24	static
+Utest.cpp:371:6:virtual void UtestShell::failWith(const TestFailure&)	24	static
+Utest.cpp:376:6:virtual void UtestShell::failWith(const TestFailure&, const TestTerminator&)	24	static
+Utest.cpp:383:6:virtual void UtestShell::exitTest(const TestTerminator&)	16	static
+Utest.cpp:388:6:virtual void UtestShell::assertTrue(bool, const char*, const char*, const char*, const char*, size_t, const TestTerminator&)	128	static
+Utest.cpp:395:6:virtual void UtestShell::fail(const char*, const char*, size_t, const TestTerminator&)	104	static
+Utest.cpp:401:6:virtual void UtestShell::assertCstrEqual(const char*, const char*, const char*, const char*, size_t, const TestTerminator&)	168	static
+Utest.cpp:411:6:virtual void UtestShell::assertCstrNEqual(const char*, const char*, size_t, const char*, const char*, size_t, const TestTerminator&)	168	static
+Utest.cpp:421:6:virtual void UtestShell::assertCstrNoCaseEqual(const char*, const char*, const char*, const char*, size_t)	184	static
+Utest.cpp:431:6:virtual void UtestShell::assertCstrContains(const char*, const char*, const char*, const char*, size_t)	216	static
+Utest.cpp:441:6:virtual void UtestShell::assertCstrNoCaseContains(const char*, const char*, const char*, const char*, size_t)	216	static
+Utest.cpp:451:6:virtual void UtestShell::assertLongsEqual(long int, long int, const char*, const char*, size_t, const TestTerminator&)	112	static
+Utest.cpp:458:6:virtual void UtestShell::assertUnsignedLongsEqual(long unsigned int, long unsigned int, const char*, const char*, size_t, const TestTerminator&)	112	static
+Utest.cpp:465:6:virtual void UtestShell::assertLongLongsEqual(cpputest_longlong, cpputest_longlong, const char*, const char*, size_t, const TestTerminator&)	112	static
+Utest.cpp:478:6:virtual void UtestShell::assertUnsignedLongLongsEqual(cpputest_ulonglong, cpputest_ulonglong, const char*, const char*, size_t, const TestTerminator&)	112	static
+Utest.cpp:491:6:virtual void UtestShell::assertSignedBytesEqual(signed char, signed char, const char*, const char*, size_t, const TestTerminator&)	112	static
+Utest.cpp:498:6:virtual void UtestShell::assertPointersEqual(const void*, const void*, const char*, const char*, size_t, const TestTerminator&)	128	static
+Utest.cpp:505:6:virtual void UtestShell::assertFunctionPointersEqual(void (*)(), void (*)(), const char*, const char*, size_t, const TestTerminator&)	128	static
+Utest.cpp:512:6:virtual void UtestShell::assertDoublesEqual(double, double, double, const char*, const char*, size_t, const TestTerminator&)	128	static
+Utest.cpp:519:6:virtual void UtestShell::assertBinaryEqual(const void*, const void*, size_t, const char*, const char*, size_t, const TestTerminator&)	168	static
+Utest.cpp:530:6:virtual void UtestShell::assertBitsEqual(long unsigned int, long unsigned int, long unsigned int, size_t, const char*, const char*, size_t, const TestTerminator&)	120	static
+Utest.cpp:537:6:virtual void UtestShell::assertEquals(bool, const char*, const char*, const char*, const char*, size_t, const TestTerminator&)	128	static
+Utest.cpp:544:6:virtual void UtestShell::assertCompare(bool, const char*, const char*, const char*, const char*, size_t, const TestTerminator&)	128	static
+Utest.cpp:551:6:virtual void UtestShell::print(const char*, const char*, size_t)	48	static
+Utest.cpp:562:6:virtual void UtestShell::print(const SimpleString&, const char*, size_t)	32	static
+Utest.cpp:567:6:virtual void UtestShell::printVeryVerbose(const char*)	16	static
+Utest.cpp:575:6:void UtestShell::setTestResult(TestResult*)	16	static
+Utest.cpp:580:6:void UtestShell::setCurrentTest(UtestShell*)	16	static
+Utest.cpp:585:13:TestResult* UtestShell::getTestResult()	16	static
+Utest.cpp:592:13:static UtestShell* UtestShell::getCurrent()	8	static
+Utest.cpp:599:23:static const TestTerminator& UtestShell::getCurrentTestTerminator()	4	static
+Utest.cpp:604:6:static void UtestShell::setCrashOnFail()	4	static
+Utest.cpp:609:6:static void UtestShell::restoreDefaultTestTerminator()	4	static
+Utest.cpp:614:1:ExecFunctionTestShell::~ExecFunctionTestShell()	16	static
+Utest.cpp:614:1:virtual ExecFunctionTestShell::~ExecFunctionTestShell()	16	static
+Utest.cpp:620:1:Utest::Utest()	16	static
+Utest.cpp:624:1:Utest::~Utest()	16	static
+Utest.cpp:624:1:virtual Utest::~Utest()	16	static
+Utest.cpp:663:6:virtual void Utest::run()	16	static
+Utest.cpp:673:6:virtual void Utest::setup()	16	static
+Utest.cpp:677:6:virtual void Utest::testBody()	16	static
+Utest.cpp:681:6:virtual void Utest::teardown()	16	static
+Utest.cpp:688:1:TestTerminator::~TestTerminator()	16	static
+Utest.cpp:688:1:virtual TestTerminator::~TestTerminator()	16	static
+Utest.h:76:7:constexpr TestTerminatorWithoutExceptions::TestTerminatorWithoutExceptions()	16	static
+Utest.cpp:692:6:virtual void NormalTestTerminator::exitCurrentTest() const	24	static
+Utest.cpp:701:1:NormalTestTerminator::~NormalTestTerminator()	16	static
+Utest.cpp:701:1:virtual NormalTestTerminator::~NormalTestTerminator()	16	static
+Utest.cpp:705:6:virtual void TestTerminatorWithoutExceptions::exitCurrentTest() const	16	static
+Utest.cpp:710:1:TestTerminatorWithoutExceptions::~TestTerminatorWithoutExceptions()	16	static
+Utest.cpp:710:1:virtual TestTerminatorWithoutExceptions::~TestTerminatorWithoutExceptions()	16	static
+Utest.cpp:714:6:virtual void CrashingTestTerminator::exitCurrentTest() const	16	static
+Utest.cpp:720:1:CrashingTestTerminator::~CrashingTestTerminator()	16	static
+Utest.cpp:720:1:virtual CrashingTestTerminator::~CrashingTestTerminator()	16	static
+Utest.cpp:726:1:ExecFunction::ExecFunction()	16	static
+Utest.cpp:730:1:ExecFunction::~ExecFunction()	16	static
+Utest.cpp:730:1:virtual ExecFunction::~ExecFunction()	16	static
+Utest.cpp:734:1:ExecFunctionWithoutParameters::ExecFunctionWithoutParameters(void (*)())	16	static
+Utest.cpp:739:1:ExecFunctionWithoutParameters::~ExecFunctionWithoutParameters()	16	static
+Utest.cpp:739:1:virtual ExecFunctionWithoutParameters::~ExecFunctionWithoutParameters()	16	static
+Utest.cpp:743:6:virtual void ExecFunctionWithoutParameters::exec()	16	static
+Utest.cpp:751:1:ExecFunctionTest::ExecFunctionTest(ExecFunctionTestShell*)	16	static
+Utest.cpp:756:6:virtual void ExecFunctionTest::testBody()	16	static
+Utest.cpp:761:6:virtual void ExecFunctionTest::setup()	16	static
+Utest.cpp:766:6:virtual void ExecFunctionTest::teardown()	16	static
+Utest.cpp:772:1:IgnoredUtestShell::IgnoredUtestShell()	16	static
+Utest.cpp:776:1:IgnoredUtestShell::IgnoredUtestShell(const char*, const char*, const char*, size_t)	32	static
+Utest.cpp:781:1:IgnoredUtestShell::~IgnoredUtestShell()	16	static
+Utest.cpp:781:1:virtual IgnoredUtestShell::~IgnoredUtestShell()	16	static
+Utest.cpp:785:6:virtual bool IgnoredUtestShell::willRun() const	16	static
+Utest.cpp:792:14:virtual SimpleString IgnoredUtestShell::getMacroName() const	16	static
+Utest.cpp:799:6:virtual void IgnoredUtestShell::runOneTest(TestPlugin*, TestResult&)	24	static
+Utest.cpp:810:6:virtual void IgnoredUtestShell::setRunIgnored()	16	static
+Utest.cpp:817:1:UtestShellPointerArray::UtestShellPointerArray(UtestShell*)	24	static
+Utest.cpp:833:1:UtestShellPointerArray::~UtestShellPointerArray()	16	static
+Utest.cpp:838:6:void UtestShellPointerArray::swap(size_t, size_t)	32	static
+Utest.cpp:846:6:void UtestShellPointerArray::shuffle(size_t)	24	static
+Utest.cpp:862:6:void UtestShellPointerArray::reverse()	32	static
+Utest.cpp:875:6:void UtestShellPointerArray::relinkTestsInOrder()	24	static
+Utest.cpp:882:13:UtestShell* UtestShellPointerArray::getFirstTest() const	16	static
+Utest.cpp:887:13:UtestShell* UtestShellPointerArray::get(size_t) const	16	static
+Utest.cpp:897:1:TestInstaller::TestInstaller(UtestShell&, const char*, const char*, const char*, size_t)	24	static
+Utest.cpp:906:1:TestInstaller::~TestInstaller()	16	static
+Utest.cpp:906:1:virtual TestInstaller::~TestInstaller()	16	static
+Utest.cpp:910:6:void TestInstaller::unDo()	16	static
+Utest.h:199:7:ExecFunctionTest::~ExecFunctionTest()	16	static
+Utest.h:199:7:virtual ExecFunctionTest::~ExecFunctionTest()	16	static
+Utest.cpp:913:1:void __static_initialization_and_destruction_0(int, int)	16	static
+TestFailure.h:113:7:CheckFailure::~CheckFailure()	16	static
+TestFailure.h:113:7:virtual CheckFailure::~CheckFailure()	16	static
+TestFailure.h:119:7:FailFailure::~FailFailure()	16	static
+TestFailure.h:119:7:virtual FailFailure::~FailFailure()	16	static
+TestFailure.h:155:7:StringEqualFailure::~StringEqualFailure()	16	static
+TestFailure.h:155:7:virtual StringEqualFailure::~StringEqualFailure()	16	static
+TestFailure.h:161:7:StringEqualNoCaseFailure::~StringEqualNoCaseFailure()	16	static
+TestFailure.h:161:7:virtual StringEqualNoCaseFailure::~StringEqualNoCaseFailure()	16	static
+TestFailure.h:107:7:ContainsFailure::~ContainsFailure()	16	static
+TestFailure.h:107:7:virtual ContainsFailure::~ContainsFailure()	16	static
+TestFailure.h:125:7:LongsEqualFailure::~LongsEqualFailure()	16	static
+TestFailure.h:125:7:virtual LongsEqualFailure::~LongsEqualFailure()	16	static
+TestFailure.h:131:7:UnsignedLongsEqualFailure::~UnsignedLongsEqualFailure()	16	static
+TestFailure.h:131:7:virtual UnsignedLongsEqualFailure::~UnsignedLongsEqualFailure()	16	static
+TestFailure.h:179:7:FeatureUnsupportedFailure::~FeatureUnsupportedFailure()	16	static
+TestFailure.h:179:7:virtual FeatureUnsupportedFailure::~FeatureUnsupportedFailure()	16	static
+TestFailure.h:149:7:SignedBytesEqualFailure::~SignedBytesEqualFailure()	16	static
+TestFailure.h:149:7:virtual SignedBytesEqualFailure::~SignedBytesEqualFailure()	16	static
+TestFailure.h:82:7:EqualsFailure::~EqualsFailure()	16	static
+TestFailure.h:82:7:virtual EqualsFailure::~EqualsFailure()	16	static
+TestFailure.h:89:7:DoublesEqualFailure::~DoublesEqualFailure()	16	static
+TestFailure.h:89:7:virtual DoublesEqualFailure::~DoublesEqualFailure()	16	static
+TestFailure.h:167:7:BinaryEqualFailure::~BinaryEqualFailure()	16	static
+TestFailure.h:167:7:virtual BinaryEqualFailure::~BinaryEqualFailure()	16	static
+TestFailure.h:173:7:BitsEqualFailure::~BitsEqualFailure()	16	static
+TestFailure.h:173:7:virtual BitsEqualFailure::~BitsEqualFailure()	16	static
+TestFailure.h:95:7:CheckEqualFailure::~CheckEqualFailure()	16	static
+TestFailure.h:95:7:virtual CheckEqualFailure::~CheckEqualFailure()	16	static
+TestFailure.h:101:7:ComparisonFailure::~ComparisonFailure()	16	static
+TestFailure.h:101:7:virtual ComparisonFailure::~ComparisonFailure()	16	static
+Utest.cpp:913:1:cpp)	8	static
+Utest.cpp:913:1:cpp)	8	static

@@ -1,0 +1,21 @@
+TestResult.cpp:34:1:TestResult::TestResult(TestOutput&)	16	static
+TestResult.cpp:40:1:TestResult::~TestResult()	16	static
+TestResult.cpp:40:1:virtual TestResult::~TestResult()	16	static
+TestResult.cpp:44:6:virtual void TestResult::currentGroupStarted(UtestShell*)	16	static
+TestResult.cpp:50:6:virtual void TestResult::currentGroupEnded(UtestShell*)	16	static
+TestResult.cpp:56:6:virtual void TestResult::currentTestStarted(UtestShell*)	16	static
+TestResult.cpp:62:6:virtual void TestResult::print(const char*)	16	static
+TestResult.cpp:67:6:virtual void TestResult::printVeryVerbose(const char*)	16	static
+TestResult.cpp:72:6:virtual void TestResult::currentTestEnded(UtestShell*)	16	static
+TestResult.cpp:79:6:virtual void TestResult::addFailure(const TestFailure&)	16	static
+TestResult.cpp:85:6:virtual void TestResult::countTest()	16	static
+TestResult.cpp:90:6:virtual void TestResult::countRun()	16	static
+TestResult.cpp:95:6:virtual void TestResult::countCheck()	16	static
+TestResult.cpp:100:6:virtual void TestResult::countFilteredOut()	16	static
+TestResult.cpp:105:6:virtual void TestResult::countIgnored()	16	static
+TestResult.cpp:110:6:virtual void TestResult::testsStarted()	16	static
+TestResult.cpp:116:6:virtual void TestResult::testsEnded()	24	static
+TestResult.cpp:123:8:size_t TestResult::getTotalExecutionTime() const	16	static
+TestResult.cpp:128:6:void TestResult::setTotalExecutionTime(size_t)	16	static
+TestResult.cpp:133:8:size_t TestResult::getCurrentTestTotalExecutionTime() const	16	static
+TestResult.cpp:138:8:size_t TestResult::getCurrentGroupTotalExecutionTime() const	16	static

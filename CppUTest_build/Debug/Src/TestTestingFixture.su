@@ -1,0 +1,35 @@
+Utest.h:241:5:ExecFunctionTestShell::ExecFunctionTestShell(void (*)(), void (*)())	32	static
+TestResult.h:64:12:size_t TestResult::getTestCount() const	16	static
+TestResult.h:68:12:size_t TestResult::getRunCount() const	16	static
+TestResult.h:72:12:size_t TestResult::getCheckCount() const	16	static
+TestResult.h:80:12:size_t TestResult::getIgnoredCount() const	16	static
+TestResult.h:84:12:size_t TestResult::getFailureCount() const	16	static
+TestOutput.h:144:14:StringBufferTestOutput::StringBufferTestOutput()	16	static
+TestOutput.h:160:25:const SimpleString& StringBufferTestOutput::getOutput()	16	static
+TestTestingFixture.cpp:33:1:TestTestingFixture::TestTestingFixture()	24	static
+TestTestingFixture.cpp:47:6:void TestTestingFixture::flushOutputAndResetResult()	24	static
+TestTestingFixture.cpp:54:1:TestTestingFixture::~TestTestingFixture()	16	static
+TestTestingFixture.cpp:54:1:virtual TestTestingFixture::~TestTestingFixture()	16	static
+TestTestingFixture.cpp:64:6:void TestTestingFixture::clearExecFunction()	16	static
+TestTestingFixture.cpp:70:6:void TestTestingFixture::addTest(UtestShell*)	16	static
+TestTestingFixture.cpp:75:6:void TestTestingFixture::setTestFunction(void (*)())	24	static
+TestTestingFixture.cpp:83:6:void TestTestingFixture::setTestFunction(ExecFunction*)	16	static
+TestTestingFixture.cpp:92:6:void TestTestingFixture::setSetup(void (*)())	16	static
+TestTestingFixture.cpp:97:6:void TestTestingFixture::setTeardown(void (*)())	16	static
+TestTestingFixture.cpp:102:6:void TestTestingFixture::installPlugin(TestPlugin*)	16	static
+TestTestingFixture.cpp:107:6:void TestTestingFixture::setRunTestsInSeperateProcess()	16	static
+TestTestingFixture.cpp:112:6:void TestTestingFixture::setOutputVerbose()	16	static
+TestTestingFixture.cpp:117:6:void TestTestingFixture::runTestWithMethod(void (*)())	16	static
+TestTestingFixture.cpp:123:6:void TestTestingFixture::runAllTests()	16	static
+TestTestingFixture.cpp:128:8:size_t TestTestingFixture::getFailureCount()	16	static
+TestTestingFixture.cpp:133:8:size_t TestTestingFixture::getCheckCount()	16	static
+TestTestingFixture.cpp:138:8:size_t TestTestingFixture::getTestCount()	16	static
+TestTestingFixture.cpp:143:8:size_t TestTestingFixture::getIgnoreCount()	16	static
+TestTestingFixture.cpp:148:15:TestRegistry* TestTestingFixture::getRegistry()	16	static
+TestTestingFixture.cpp:153:6:bool TestTestingFixture::hasTestFailed()	16	static
+TestTestingFixture.cpp:158:6:void TestTestingFixture::assertPrintContains(const SimpleString&)	40	static
+TestTestingFixture.cpp:163:6:void TestTestingFixture::assertPrintContainsNot(const SimpleString&)	48	static
+TestTestingFixture.cpp:169:21:const SimpleString& TestTestingFixture::getOutput()	16	static
+TestTestingFixture.cpp:174:8:size_t TestTestingFixture::getRunCount()	16	static
+TestTestingFixture.cpp:179:6:static void TestTestingFixture::lineExecutedAfterCheck()	4	static
+TestTestingFixture.cpp:184:6:void TestTestingFixture::checkTestFailsWithProperTestLocation(const char*, const char*, size_t)	56	static

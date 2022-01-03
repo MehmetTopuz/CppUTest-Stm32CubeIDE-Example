@@ -1,0 +1,92 @@
+CppUTestConfig.h:281:3:cpputest_longlong::cpputest_longlong(int)	16	static
+CppUTestConfig.h:290:3:cpputest_ulonglong::cpputest_ulonglong(int)	16	static
+MockFailure.h:44:5:MockFailureReporter::MockFailureReporter()	16	static
+MockFailure.h:45:13:MockFailureReporter::~MockFailureReporter()	16	static
+MockFailure.h:45:13:virtual MockFailureReporter::~MockFailureReporter()	16	static
+MockFailure.h:57:13:MockFailure::~MockFailure()	16	static
+MockFailure.h:57:13:virtual MockFailure::~MockFailure()	16	static
+MockNamedValue.h:104:5:MockNamedValue::MockNamedValue(const MockNamedValue&)	24	static
+MockSupport.cpp:38:14:MockSupport& mock(const SimpleString&, MockFailureReporter*)	32	static
+MockSupport.cpp:46:1:MockSupport::MockSupport(const SimpleString&)	16	static
+MockSupport.cpp:52:1:MockSupport::~MockSupport()	16	static
+MockSupport.cpp:52:1:virtual MockSupport::~MockSupport()	16	static
+MockSupport.cpp:56:6:virtual void MockSupport::crashOnFailure(bool)	16	static
+MockSupport.cpp:61:6:virtual void MockSupport::setMockFailureStandardReporter(MockFailureReporter*)	24	static
+MockSupport.cpp:72:6:virtual void MockSupport::setActiveReporter(MockFailureReporter*)	16	static
+MockSupport.cpp:77:6:virtual void MockSupport::setDefaultComparatorsAndCopiersRepository()	16	static
+MockSupport.cpp:82:6:virtual void MockSupport::installComparator(const SimpleString&, MockNamedValueComparator&)	40	static
+MockSupport.cpp:90:6:virtual void MockSupport::installCopier(const SimpleString&, MockNamedValueCopier&)	40	static
+MockSupport.cpp:98:6:virtual void MockSupport::installComparatorsAndCopiers(const MockNamedValueComparatorsAndCopiersRepository&)	24	static
+MockSupport.cpp:106:6:virtual void MockSupport::removeAllComparatorsAndCopiers()	24	static
+MockSupport.cpp:113:6:virtual void MockSupport::clear()	24	static
+MockSupport.cpp:138:6:virtual void MockSupport::strictOrder()	16	static
+MockSupport.cpp:143:14:SimpleString MockSupport::appendScopeToName(const SimpleString&)	48	static
+MockSupport.cpp:149:19:virtual MockExpectedCall& MockSupport::expectOneCall(const SimpleString&)	16	static
+MockSupport.cpp:154:6:virtual void MockSupport::expectNoCall(const SimpleString&)	16	static
+MockSupport.cpp:159:19:virtual MockExpectedCall& MockSupport::expectNCalls(unsigned int, const SimpleString&)	48	static
+MockSupport.cpp:175:24:virtual MockCheckedActualCall* MockSupport::createActualCall()	24	static
+MockSupport.cpp:181:6:bool MockSupport::callIsIgnored(const SimpleString&)	16	static
+MockSupport.cpp:186:17:virtual MockActualCall& MockSupport::actualCall(const SimpleString&)	40	static
+MockSupport.cpp:209:6:virtual void MockSupport::ignoreOtherCalls()	24	static
+MockSupport.cpp:217:6:virtual void MockSupport::disable()	24	static
+MockSupport.cpp:225:6:virtual void MockSupport::enable()	24	static
+MockSupport.cpp:233:6:virtual void MockSupport::tracing(bool)	24	static
+MockSupport.cpp:241:13:const char* MockSupport::getTraceOutput()	16	static
+MockSupport.cpp:246:6:virtual bool MockSupport::expectedCallsLeft()	24	static
+MockSupport.cpp:256:6:bool MockSupport::wasLastActualCallFulfilled()	24	static
+MockSupport.cpp:268:6:void MockSupport::failTestWithExpectedCallsNotFulfilled()	80	static
+MockSupport.cpp:281:6:void MockSupport::failTestWithOutOfOrderCalls()	80	static
+MockSupport.cpp:294:6:virtual void MockSupport::failTest(MockFailure&)	16	static
+MockSupport.cpp:300:6:void MockSupport::countCheck()	16	static
+MockSupport.cpp:305:6:void MockSupport::checkExpectationsOfLastActualCall()	24	static
+MockSupport.cpp:315:6:bool MockSupport::hasCallsOutOfOrder()	24	static
+MockSupport.cpp:329:6:virtual void MockSupport::checkExpectations()	16	static
+MockSupport.cpp:341:6:bool MockSupport::hasData(const SimpleString&)	16	static
+MockSupport.cpp:346:17:MockNamedValue* MockSupport::retrieveDataFromStore(const SimpleString&)	32	static
+MockSupport.cpp:356:6:void MockSupport::setData(const SimpleString&, bool)	32	static
+MockSupport.cpp:362:6:void MockSupport::setData(const SimpleString&, unsigned int)	32	static
+MockSupport.cpp:368:6:void MockSupport::setData(const SimpleString&, int)	32	static
+MockSupport.cpp:374:6:void MockSupport::setData(const SimpleString&, const char*)	32	static
+MockSupport.cpp:380:6:void MockSupport::setData(const SimpleString&, double)	32	static
+MockSupport.cpp:386:6:void MockSupport::setData(const SimpleString&, void*)	32	static
+MockSupport.cpp:392:6:void MockSupport::setData(const SimpleString&, const void*)	32	static
+MockSupport.cpp:398:6:void MockSupport::setData(const SimpleString&, void (*)())	32	static
+MockSupport.cpp:404:6:void MockSupport::setDataObject(const SimpleString&, const SimpleString&, void*)	32	static
+MockSupport.cpp:410:6:void MockSupport::setDataConstObject(const SimpleString&, const SimpleString&, const void*)	32	static
+MockSupport.cpp:416:16:MockNamedValue MockSupport::getData(const SimpleString&)	40	static
+MockSupport.cpp:424:14:MockSupport* MockSupport::clone(const SimpleString&)	32	static
+MockSupport.cpp:439:14:MockSupport* MockSupport::getMockSupportScope(const SimpleString&)	192	static
+MockSupport.cpp:455:14:MockSupport* MockSupport::getMockSupport(MockNamedValueListNode*)	72	static
+MockSupport.cpp:462:16:virtual MockNamedValue MockSupport::returnValue()	24	static
+MockSupport.cpp:468:6:virtual bool MockSupport::boolReturnValue()	80	static
+MockSupport.cpp:473:14:virtual unsigned int MockSupport::unsignedIntReturnValue()	80	static
+MockSupport.cpp:478:5:virtual int MockSupport::intReturnValue()	80	static
+MockSupport.cpp:483:14:virtual const char* MockSupport::returnStringValueOrDefault(const char*)	16	static
+MockSupport.cpp:491:8:virtual double MockSupport::returnDoubleValueOrDefault(double)	24	static
+MockSupport.cpp:499:10:virtual long int MockSupport::returnLongIntValueOrDefault(long int)	16	static
+MockSupport.cpp:507:6:virtual bool MockSupport::returnBoolValueOrDefault(bool)	16	static
+MockSupport.cpp:515:5:virtual int MockSupport::returnIntValueOrDefault(int)	16	static
+MockSupport.cpp:523:14:virtual unsigned int MockSupport::returnUnsignedIntValueOrDefault(unsigned int)	16	static
+MockSupport.cpp:531:19:virtual long unsigned int MockSupport::returnUnsignedLongIntValueOrDefault(long unsigned int)	16	static
+MockSupport.cpp:539:10:virtual long int MockSupport::longIntReturnValue()	80	static
+MockSupport.cpp:544:19:virtual long unsigned int MockSupport::unsignedLongIntReturnValue()	80	static
+MockSupport.cpp:579:19:virtual cpputest_longlong MockSupport::longLongIntReturnValue()	32	static
+MockSupport.cpp:585:20:virtual cpputest_ulonglong MockSupport::unsignedLongLongIntReturnValue()	32	static
+MockSupport.cpp:591:19:virtual cpputest_longlong MockSupport::returnLongLongIntValueOrDefault(cpputest_longlong)	40	static
+MockSupport.cpp:597:20:virtual cpputest_ulonglong MockSupport::returnUnsignedLongLongIntValueOrDefault(cpputest_ulonglong)	40	static
+MockSupport.cpp:605:13:virtual const char* MockSupport::stringReturnValue()	80	static
+MockSupport.cpp:610:8:virtual double MockSupport::doubleReturnValue()	80	static
+MockSupport.cpp:615:8:virtual void* MockSupport::returnPointerValueOrDefault(void*)	16	static
+MockSupport.cpp:623:13:virtual const void* MockSupport::returnConstPointerValueOrDefault(const void*)	16	static
+MockSupport.cpp:631:8:virtual void (* MockSupport::returnFunctionPointerValueOrDefault(void (*)()))()	16	static
+MockSupport.cpp:639:7:virtual void* MockSupport::pointerReturnValue()	80	static
+MockSupport.cpp:644:13:virtual const void* MockSupport::constPointerReturnValue()	80	static
+MockSupport.cpp:649:8:virtual void (* MockSupport::functionPointerReturnValue())()	80	static
+MockSupport.cpp:654:6:virtual bool MockSupport::hasReturnValue()	16	static
+MockSupport.cpp:658:1:void __static_initialization_and_destruction_0(int, int)	24	static
+MockFailure.h:63:7:MockExpectedCallsDidntHappenFailure::~MockExpectedCallsDidntHappenFailure()	16	static
+MockFailure.h:63:7:virtual MockExpectedCallsDidntHappenFailure::~MockExpectedCallsDidntHappenFailure()	16	static
+MockFailure.h:75:7:MockCallOrderFailure::~MockCallOrderFailure()	16	static
+MockFailure.h:75:7:virtual MockCallOrderFailure::~MockCallOrderFailure()	16	static
+MockSupport.cpp:658:1:cpp)	8	static
+MockSupport.cpp:658:1:cpp)	8	static

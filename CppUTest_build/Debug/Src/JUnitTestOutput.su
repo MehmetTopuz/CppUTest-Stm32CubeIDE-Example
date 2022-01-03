@@ -1,0 +1,37 @@
+TestResult.h:72:12:size_t TestResult::getCheckCount() const	16	static
+JUnitTestOutput.cpp:36:5:JUnitTestCaseResultNode::JUnitTestCaseResultNode()	16	static
+JUnitTestOutput.cpp:53:5:JUnitTestGroupResult::JUnitTestGroupResult()	16	static
+JUnitTestOutput.cpp:51:8:JUnitTestGroupResult::~JUnitTestGroupResult()	16	static
+JUnitTestOutput.cpp:68:8:JUnitTestOutputImpl::JUnitTestOutputImpl()	16	static
+JUnitTestOutput.cpp:76:1:JUnitTestOutput::JUnitTestOutput()	24	static
+JUnitTestOutput.cpp:68:8:JUnitTestOutputImpl::~JUnitTestOutputImpl()	16	static
+JUnitTestOutput.cpp:81:1:JUnitTestOutput::~JUnitTestOutput()	24	static
+JUnitTestOutput.cpp:81:1:virtual JUnitTestOutput::~JUnitTestOutput()	16	static
+JUnitTestOutput.cpp:34:8:JUnitTestCaseResultNode::~JUnitTestCaseResultNode()	16	static
+JUnitTestOutput.cpp:87:6:void JUnitTestOutput::resetTestGroupResult()	40	static
+JUnitTestOutput.cpp:103:6:virtual void JUnitTestOutput::printTestsStarted()	16	static
+JUnitTestOutput.cpp:107:6:virtual void JUnitTestOutput::printCurrentGroupStarted(const UtestShell&)	16	static
+JUnitTestOutput.cpp:111:6:virtual void JUnitTestOutput::printCurrentTestEnded(const TestResult&)	24	static
+JUnitTestOutput.cpp:117:6:virtual void JUnitTestOutput::printTestsEnded(const TestResult&)	16	static
+JUnitTestOutput.cpp:121:6:virtual void JUnitTestOutput::printCurrentGroupEnded(const TestResult&)	24	static
+JUnitTestOutput.cpp:128:6:virtual void JUnitTestOutput::printCurrentTestStarted(const UtestShell&)	48	static
+JUnitTestOutput.cpp:150:14:virtual SimpleString JUnitTestOutput::createFileName(const SimpleString&)	48	static
+JUnitTestOutput.cpp:161:14:virtual SimpleString JUnitTestOutput::encodeFileName(const SimpleString&)	32	static
+JUnitTestOutput.cpp:173:6:void JUnitTestOutput::setPackageName(const SimpleString&)	16	static
+JUnitTestOutput.cpp:180:6:virtual void JUnitTestOutput::writeXmlHeader()	32	static
+JUnitTestOutput.cpp:185:6:virtual void JUnitTestOutput::writeTestSuiteSummary()	64	static
+JUnitTestOutput.cpp:199:6:virtual void JUnitTestOutput::writeProperties()	40	static
+JUnitTestOutput.cpp:205:14:virtual SimpleString JUnitTestOutput::encodeXmlText(const SimpleString&)	24	static
+JUnitTestOutput.cpp:216:6:virtual void JUnitTestOutput::writeTestCases()	112	static
+JUnitTestOutput.cpp:246:6:virtual void JUnitTestOutput::writeFailure(JUnitTestCaseResultNode*)	88	static
+JUnitTestOutput.cpp:258:6:virtual void JUnitTestOutput::writeFileEnding()	64	static
+JUnitTestOutput.cpp:267:6:virtual void JUnitTestOutput::writeTestGroupToFile()	32	static
+JUnitTestOutput.cpp:280:6:virtual void JUnitTestOutput::printBuffer(const char*)	16	static
+JUnitTestOutput.cpp:284:6:virtual void JUnitTestOutput::print(const char*)	16	static
+JUnitTestOutput.cpp:289:6:virtual void JUnitTestOutput::print(long int)	16	static
+JUnitTestOutput.cpp:293:6:virtual void JUnitTestOutput::print(size_t)	16	static
+JUnitTestOutput.cpp:297:6:virtual void JUnitTestOutput::flush()	16	static
+JUnitTestOutput.cpp:303:6:virtual void JUnitTestOutput::printFailure(const TestFailure&)	24	static
+JUnitTestOutput.cpp:311:6:virtual void JUnitTestOutput::openFileForWrite(const SimpleString&)	24	static
+JUnitTestOutput.cpp:316:6:virtual void JUnitTestOutput::writeToFile(const SimpleString&)	24	static
+JUnitTestOutput.cpp:321:6:virtual void JUnitTestOutput::closeFile()	16	static

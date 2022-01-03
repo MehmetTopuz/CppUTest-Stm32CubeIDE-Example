@@ -1,0 +1,119 @@
+SimpleString.cpp:33:1:GlobalSimpleStringAllocatorStash::GlobalSimpleStringAllocatorStash()	16	static
+SimpleString.cpp:38:6:void GlobalSimpleStringAllocatorStash::save()	16	static
+SimpleString.cpp:43:6:void GlobalSimpleStringAllocatorStash::restore()	16	static
+SimpleString.cpp:49:1:GlobalSimpleStringMemoryAccountant::GlobalSimpleStringMemoryAccountant()	24	static
+SimpleString.cpp:55:1:GlobalSimpleStringMemoryAccountant::~GlobalSimpleStringMemoryAccountant()	24	static
+SimpleString.cpp:63:6:void GlobalSimpleStringMemoryAccountant::restoreAllocator()	16	static
+SimpleString.cpp:69:6:void GlobalSimpleStringMemoryAccountant::useCacheSizes(size_t*, size_t)	24	static
+SimpleString.cpp:74:6:void GlobalSimpleStringMemoryAccountant::start()	24	static
+SimpleString.cpp:84:6:void GlobalSimpleStringMemoryAccountant::stop()	32	static
+SimpleString.cpp:95:14:SimpleString GlobalSimpleStringMemoryAccountant::report()	16	static
+SimpleString.cpp:100:32:AccountingTestMemoryAllocator* GlobalSimpleStringMemoryAccountant::getAllocator()	16	static
+SimpleString.cpp:107:22:static TestMemoryAllocator* SimpleString::getStringAllocator()	8	static
+SimpleString.cpp:114:6:static void SimpleString::setStringAllocator(TestMemoryAllocator*)	16	static
+SimpleString.cpp:120:7:static char* SimpleString::allocStringBuffer(size_t, const char*, size_t)	32	static
+SimpleString.cpp:125:6:static void SimpleString::deallocStringBuffer(char*, size_t, const char*, size_t)	40	static
+SimpleString.cpp:130:7:char* SimpleString::getEmptyString() const	24	static
+SimpleString.cpp:138:10:static unsigned int SimpleString::AtoU(const char*)	24	static
+SimpleString.cpp:151:5:static int SimpleString::AtoI(const char*)	24	static
+SimpleString.cpp:167:5:static int SimpleString::StrCmp(const char*, const char*)	16	static
+SimpleString.cpp:176:8:static size_t SimpleString::StrLen(const char*)	24	static
+SimpleString.cpp:183:5:static int SimpleString::StrNCmp(const char*, const char*, size_t)	24	static
+SimpleString.cpp:193:7:static char* SimpleString::StrNCpy(char*, const char*, size_t)	32	static
+SimpleString.cpp:206:13:static const char* SimpleString::StrStr(const char*, const char*)	16	static
+SimpleString.cpp:215:6:static char SimpleString::ToLower(char)	16	static
+SimpleString.cpp:220:5:static int SimpleString::MemCmp(const void*, const void*, size_t)	32	static
+SimpleString.cpp:235:6:void SimpleString::deallocateInternalBuffer()	16	static
+SimpleString.cpp:244:6:void SimpleString::setInternalBufferAsEmptyString()	16	static
+SimpleString.cpp:252:6:void SimpleString::copyBufferToNewInternalBuffer(const char*, size_t)	24	static
+SimpleString.cpp:260:6:void SimpleString::setInternalBufferToNewBuffer(size_t)	16	static
+SimpleString.cpp:269:6:void SimpleString::setInternalBufferTo(char*, size_t)	24	static
+SimpleString.cpp:277:6:void SimpleString::copyBufferToNewInternalBuffer(const SimpleString&)	24	static
+SimpleString.cpp:282:6:void SimpleString::copyBufferToNewInternalBuffer(const char*)	16	static
+SimpleString.cpp:287:13:const char* SimpleString::getBuffer() const	16	static
+SimpleString.cpp:292:1:SimpleString::SimpleString(const char*)	16	static
+SimpleString.cpp:301:1:SimpleString::SimpleString(const char*, size_t)	40	static
+SimpleString.cpp:315:1:SimpleString::SimpleString(const SimpleString&)	16	static
+SimpleString.cpp:321:15:SimpleString& SimpleString::operator=(const SimpleString&)	16	static
+SimpleString.cpp:328:6:bool SimpleString::contains(const SimpleString&) const	24	static
+SimpleString.cpp:333:6:bool SimpleString::containsNoCase(const SimpleString&) const	40	static
+SimpleString.cpp:338:6:bool SimpleString::startsWith(const SimpleString&) const	24	static
+SimpleString.cpp:345:6:bool SimpleString::endsWith(const SimpleString&) const	32	static
+SimpleString.cpp:357:8:size_t SimpleString::count(const SimpleString&) const	32	static
+SimpleString.cpp:374:6:void SimpleString::split(const SimpleString&, SimpleStringCollection&) const	80	static
+SimpleString.cpp:392:6:void SimpleString::replace(char, char)	24	static
+SimpleString.cpp:400:6:void SimpleString::replace(const char*, const char*)	64	static
+SimpleString.cpp:433:14:SimpleString SimpleString::printable() const	48	static
+SimpleString.cpp:476:8:size_t SimpleString::getPrintableSize() const	32	static
+SimpleString.cpp:497:14:SimpleString SimpleString::lowerCase() const	32	static
+SimpleString.cpp:508:13:const char* SimpleString::asCharString() const	16	static
+SimpleString.cpp:513:8:size_t SimpleString::size() const	16	static
+SimpleString.cpp:518:6:bool SimpleString::isEmpty() const	16	static
+SimpleString.cpp:523:1:SimpleString::~SimpleString()	16	static
+SimpleString.cpp:528:6:bool operator==(const SimpleString&, const SimpleString&)	24	static
+SimpleString.cpp:533:6:bool SimpleString::equalsNoCase(const SimpleString&) const	40	static
+SimpleString.cpp:539:6:bool operator!=(const SimpleString&, const SimpleString&)	16	static
+SimpleString.cpp:544:14:SimpleString SimpleString::operator+(const SimpleString&) const	24	static
+SimpleString.cpp:551:15:SimpleString& SimpleString::operator+=(const SimpleString&)	16	static
+SimpleString.cpp:556:15:SimpleString& SimpleString::operator+=(const char*)	32	static
+SimpleString.cpp:568:6:static void SimpleString::padStringsToSameLength(SimpleString&, SimpleString&, char)	56	static
+SimpleString.cpp:581:14:SimpleString SimpleString::subString(size_t, size_t) const	32	static
+SimpleString.cpp:593:14:SimpleString SimpleString::subString(size_t) const	24	static
+SimpleString.cpp:598:6:char SimpleString::at(size_t) const	16	static
+SimpleString.cpp:603:8:size_t SimpleString::find(char) const	16	static
+SimpleString.cpp:608:8:size_t SimpleString::findFrom(size_t, char) const	32	static
+SimpleString.cpp:616:14:SimpleString SimpleString::subStringFromTill(char, char) const	32	static
+SimpleString.cpp:627:7:static char* SimpleString::copyToNewBuffer(const char*, size_t)	24	static
+SimpleString.cpp:636:6:void SimpleString::copyToBuffer(char*, size_t) const	40	static
+SimpleString.cpp:646:6:static bool SimpleString::isDigit(char)	16	static
+SimpleString.cpp:651:6:static bool SimpleString::isSpace(char)	16	static
+SimpleString.cpp:656:6:static bool SimpleString::isUpper(char)	16	static
+SimpleString.cpp:661:6:static bool SimpleString::isControl(char)	16	static
+SimpleString.cpp:666:6:static bool SimpleString::isControlWithShortEscapeSequence(char)	16	static
+SimpleString.cpp:671:14:SimpleString StringFrom(bool)	16	static
+SimpleString.cpp:676:14:SimpleString StringFrom(const char*)	16	static
+SimpleString.cpp:681:14:SimpleString StringFromOrNull(const char*)	16	static
+SimpleString.cpp:686:14:SimpleString PrintableStringFromOrNull(const char*)	32	static
+SimpleString.cpp:691:14:SimpleString StringFrom(int)	16	static
+SimpleString.cpp:696:14:SimpleString StringFrom(long int)	16	static
+SimpleString.cpp:701:14:SimpleString StringFrom(const void*)	32	static
+SimpleString.cpp:706:14:SimpleString StringFrom(void (*)())	32	static
+SimpleString.cpp:711:14:SimpleString HexStringFrom(long int)	16	static
+SimpleString.cpp:716:14:SimpleString HexStringFrom(int)	16	static
+SimpleString.cpp:721:14:SimpleString HexStringFrom(signed char)	32	static
+SimpleString.cpp:731:14:SimpleString HexStringFrom(long unsigned int)	16	static
+SimpleString.cpp:736:14:SimpleString HexStringFrom(unsigned int)	16	static
+SimpleString.cpp:741:14:SimpleString BracketsFormattedHexStringFrom(int)	24	static
+SimpleString.cpp:746:14:SimpleString BracketsFormattedHexStringFrom(unsigned int)	24	static
+SimpleString.cpp:751:14:SimpleString BracketsFormattedHexStringFrom(long int)	24	static
+SimpleString.cpp:757:14:SimpleString BracketsFormattedHexStringFrom(long unsigned int)	24	static
+SimpleString.cpp:762:14:SimpleString BracketsFormattedHexStringFrom(signed char)	24	static
+SimpleString.cpp:767:14:SimpleString BracketsFormattedHexString(SimpleString)	40	static
+SimpleString.cpp:829:13:long int convertPointerToLongValue(const void*)	24	static
+SimpleString.cpp:840:13:long int convertFunctionPointerToLongValue(void (*)())	24	static
+SimpleString.cpp:851:14:SimpleString StringFrom(cpputest_longlong)	24	static
+SimpleString.cpp:856:14:SimpleString StringFrom(cpputest_ulonglong)	24	static
+SimpleString.cpp:861:14:SimpleString HexStringFrom(cpputest_longlong)	24	static
+SimpleString.cpp:866:14:SimpleString HexStringFrom(cpputest_ulonglong)	24	static
+SimpleString.cpp:871:14:SimpleString HexStringFrom(const void*)	16	static
+SimpleString.cpp:876:14:SimpleString HexStringFrom(void (*)())	16	static
+SimpleString.cpp:881:14:SimpleString BracketsFormattedHexStringFrom(cpputest_longlong)	24	static
+SimpleString.cpp:887:14:SimpleString BracketsFormattedHexStringFrom(cpputest_ulonglong)	24	static
+SimpleString.cpp:894:14:SimpleString StringFrom(double, int)	32	static
+SimpleString.cpp:904:14:SimpleString StringFrom(char)	16	static
+SimpleString.cpp:909:14:SimpleString StringFrom(const SimpleString&)	16	static
+SimpleString.cpp:914:14:)	36	static
+SimpleString.cpp:925:14:SimpleString StringFrom(unsigned int)	16	static
+SimpleString.cpp:941:14:SimpleString StringFrom(long unsigned int)	16	static
+SimpleString.cpp:946:14:SimpleString VStringFromFormat(const char*, va_list)	168	static
+SimpleString.cpp:973:14:SimpleString StringFromBinary(const unsigned char*, size_t)	48	static
+SimpleString.cpp:985:14:SimpleString StringFromBinaryOrNull(const unsigned char*, size_t)	24	static
+SimpleString.cpp:990:14:SimpleString StringFromBinaryWithSize(const unsigned char*, size_t)	40	static
+SimpleString.cpp:1002:14:SimpleString StringFromBinaryWithSizeOrNull(const unsigned char*, size_t)	24	static
+SimpleString.cpp:1007:14:SimpleString StringFromMaskedBits(long unsigned int, long unsigned int, size_t)	40	static
+SimpleString.cpp:1032:14:SimpleString StringFromOrdinalNumber(unsigned int)	24	static
+SimpleString.cpp:1052:1:SimpleStringCollection::SimpleStringCollection()	16	static
+SimpleString.cpp:1058:6:void SimpleStringCollection::allocate(size_t)	32	static
+SimpleString.cpp:1066:1:SimpleStringCollection::~SimpleStringCollection()	24	static
+SimpleString.cpp:1071:8:size_t SimpleStringCollection::size() const	16	static
+SimpleString.cpp:1076:15:SimpleString& SimpleStringCollection::operator[](size_t)	32	static

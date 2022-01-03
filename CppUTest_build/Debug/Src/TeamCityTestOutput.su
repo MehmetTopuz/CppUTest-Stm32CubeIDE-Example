@@ -1,0 +1,12 @@
+TestOutput.h:117:14:ConsoleTestOutput::ConsoleTestOutput()	16	static
+TestOutput.h:120:13:ConsoleTestOutput::~ConsoleTestOutput()	16	static
+TestOutput.h:120:13:virtual ConsoleTestOutput::~ConsoleTestOutput()	16	static
+TeamCityTestOutput.cpp:4:1:TeamCityTestOutput::TeamCityTestOutput()	16	static
+TeamCityTestOutput.cpp:8:1:TeamCityTestOutput::~TeamCityTestOutput()	16	static
+TeamCityTestOutput.cpp:8:1:virtual TeamCityTestOutput::~TeamCityTestOutput()	16	static
+TeamCityTestOutput.cpp:12:6:virtual void TeamCityTestOutput::printCurrentTestStarted(const UtestShell&)	32	static
+TeamCityTestOutput.cpp:25:6:virtual void TeamCityTestOutput::printCurrentTestEnded(const TestResult&)	32	static
+TeamCityTestOutput.cpp:37:6:virtual void TeamCityTestOutput::printCurrentGroupStarted(const UtestShell&)	32	static
+TeamCityTestOutput.cpp:45:6:virtual void TeamCityTestOutput::printCurrentGroupEnded(const TestResult&)	32	static
+TeamCityTestOutput.cpp:55:6:void TeamCityTestOutput::printEscaped(const char*)	24	static
+TeamCityTestOutput.cpp:80:6:virtual void TeamCityTestOutput::printFailure(const TestFailure&)	56	static
